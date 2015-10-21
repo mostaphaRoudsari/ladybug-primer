@@ -9,3 +9,4 @@ Here is the summary
     * [2 | Visualize Weather Data](components/2/VisualizeWeatherData_tab.md)
     * [3 | Environmental Analysis](components/3/EnvironmentalAnalysis_tab.md)
     * [4 | Extra](components/4/Extra_tab.md)
+* [How to help editing this book](components/4/Extra_tab.md)
