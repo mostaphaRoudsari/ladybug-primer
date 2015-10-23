@@ -13,8 +13,6 @@ A number representing the mean radiant temperature of the surrounding surfaces i
 A number representing the wind speed of the air in meters per second.  If no value is plugged in here, this component will assume a very low wind speed of 0.05 m/s, characteristic of most indoor conditions.  This input can also accept a list of wind speeds representing conditions at different times or the direct output of windSpeed from of the Import EPW component.
 * ##### _relativeHumidity [Required]
 A number between 0 and 100 representing the relative humidity of the air in percentage.  This input can also accept a list of relative humidity values representing conditions at different times or the direct output of relativeHumidity from of the Import EPW component.
-* ##### ------------------------------ []
-...
 * ##### analysisPeriod_ [Optional]
 An optional analysis period from the Analysis Period component.  If no Analysis period is given and epw data from the ImportEPW component has been connected, the analysis will be run for the enitre year.
 * ##### _runIt [Required]
@@ -22,8 +20,6 @@ Script variable UTCIComfortCalculator
 
 #### Outputs
 * ##### readMe!
-...
-* ##### ------------------------------
 ...
 * ##### universalThermalClimateIndex
 The UTCI of the input conditions in degrees Celcius. Perhaps the most familiar application of Univeral Thermal Climate Index (UTCI) is the temperature given by TV weathermen and women when they say that, even though the dry bulb temperature outside is a certain value, the temperature actually "feels like" something higher or lower. UTCI is this temperature of what the weather "feels like" and it takes into account radiant temperature (usually including solar radiation), relative humidity, wind speed and uses them in a human energy balance model to give a temperature value that is indicative of the heat stress or cold stress felt by the human body.
@@ -33,8 +29,6 @@ A stream of 0's and 1's (or "False" and "True" values) indicating whether a pers
 A stream of interger values from -1 to +1 that indicate the following: -1 - Cold Stress - cold conditions (UTCI < 9C). 0  - No Thermal Stress - comfortable conditions (9C < UTCI < 26C). +1 - Heat Stress - hot conditions (UTCI > 26C).
 * ##### conditionOfPerson
 A stream of interger values from -3 to +3 that indicate the following: -3 - Strong Cold Stress - potential public health hazard with higher-than-normal mortality rates (UTCI < -13C). -2 - Moderate Cold Stress - cold but no public health hazard (-13C < UTCI < 0C). -1 - Slight Cold Stress - cool but comfortable for short periods of time (0C < UTCI < 9C) 0  - No Thermal Stress  - comfortable conditions (9C < UTCI < 26C). +1 - Slight Heat Stress - warm but comfortable for short periods of time (26C < UTCI < 28C). +2 - Moderate Heat Stress - hot but no public health hazard (28C < UTCI < 32C). +3 - Strong Heat Stress - potential public health hazard with higher-than-normal mortality rates (UTCI > 32C).
-* ##### ------------------------------
-Script variable UTCIComfortCalculator
 * ##### percentOfTimeComfortable
 The percent of the input data for which the UTCI indicates no thermal stress (comfortable conditions).  Comfortable conditions are when the UTCI is between 9 and 26 degrees Celcius.
 * ##### percentComfForShortPeriod

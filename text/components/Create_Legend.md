@@ -23,8 +23,6 @@ A colored mesh that corresponds to the input _valuesOrRange. Connect this output
 A list of surfaces representing the text labels of the legend.  These surfaces will reflect the font and size input to the legendPar.
 * ##### legendBasePt
 The legend base point, which can be used to move the legend with the grasshopper "move" component.
-* ##### -------------------------
-...
 * ##### textValuesBasePts
 The base points that correspond to the title text and numerical value text of the legend.  Plug this into the "Location" input of the grasshopper "Text Tag 3D" component in order to display as text in Rhino.
 * ##### legendTextValues

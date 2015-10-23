@@ -15,16 +15,12 @@ Percentage of the module's area excluding module framing and gaps between cells.
 The ratio of energy output from the PV module to input energy from the sun. It ranges from 0 to 100 (%). - If not defined, default value of 15(%) will be used.
 * ##### lifetime_ [Optional]
 Life expectancy of a PV module. In years. - If not supplied default value of 30 (years) will be used.
-* ##### _____________________ [Default]
-Script variable PhotovoltaicsPerformanceMetrics
 * ##### _ACenergyPerHour [Required]
 Import "ACenergyPerYear" output data from "Photovoltaics surface" component. In kWh.
 * ##### _totalRadiationPerHour [Required]
 Import "totalRadiationPerHour" output data from "Photovoltaics surface" component. In kWh/m2.
 * ##### _cellTemperaturePerHour [Required]
 Import "cellTemperaturePerHour" output data from "Photovoltaics surface" component. In °C.
-* ##### _____________________ [Default]
-Script variable PhotovoltaicsPerformanceMetrics
 * ##### energyCostPerKWh_ [Optional]
 The cost of one kilowatt hour in any currency unit (dollar, euro, yuan...) - If not supplied, 0.15 $/kWh will be used as default value.
 * ##### embodiedEnergyPerM2_ [Optional]
@@ -33,16 +29,12 @@ Energy necessary for an entire product life-cycle of PV module per square meter.
 Carbon emissions produced during PV module's life-cycle per square meter.. In kg CO2/m2 (kilogram of CO2 per square meter). - If not supplied default value of 225 (kg CO2/m2) will be used.
 * ##### gridEfficiency_ [Optional]
 An average primary energy to electricity conversion efficiency. - If not supplied default value of 29 (%) will be used.
-* ##### _____________________ [Default]
-Script variable PhotovoltaicsPerformanceMetrics
 * ##### _runIt [Required]
 ...
 
 #### Outputs
 * ##### readMe!
 ...
-* ##### __________________________
-Script variable PhotovoltaicsPerformanceMetrics
 * ##### Yield
 Ratio of annual AC power output and nameplate DC power rating. In hours (h).
 * ##### CUFperMonth
@@ -57,8 +49,6 @@ Basic Performance Ratio - ratio of the actual and theoretically possible annual 
 Temperature corrected Performance Ratio - ratio of the actual and theoretically possible energy output per month, corrected for PV module's Cell temperature. Mid-day hours (solarRadiation > 0.6 kWh/m2) only taken into account. In percent(%).
 * ##### temperatureCorrectedPRperYear
 Temperature corrected Performance Ratio - ratio of the actual and theoretically possible annual energy output, corrected for PV module's Cell temperature. Mid-day hours (solarRadiation > 0.6 kWh/m2) only taken into account. In percent(%).
-* ##### __________________________
-Script variable PhotovoltaicsPerformanceMetrics
 * ##### energyValuePerMonth
 Total Energy value for each month in currency unit (dollars, euros, yuans...)
 * ##### energyValuePerYear

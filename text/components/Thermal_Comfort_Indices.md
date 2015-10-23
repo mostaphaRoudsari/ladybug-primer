@@ -7,8 +7,6 @@ Use this component to calculate different thermal comfort indices
 #### Inputs
 * ##### _comfortIndex [Required]
 Choose one of the comfort indices: 0 - HI (Heat Index) 1 - humidex (humidity index) 2 - DI (Discomfort Index) 3 - WCI (Wind Chill Index) 4 - WCT (Wind Chill Temperature) 5 - WBGT (Wet-Bulb Globe Temperature) indoors 6 - WBGT (Wet-Bulb Globe Temperature) outdoors 7 - TE (Effective Temperature) 8 - AT (Apparent Temperature) 9 - TS (Thermal Sensation) 10 - ASV (Actual Sensation Vote) 11 - MRT (Mean Radiant Temperature) 12 - Iclp (Predicted Insulation Index Of Clothing) 13 - HR (Heart Rate) 14 - DhRa (Dehydration Risk)
-* ##### _____________________ [Default]
-Script variable ThermalComfortIndices
 * ##### _location [Required]
 Input data from Ladybug's "Import epw" "location" output, or create your own location data with Ladybug's "Construct Location" component
 * ##### _dryBulbTemperature [Required]
@@ -31,8 +29,6 @@ An age of the person. This input is only important for HR (Heart Rate) index. I
 Input 0 or "male"  or  1 or "female". This input is only important for HR (Heart Rate) index. If not supplied, "male" will be used as a default value.
 * ##### acclimated_ [Optional]
 Input True if person in subject is acclimatized, or False if it's not. This input is only important for DhRa (Dehydration risk). If no value is supplied, False (unacclimated) will be used by default.
-* ##### _____________________ [Default]
-Script variable thermalComfortIndices
 * ##### HOY_ [Optional]
 An hour of the year for which you would like to calculate thermal indices.  This must be a value between 1 and 8760. This input will override the analysisPeriod_ input below.
 * ##### analysisPeriod_ [Optional]

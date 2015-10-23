@@ -15,8 +15,6 @@ An optional number representing the degrees from north of the wind direction.  T
 An interger from 0 to 3 that sets the terrain class associated with the output windSpeedAtHeight. Interger values represent the following terrain classes: 0 = Urban: large city centres, 50% of buildings above 21m over a distance of at least 2000m upwind. 1 = Suburban: suburbs, wooded areas. 2 = Country: open, with scattered objects generally less than 10m high. 3 = Water: Flat, unobstructed areas exposed to wind flowing over a large water body (no more than 500m inland).
 * ##### epwTerrain_ [Optional]
 An optional interger from 0 to 3 that sets the terrain class associated with the output windSpeedAtHeight. The default is set to 2 for flat clear land, which is typical for most EPW files that are recorded at airports.  Interger values represent the following terrain classes: 0 = Urban: large city centres, 50% of buildings above 21m over a distance of at least 2000m upwind. 1 = Suburban: suburbs, wooded areas. 2 = Country: open, with scattered objects generally less than 10m high. 3 = Water: Flat, unobstructed areas exposed to wind flowing over a large water body (no more than 500m inland).
-* ##### ------------------------- []
-...
 * ##### HOY_ [Optional]
 Use this input to select out specific indices of a list of values connected for wind speed and wind direction.  If you have connected hourly EPW data, this is the equivalent of a "HOY" input and you can use the "Ladybug_DOY_HOY" component to select out a specific hour and date.  Note that this overrides the analysisPeriod_ input below.
 * ##### analysisPeriod_ [Optional]
@@ -25,8 +23,6 @@ If you have connected data from an EPW component, plug in an analysis period fro
 An optional list of hourly data from the Import epw component, which will be overlaid on wind rose (e.g. dryBulbTemperature)
 * ##### conditionalStatement_ [Optional]
 This input allows users to remove data that does not fit specific conditions or criteria from the wind rose. To use this input correctly, hourly data, such as temperature or humidity, must be plugged into the annualHourlyData_ input. The conditional statement input here should be a valid condition statement in Python, such as "a>25" or "b<80" (without quotation marks). The current version of this component accepts "and" and "or" operators. To visualize the hourly data, only lowercase English letters should be used as variables, and each letter alphabetically corresponds to each of the lists (in their respective order): "a" always represents the 1st list, "b" always represents the 2nd list, etc. For the WindBoundaryProfile component, the variable "a" always represents windSpeed. For example, if you have hourly dry bulb temperature connected as the second list, and relative humidity connected as the third list (both to the annualHourlyData_ input), and you want to plot the data for the time period when temperature is between 18C and 23C, and humidity is less than 80%, the conditional statement should be written as “18<b<23 and c<80” (without quotation marks).
-* ##### ------------------------- []
-Script variable Python
 * ##### originPt_ [Optional]
 An optional point that can be used to change the base point at shich the wind profile curves are generated.  By default, the wond profile curves generate at the Rhino model origin.
 * ##### windVectorScale_ [Optional]
@@ -45,8 +41,6 @@ Set to "True" to bake the wind boundary profile into the Rhino scene.
 #### Outputs
 * ##### readMe!
 ...
-* ##### --------------------
-...
 * ##### windSpeeds
 The wind speeds that correspond to the wind vectors in the wind profile visualization.
 * ##### windDirections
@@ -55,8 +49,6 @@ The wind directions that correspond to the wind vectors in the wind profile visu
 The wind vectors that correspond to those in the wind profile visualization.  Note that the magnitude of these vectors will be scaled based on the windVectorScale_ input.
 * ##### vectorAnchorPts
 Anchor points for each of the vectors above, which correspond to the height above the ground for each of the vectors.  Connect this along with the output above to a Grasshopper "Vector Display" component to see the vectors as a grasshopper vector display (as opposed to the vector mesh below).
-* ##### --------------------
-Script variable Python
 * ##### windVectorMesh
 A mesh displaying the wind vectors that were used to make the profile curve.
 * ##### windProfileCurve

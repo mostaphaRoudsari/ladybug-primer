@@ -13,8 +13,6 @@ A stream of 8760 temperature values (including a header) representing the temper
 An estimated balance temperature representing median temperture that people find comfortable, which can vary from climate to climate. The default is set to 17.5C, which is the median outdoor comfort temperature (UTCI) that defines the conditions of no thermal stress (9 < UTCI <26).
 * ##### temperatureOffest_ [Optional]
 An number represeting the offset from the balanceTemperature_ in degrees Celcius at which point the shade importance begins to have an effect.  The default is set to 8.5 C, which is the range of outdoor comfort temperature (UTCI) that defines the conditions of no thermal stress (9 < UTCI <26).
-* ##### ============ []
-...
 * ##### _testShades [Required]
 A Brep representing the shade to be evaluated for its benefit.
 * ##### _testRegion [Required]
@@ -23,8 +21,6 @@ A brep representing an outdoor area for which shading is being considered or the
 The length of each of the shade's test cells in model units.  Please note that, as this value gets lower, simulation times will increase exponentially even though this will give a higher resolution of shade benefit.
 * ##### context_ [Optional]
 Script variable ShadeBenefit
-* ##### ============ []
-Script variable Shade Benefit
 * ##### north_ [Optional]
 Input a vector to be used as a true North direction for the sun path or a number between 0 and 360 that represents the degrees off from the y-axis to make North.  The default North direction is set to the Y-axis (0 degrees).
 * ##### skyResolution_ [Optional]
@@ -41,8 +37,6 @@ Set to 'True' to run the simulation.
 #### Outputs
 * ##### readMe!
 ...
-* ##### ==========
-...
 * ##### sunVectors
 The sun vectors that were used to evaluate the shade (note that these will increase as the sky desnity increases).
 * ##### regionTestPts
@@ -52,8 +46,6 @@ A colored mesh of the _testShades showing where shading is helpful (in satuated 
 * ##### legend
 Legend showing the numeric values of degree-days that correspond to the colors in the shade mesh.
 * ##### legendBasePoint
-Script variable Shade Benefit
-* ##### ==========
 Script variable Shade Benefit
 * ##### shadeHelpfulness
 The cumulative temperture degree-days/square Rhino model unit helped by shading the given cell. (C-day/m2)*if your model units are meters.

@@ -9,8 +9,6 @@ Use this component to visualize a Perez sky as a colored mesh in the Rhino scene
 Input a vector to be used as a true North direction for the sky dome or a number between 0 and 360 that represents the degrees off from the y-axis to make North.  The default North direction is set to the Y-axis (0 degrees).
 * ##### _location [Required]
 The output from the importEPW or constructLocation component.  This is essentially a list of text summarizing a location on the earth.
-* ##### --------------- []
-...
 * ##### _hour_ [Default]
 A number between 1 and 24 (or a list of numbers) that represent hour(s) of the day to position sun on the sky dome.  The default is 12, which signifies 12:00 PM.
 * ##### _day_ [Default]
@@ -19,8 +17,6 @@ A number between 1 and 31 (or a list of numbers) that represent days(s) of the m
 A number between 1 and 12 (or a list of numbers) that represent months(s) of the year to position sun on the sky dome.  The default is 12, which signifies December.
 * ##### turbidity_ [Optional]
 A number between 2 and 15 that represents the level of particulate matter in the atmosphere of the sky.  A rural location might have a low turbidity of 2 while a place like Beijing might have a turbidity as high as 10 or 12.  The default is set to 3 for a relatively clear sky without much pollution.
-* ##### --------------- []
-Script variable Python
 * ##### resolution_ [Optional]
 An optional input for the resolution of the generated mesh.  A higher resolution will produce a less-splotchy image but will take longer to calculate.  The default is set to 10 for a realtively quick calculation.
 * ##### scale_ [Optional]

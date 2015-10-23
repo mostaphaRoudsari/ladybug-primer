@@ -11,8 +11,6 @@ A number representing the dry bulb temperature of the air in degrees Celcius.  T
 A number between 0 and 100 representing the relative humidity of the air in percentage.  This input can also accept a list of relative humidity values representing conditions at different times or the direct output of relativeHumidity from of the Import EPW component.
 * ##### barometricPressure_ [Optional]
 A number representing the barometric pressure in Pascals.  If no value is connected here, the default pressure will be 101325 Pa, which is air pressure at sea level.  It is recommended that you connect the barometric pressure from the Import epw component here as the air pressure at sea level can cause some misleading results for cities at higher elevations.
-* ##### ------------------------- []
-...
 * ##### meanRadTemperature_ [Optional]
 A number representing the mean radiant temperature of the surrounding surfaces.  This value should be in degrees Celcius unless you have connected values in Farenheit to the dryBulbTemperature and you are seeing a chart in IP units.  If no value is plugged in here, this component will assume that the mean radiant temperature is equal to 23 C.  This input can also accept a list of temperatures and this will produce several comfort polygons (one for each mean radiant temperature).
 * ##### windSpeed_ [Optional]
@@ -21,8 +19,6 @@ A number representing the wind speed of the air in meters per second.  If no val
 A number representing the metabolic rate of the human subject in met.  This input can also accept text inputs for different activities.  Acceptable text inputs include Sleeping, Reclining, Sitting, Typing, Standing, Driving, Cooking, House Cleaning, Walking, Walking 2mph, Walking 3mph, Walking 4mph, Running 9mph, Lifting 10lbs, Lifting 100lbs, Shoveling, Dancing, and Basketball.  If no value is input here, the component will assume a metabolic rate of 1 met, which is the metabolic rate of a seated human being.  This input can also accept lists of metabolic rates and will produce multiple comfort polygons accordingly.
 * ##### clothingLevel_ [Optional]
 A number representing the clothing level of the human subject in clo.  If no value is input here, the component will assume a clothing level of 1 clo, which is roughly the insulation provided by a 3-piece suit. A person dressed in shorts and a T-shirt has a clothing level of roughly 0.5 clo and a person in a thick winter jacket can have a clothing level as high as 2 to 4 clo.  This input can also accept lists of clothing levels and will produce multiple comfort polygons accordingly.
-* ##### ------------------------- []
-Script variable Python
 * ##### mergeComfPolygons_ [Optional]
 Set to "True" if you have connected multiple values for any of the four comfort variables in the section above and you wish to merge all of the computed comfort polygons into one.
 * ##### comfortPar_ [Optional]
@@ -53,8 +49,6 @@ Set to "True" to run the component and generate a psychrometric chart!
 #### Outputs
 * ##### readMe!
 ...
-* ##### -------------------------
-...
 * ##### totalComfortPercent
 The percent of the input data that are  inside all comfort and passive strategy polygons.
 * ##### totalComfortOrNot
@@ -65,8 +59,6 @@ A list of names for the comfort polygons and strategeis that corresponds to the 
 The percent of the input data that are in each of the comfort or passive strategy polygons.  Each number here corresponds to the names in the "strategyNames" output above.
 * ##### strategyOrNot
 A list of 0's and 1's indicating, for each hour of the input temperature and humidity ratio, if the hour is inside a given comfort or passive strategy polygon (1) or not(0).  If there are multiple comfort polyogns or passive strategies connected to the passiveStrategy_ input, this output will be a grafted list for each polygon.  Each list here corresponds to the names in the "strategyNames" output above.
-* ##### ------------------------
-...
 * ##### chartCurvesAndTxt
 The chart curves and text labels of the psychrometric chart.
 * ##### psychChartMesh
@@ -79,8 +71,6 @@ The legend base point, which can be used to move the legend in relation to the c
 A brep representing the range of comfort for the input radiant temperature, wind speed, metabolic rate and clothing level.  IF multiple values have been hooked up for any of these inputs, multiple polygons will be output here.
 * ##### strategyPolygons
 A brep representing the area of the chart made comfortable by the passive strategies.  If multiple strategies have been hooked up to the passiveStrategy_ input, multiple polygons will be output here.
-* ##### -------------------------
-Script variable PsychChart
 * ##### chartHourPoints
 Points representing each of the hours of input temperature and humidity ratio.  By default, this ouput is hidden and, to see it, you should connect it to a Grasshopper preview component.
 * ##### hourPointColors

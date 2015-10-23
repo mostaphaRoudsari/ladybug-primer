@@ -27,8 +27,6 @@ Deciduous context trees transmission index for leaf-less period. Leaf-less being
 Define the leafless period for deciduous trees using Ladybug's "Analysis Period" component. IMPORTANT! This input affects only the "beamIndexPerHour" output. Due to limitations of the used sunpath diagram, it does not affect all the other shading outputs, where default leafless periods (see the line bellow) will always be used. - If not supplied the following default periods will be used: from 21st September to 21st March in the northern hemisphere, and from 21st March to 21st September in the in the southern hemisphere.
 * ##### north_ [Optional]
 Input a vector to be used as a true North direction, or a number between 0 and 360 that represents the clockwise degrees off from the Y-axis. - If not supplied, default North direction will be set to the Y-axis (0 degrees).
-* ##### _______________ [Default]
-Script variable PhotovoltaicsShading
 * ##### scale_ [Optional]
 Scale of the overall geometry (sunPath curves, sunWindow mesh). Use the scale number which enables encompassing all of your context_, coniferousTrees_, deciduousTrees_ objects. - If not supplied, default value of 1 will be used.
 * ##### hoursPositionScale_ [Optional]
@@ -37,8 +35,6 @@ Scale factor for positioning of solar time hour points (that's "hoursPositions" 
 Overall shading precision. Ranges from 1-100. It represents the square root number of shading analysis points per sun window quadrant. Example - precision of 20 would be 400 shading analysis points per single sun window quadrant. CAUTION!!! Higher precision numbers (50 >) require stronger performance PCs. If your "_context" contains only straight shape buildings/objects, and you have just a couple of trees supplied to the "coniferousTrees_" and "deciduousTrees_" inputs, the precision of < 50 will be just fine. - If not supplied, default value of 2 will be used.
 * ##### legendPar_ [Optional]
 Optional legend parameters from the Ladybug "Legend Parameters" component.
-* ##### _______________ [Default]
-Script input _________________.
 * ##### bakeIt_ [Optional]
 Set to "True" to bake the Sunpath shading results into the Rhino scene. - If not supplied default value "False" will be used.
 * ##### _runIt [Required]
@@ -47,8 +43,6 @@ Set to "True" to bake the Sunpath shading results into the Rhino scene. - If n
 #### Outputs
 * ##### readMe!
 ...
-* ##### _____________________
-Script variable PhotovoltaicsShading
 * ##### beamIndexPerHour
 Transmission index of beam (direct) irradiance for each hour during a year. Transmission index of 0 means 100% shading. Transmission index of 1 means 0% shading. It is calculated for each PVsurface vertex and then averaged. It ranges from 0-1. Unitless.
 * ##### sunWindowShadedAreaPer
@@ -61,8 +55,6 @@ Weighted shading of the active sun window quadrants, for period between 21st Sep
 Weighted shading of the active sun window quadrants, for period between 21st March to 21st September. Active sun window quadrants are only those which produce AC energy (or solar radiation in case you are using this component for other purposes than Photovoltaics) It is calculated for each PVsurface vertex and then averaged. It ranges from 0-100(%). In percent(%).
 * ##### annualShading
 Annual weighted shading of the active sun window quadrants. To calculate it, input data to "ACenergyPerHour_" input. Active sun window quadrants are only those which produce AC energy (or solar radiation in case you are using this component for other purposes than Photovoltaics) It is calculated for each PVsurface vertex and then averaged. It ranges from 0-100(%). In percent(%).
-* ##### _____________________
-Script variable PhotovoltaicsShading
 * ##### annalysisPts
 Each vertex of the inputted _PVsurface for which a separate shading analysis was conducted.
 * ##### sunWindowCenPt

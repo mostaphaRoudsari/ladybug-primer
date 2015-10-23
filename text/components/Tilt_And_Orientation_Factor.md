@@ -19,8 +19,6 @@ Losses due to buildings, structures, trees, mountains or other objects that prev
 Input a vector to be used as a true North direction, or a number between 0 and 360 that represents the clockwise degrees off from the Y-axis. - If not supplied, default North direction will be set to the Y-axis (0 degrees).
 * ##### albedo_ [Optional]
 Average reflection coefficient of the area surrounding the PV surface. It ranges from 0 for very dark to 1 for bright white or metallic surface. Here are some specific values: - Dry asphalt  0.12 Wet Asphalt  0.18 Bare soil  0.17 Grass  0.20 Concrete  0.30 Granite  0.32 Dry sand  0.35 Copper  0.74 Wet snow  0.65 Fresh snow  0.82 Aluminum  0.85 - If not supplied default value of 0.20 (Grass) will be used.
-* ##### ______________________ [Default]
-Script variable PhotovoltaicsSurface
 * ##### precision_ [Optional]
 Represents the square root number of analysis field for the output "geometry" mesh. Ranges from 1-100. Example - precision of 4, would mean that 4 fields in X direction (Azimuth) and 4 fields in Y direction (Tilt) = 16 fields, will be used to calculate the final "geometry" mesh. For lower precision numbers (say < 20) even precision numbers are more accurate. - CAUTION!!! Precision numbers (10 >) require stronger performance PCs. If your PC is somewhat "weaker", the precision of < 10 will be just fine. - If not supplied, default value of 2 will be used.
 * ##### scale_ [Optional]
@@ -29,8 +27,6 @@ Scale of the overall geometry. - If not supplied, default value of 1 will be u
 Origin for the final "geometry" output. - If not supplied, default point of (-15,0,0) will be used.
 * ##### legendPar_ [Optional]
 Optional legend parameters from the Ladybug "Legend Parameters" component.
-* ##### ______________________ [Default]
-Script input ______________________.
 * ##### bakeIt_ [Optional]
 Set to "True" to bake the Tilt and orientation factor results into the Rhino scene. - If not supplied default value "False" will be used.
 * ##### _runIt [Required]
@@ -39,8 +35,6 @@ Set to "True" to bake the Tilt and orientation factor results into the Rhino sce
 #### Outputs
 * ##### readMe!
 ...
-* ##### ____________________________
-Script variable PhotovoltaicsSurface
 * ##### TOF
 Tilt and Orientation Factor - solar radiation at the actual tilt and azimuth divided by the solar radiation at the optimum tilt and azimuth. In percent(%).
 * ##### TSRF
@@ -57,8 +51,6 @@ Optimal orientation of the PVsurface for a given location. Optimal azimuth being
 Optimal steepness of the PVsurface for a given location. Optimal steepness being the one that receives the most annual solar radiation. In inches/inches
 * ##### optimalRadiation
 Total solar radiation per square meter for a whole year received on a PVsurface of optimal tilt and azimuth, at given location. In kWh/m2
-* ##### ____________________________
-Script variable PhotovoltaicsSurface
 * ##### geometry
 Geometry of the whole TOF mesh chart. Connect this output to a Grasshopper's "Geo" parameter in order to preview the "geometry" separately in the Rhino scene.
 * ##### originPt

@@ -15,16 +15,12 @@ The number of shades to generated for each glazed surface.
 An alternate option to _numOfShds where the input here is the distance in Rhino units between each shade.
 * ##### _runIt [Required]
 Set to 'True' to run the component and generate shades.
-* ##### --------------- []
----------------
 * ##### optionalShdSrf_ [Optional]
 An optional shade surface representing a 2D area under consideration for shading. This input can only be used with the sun vector method.
 * ##### optionalPlanes_ [Optional]
 An optional plane (or list of planes) representing a 2D area under consideration for shading.  This input can only be used with the sun vector method.
 * ##### mergeVectors_ [Optional]
 Set to 'True' to merge all the shades generated from a list of sun vectors into a single shade. This input can only be used with the sun vector method.
-* ##### --------------- []
----------------
 * ##### _horOrVertical_ [Default]
 Set to 'True' to generate horizontal shades or 'False' to generate vertical shades. You can also input lists of _horOrVertical_ input, which will assign different orientations based on cardinal direction.
 * ##### _shdAngle_ [Default]

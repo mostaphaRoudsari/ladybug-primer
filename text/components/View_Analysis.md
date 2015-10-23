@@ -19,8 +19,6 @@ Optional output from the "Orientation Study Parameter" component.  You can use a
 Key viewing points from which the visibility of the test _geometry is important.
 * ##### viewPtsWeights_ [Optional]
 Use this input to assign weights of importance to the several _viewPoints that have been connected.  Weighted values should be between 0 and 1 and should be closer to 1 if a certain point is more important. The default value for all points is 0, which means they all have an equal importance. This input could be useful in cases such as the radiative heater example where points on the human body with exposed skin could be weighted at a higher value.
-* ##### _____________________ [Default]
-...
 * ##### legendPar_ [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
 * ##### parallel_ [Optional]
@@ -45,8 +43,6 @@ An uncolored mesh representing the test _geometry that will be analyzed.  Connec
 The grid of test points on the test _geometry that will be used to perform the visibility analysis.  Note that these points are generated before the analysis is run, allowing you to preview the resolution of the result before you run the component.
 * ##### testVec
 Vectors for each of the test points on the test _geometry, which indicate the direction for which visibility analysis is performed.  Hook this and the test points up to a Grasshopper "Vector Display" component to see how analysis is performed on the test _geometry.
-* ##### _____________________
-...
 * ##### viewStudyResult
 The percentage of _viewPoints visible from each of the test points of the input test _geometry.
 * ##### viewStudyMesh

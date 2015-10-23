@@ -21,8 +21,6 @@ Optional output from the "Orientation Study Parameter" component.
 Sun vectors from the sunPath component, which will be used to determine the number of hours of direct sunlight received by the test _geometry.
 * ##### _timeStep_ [Default]
 The number of timesteps per hour used by the sunPath component that generated the sun vectors. This number should be smaller than 60 and divisible by 60. The default is set to 1 such that one ssun vector is generated for each hour.
-* ##### ___________________ [Default]
-...
 * ##### legendPar_ [Optional]
 Optional output from the "Orientation Study Parameter" component.  You can use an Orientation Study input here to answer questions like "What orientation of my building will give me the highest or lowest hours of direct sunlight for my analysis period?"  An Orientation Study will automatically rotate your input _geometry around several times and record the sunlight hours results each time in order to output a list of values for totalSunlightHours and a grafted data stream for sunlightHoursResult.
 * ##### parallel_ [Optional]
@@ -47,8 +45,6 @@ An uncolored mesh representing the test _geometry that will be analyzed.  Connec
 The grid of test points on the test _geometry that will be used to perform the sunlight hours analysis.  Note that these points are generated before the analysis is run, allowing you to preview the resolution of the result before you run the component.
 * ##### testVec
 Vectors for each of the test points on the test _geometry, which indicate the direction for which sunlight hours analysis is performed.  Hook this and the test points up to a Grasshopper "Vector Display" component to see how analysis is performed on the test _geometry.
-* ##### _____________________
-...
 * ##### sunlightHoursResult
 The number of hours of direct sunlight received by each of the test points of the input test _geometry.  Note that is is the number of hours out of the total number of connected _sunVectors.
 * ##### sunlightHoursMesh

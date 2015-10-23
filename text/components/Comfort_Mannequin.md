@@ -11,8 +11,6 @@ The temperture around the mannequin, which can be either UTCI (outdoor comfort),
 The target comfort temperature that the mannequin wants to be at.  The default is set to 20C
 * ##### comfortRange_ [Optional]
 The number of degrees above and below the target temperture that the subject will still find comfortable.  The default is set to 3C, which is pretty common for many comfort metrics.
-* ##### ------------------------- []
-...
 * ##### bodyPosture_ [Optional]
 An interger to set the posture of the comfort mannequin, which can have a large effect on the radiation striking the mannequin.  0 = Standing, 1 = Sitting, and 2 = Lying Down.  The default is set to 1 for sitting.
 * ##### rotationAngle_ [Optional]

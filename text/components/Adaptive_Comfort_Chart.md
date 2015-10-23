@@ -13,14 +13,10 @@ A number representing the mean radiant temperature of the surrounding surfaces i
 A number representing the prevailing outdoor temperature in degrees Celcius.  For the ASHRAE standard, this is the average monthly outdoor temperature and, for the European standard, this is a running mean outdoor temperature calculated from the conditions of the last week.  For this reason, this input can also accept the direct output of dryBulbTemperature from the 'Import EPW' component if houlry values for the full year are connected for the other inputs of this component.  This input from the 'Import EPW' component is recommended.
 * ##### windSpeed_ [Optional]
 A number representing the wind speed of the air in meters per second.  If no value is plugged in here, this component will assume a low wind speed of < 0.2 m/s, characteristic of most naturally ventilated buildings without fans.  This input can also accept several wind speeds to generate multiple comfort polygons.  Lastly, this component can accept the direct output of windSpeed from of the Import EPW component and, from this data, two comfort polygons will be drawn representing the maximum and minumu wind speed.
-* ##### ------------------------------ []
-...
 * ##### comfortPar_ [Optional]
 Optional comfort parameters from the "Ladybug_Adaptive Comfort Parameters" component.  Use this to select either the US or European comfort model, set the threshold of acceptibility for comfort or compute prevailing outdoor temperature by a monthly average or running mean.  These comfortPar can also be used to set a levelOfConditioning, which makes use of research outside of the official published standards that surveyed people in air conditioned buildings.
 * ##### includeColdTime_ [Optional]
 Set to "True" to have the component include the time period where the outdoor temperature is too cold for the official ASHRAE or European standard and set to "False" to exclude it.  When the outdoor temperatue is too cold for these standards, a correlation from recent research is used.  The default is set to "True" to include the cold period in the visualization and output.
-* ##### ------------------------------ []
-Script variable AdaptiveChart
 * ##### analysisPeriod_ [Optional]
 An optional analysis period from the Analysis Period component.  If no Analysis period is given and epw or energy simulation data has been connected, the analysis will be run for the enitre year.
 * ##### annualHourlyData_ [Optional]
@@ -49,8 +45,6 @@ A stream of 0's and 1's (or "False" and "True" values) indicating whether occupa
 A stream of interger values from -1 to +1 that correspond to each hour of the input data and indicate the following: -1 = The input conditions are too cold for occupants. 0 = The input conditions are comfortable for occupants. +1 = The input conditions are too hot for occupants.
 * ##### degreesFromTarget
 A stream of temperature values in degrees Celcius indicating how far from the target temperature the conditions of the people are.  Positive values indicate conditions hotter than the target temperature while negative values indicate degrees below the target temperture.
-* ##### --------------------------
-...
 * ##### chartCurvesAndTxt
 The chart curves and text labels of the adaptive chart.
 * ##### adaptiveChartMesh
@@ -61,8 +55,6 @@ A colored legend showing the number of hours that correspond to each color.
 The legend base point, which can be used to move the legend in relation to the chart with the grasshopper "move" component.
 * ##### comfortPolygons
 A brep representing the range of comfort for.
-* ##### --------------------------
-Script variable AdaptiveComfortCalculator
 * ##### chartHourPoints
 Points representing each of the hours of input temperature and opTemperity ratio.  By default, this ouput is hidden and, to see it, you should connect it to a Grasshopper preview component.
 * ##### hourPointColors

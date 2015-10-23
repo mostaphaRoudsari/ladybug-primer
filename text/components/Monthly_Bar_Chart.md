@@ -7,12 +7,6 @@ Use this component to make a bar chart in the Rhino scene of any monhtly or avrM
 #### Inputs
 * ##### _inputData [Required]
 A list of input data to plot.  This should usually be data out of the 'Ladybug_Average Data' component or monthly data from an energy simulation but can also be hourly or daily data from the 'Ladybug_Import EPW.'  However, it is recommended that you use the 'Ladybug_3D Chart' component for daily or hourly data as this is usually a bit clearer.
-* ##### . []
- 
-* ##### . []
- 
-* ##### _______________ [Default]
-...
 * ##### stackValues_ [Optional]
 Set to 'True' if you have multiple connected monthly or daily _inputData with the same units and want them to be drawn as bars stacked on top of each other.  Otherwise, all bars for monthly/daily data will be placed next to each other.  The default is set to 'False' to have these bars placed next to each other.
 * ##### plotFromZero_ [Optional]

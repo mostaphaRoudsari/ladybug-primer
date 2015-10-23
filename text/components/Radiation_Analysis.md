@@ -19,8 +19,6 @@ A number in Rhino model units that represents the offset distance of the test po
 Optional output from the "Orientation Study Parameter" component.  You can use an Orientation Study input here to answer questions like "What orientation of my building will give me the highest or lowest radiation gain for my analysis period?"  An Orientation Study will automatically rotate your input _geometry around several times and record the radiation results each time in order to output a list of values for totalRadiation and a grafted data stream for radiationResult.
 * ##### _selectedSkyMtx [Required]
 The output from the selectSkyMtx component.
-* ##### _____________________ [Default]
-...
 * ##### legendPar_ [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
 * ##### parallel_ [Optional]
@@ -45,8 +43,6 @@ An uncolored mesh representing the test _geometry that will be analyzed.  Connec
 The grid of test points on the test _geometry that will be used to perform the radiation analysis.  Note that these points are generated before the analysis is run, allowing you to preview the resolution of the result before you run the component.
 * ##### testVec
 Vectors for each of the test points on the test _geometry, which indicate the direction for which radiation analysis is performed.  Hook this and the test points up to a Grasshopper "Vector Display" component to see how analysis is performed on the test _geometry.
-* ##### _____________________
-...
 * ##### radiationResult
 The amount of radiation in kWh/m2 falling on the input test _geometry at each of the test points.
 * ##### radiationMesh
