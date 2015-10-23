@@ -1,4 +1,4 @@
-## ![](../../images/icons/Construct Time.png) Construct_Time
+## ![](../../images/icons/Construct_Time.png) Construct Time
 
 ![](../../images/components/Construct_Time.png)
 

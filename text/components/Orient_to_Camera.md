@@ -1,4 +1,4 @@
-## ![](../../images/icons/Orient to Camera.png) Orient_to_Camera
+## ![](../../images/icons/Orient_to_Camera.png) Orient to Camera
 
 ![](../../images/components/Orient_to_Camera.png)
 

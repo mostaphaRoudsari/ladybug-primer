@@ -1,4 +1,4 @@
-## ![](../../images/icons/Orientation Study Parameters.png) Orientation_Study_Parameters
+## ![](../../images/icons/Orientation_Study_Parameters.png) Orientation Study Parameters
 
 ![](../../images/components/Orientation_Study_Parameters.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/PMV Comfort Parameters.png) PMV_Comfort_Parameters
+## ![](../../images/icons/PMV_Comfort_Parameters.png) PMV Comfort Parameters
 
 ![](../../images/components/PMV_Comfort_Parameters.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Psychrometric Chart.png) Psychrometric_Chart
+## ![](../../images/icons/Psychrometric_Chart.png) Psychrometric Chart
 
 ![](../../images/components/Psychrometric_Chart.png)
 

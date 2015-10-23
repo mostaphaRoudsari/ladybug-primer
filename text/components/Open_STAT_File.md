@@ -1,4 +1,4 @@
-## ![](../../images/icons/Open STAT File.png) Open_STAT_File
+## ![](../../images/icons/Open_STAT_File.png) Open STAT File
 
 ![](../../images/components/Open_STAT_File.png)
 

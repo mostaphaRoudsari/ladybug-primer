@@ -1,4 +1,4 @@
-## ![](../../images/icons/Photovoltaics Performance Metrics.png) Photovoltaics_Performance_Metrics
+## ![](../../images/icons/Photovoltaics_Performance_Metrics.png) Photovoltaics Performance Metrics
 
 ![](../../images/components/Photovoltaics_Performance_Metrics.png)
 

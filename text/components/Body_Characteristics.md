@@ -1,4 +1,4 @@
-## ![](../../images/icons/Body Characteristics.png) Body_Characteristics
+## ![](../../images/icons/Body_Characteristics.png) Body Characteristics
 
 ![](../../images/components/Body_Characteristics.png)
 

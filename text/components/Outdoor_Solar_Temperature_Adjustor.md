@@ -1,4 +1,4 @@
-## ![](../../images/icons/Outdoor Solar Temperature Adjustor.png) Outdoor_Solar_Temperature_Adjustor
+## ![](../../images/icons/Outdoor_Solar_Temperature_Adjustor.png) Outdoor Solar Temperature Adjustor
 
 ![](../../images/components/Outdoor_Solar_Temperature_Adjustor.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Tilt And Orientation Factor.png) Tilt_And_Orientation_Factor
+## ![](../../images/icons/Tilt_And_Orientation_Factor.png) Tilt And Orientation Factor
 
 ![](../../images/components/Tilt_And_Orientation_Factor.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Monthly Bar Chart.png) Monthly_Bar_Chart
+## ![](../../images/icons/Monthly_Bar_Chart.png) Monthly Bar Chart
 
 ![](../../images/components/Monthly_Bar_Chart.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Comfort Shade Benefit Evaluator.png) Comfort_Shade_Benefit_Evaluator
+## ![](../../images/icons/Comfort_Shade_Benefit_Evaluator.png) Comfort Shade Benefit Evaluator
 
 ![](../../images/components/Comfort_Shade_Benefit_Evaluator.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Legend Parameters.png) Legend_Parameters
+## ![](../../images/icons/Legend_Parameters.png) Legend Parameters
 
 ![](../../images/components/Legend_Parameters.png)
 

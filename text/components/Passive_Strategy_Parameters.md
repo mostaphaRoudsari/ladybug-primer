@@ -1,4 +1,4 @@
-## ![](../../images/icons/Passive Strategy Parameters.png) Passive_Strategy_Parameters
+## ![](../../images/icons/Passive_Strategy_Parameters.png) Passive Strategy Parameters
 
 ![](../../images/components/Passive_Strategy_Parameters.png)
 

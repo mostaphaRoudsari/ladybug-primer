@@ -1,4 +1,4 @@
-## ![](../../images/icons/Sky Dome.png) Sky_Dome
+## ![](../../images/icons/Sky_Dome.png) Sky Dome
 
 ![](../../images/components/Sky_Dome.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Analysis Period.png) Analysis_Period
+## ![](../../images/icons/Analysis_Period.png) Analysis Period
 
 ![](../../images/components/Analysis_Period.png)
 

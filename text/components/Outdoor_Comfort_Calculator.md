@@ -1,4 +1,4 @@
-## ![](../../images/icons/Outdoor Comfort Calculator.png) Outdoor_Comfort_Calculator
+## ![](../../images/icons/Outdoor_Comfort_Calculator.png) Outdoor Comfort Calculator
 
 ![](../../images/components/Outdoor_Comfort_Calculator.png)
 

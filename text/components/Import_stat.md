@@ -1,4 +1,4 @@
-## ![](../../images/icons/Import stat.png) Import_stat
+## ![](../../images/icons/Import_stat.png) Import stat
 
 ![](../../images/components/Import_stat.png)
 

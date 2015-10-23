@@ -1,4 +1,4 @@
-## ![](../../images/icons/Adaptive Comfort Parameters.png) Adaptive_Comfort_Parameters
+## ![](../../images/icons/Adaptive_Comfort_Parameters.png) Adaptive Comfort Parameters
 
 ![](../../images/components/Adaptive_Comfort_Parameters.png)
 

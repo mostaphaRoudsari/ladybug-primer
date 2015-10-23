@@ -1,4 +1,4 @@
-## ![](../../images/icons/3D Chart.png) 3D_Chart
+## ![](../../images/icons/3D_Chart.png) 3D Chart
 
 ![](../../images/components/3D_Chart.png)
 

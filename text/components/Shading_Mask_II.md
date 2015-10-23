@@ -1,4 +1,4 @@
-## ![](../../images/icons/Shading Mask_II.png) Shading_Mask_II
+## ![](../../images/icons/Shading_Mask_II.png) Shading Mask_II
 
 ![](../../images/components/Shading_Mask_II.png)
 

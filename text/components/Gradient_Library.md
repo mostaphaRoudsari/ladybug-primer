@@ -1,4 +1,4 @@
-## ![](../../images/icons/Gradient Library.png) Gradient_Library
+## ![](../../images/icons/Gradient_Library.png) Gradient Library
 
 ![](../../images/components/Gradient_Library.png)
 

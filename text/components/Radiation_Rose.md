@@ -1,4 +1,4 @@
-## ![](../../images/icons/Radiation Rose.png) Radiation_Rose
+## ![](../../images/icons/Radiation_Rose.png) Radiation Rose
 
 ![](../../images/components/Radiation_Rose.png)
 

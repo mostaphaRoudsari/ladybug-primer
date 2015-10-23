@@ -1,4 +1,4 @@
-## ![](../../images/icons/DC to AC derate factor.png) DC_to_AC_derate_factor
+## ![](../../images/icons/DC_to_AC_derate_factor.png) DC to AC derate factor
 
 ![](../../images/components/DC_to_AC_derate_factor.png)
 

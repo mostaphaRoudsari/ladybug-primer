@@ -1,4 +1,4 @@
-## ![](../../images/icons/Bounce from Surface.png) Bounce_from_Surface
+## ![](../../images/icons/Bounce_from_Surface.png) Bounce from Surface
 
 ![](../../images/components/Bounce_from_Surface.png)
 

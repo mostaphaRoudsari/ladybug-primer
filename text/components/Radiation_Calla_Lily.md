@@ -1,4 +1,4 @@
-## ![](../../images/icons/Radiation Calla Lily.png) Radiation_Calla_Lily
+## ![](../../images/icons/Radiation_Calla_Lily.png) Radiation Calla Lily
 
 ![](../../images/components/Radiation_Calla_Lily.png)
 

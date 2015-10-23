@@ -1,4 +1,4 @@
-## ![](../../images/icons/Activities Met List.png) Activities_Met_List
+## ![](../../images/icons/Activities_Met_List.png) Activities Met List
 
 ![](../../images/components/Activities_Met_List.png)
 

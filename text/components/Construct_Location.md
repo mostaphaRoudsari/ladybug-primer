@@ -1,4 +1,4 @@
-## ![](../../images/icons/Construct Location.png) Construct_Location
+## ![](../../images/icons/Construct_Location.png) Construct Location
 
 ![](../../images/components/Construct_Location.png)
 

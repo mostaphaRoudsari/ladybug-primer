@@ -1,4 +1,4 @@
-## ![](../../images/icons/Separate data.png) Separate_data
+## ![](../../images/icons/Separate_data.png) Separate data
 
 ![](../../images/components/Separate_data.png)
 

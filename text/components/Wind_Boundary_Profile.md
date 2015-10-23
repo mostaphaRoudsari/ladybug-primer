@@ -1,4 +1,4 @@
-## ![](../../images/icons/Wind Boundary Profile.png) Wind_Boundary_Profile
+## ![](../../images/icons/Wind_Boundary_Profile.png) Wind Boundary Profile
 
 ![](../../images/components/Wind_Boundary_Profile.png)
 

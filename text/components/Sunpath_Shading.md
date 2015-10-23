@@ -1,4 +1,4 @@
-## ![](../../images/icons/Sunpath Shading.png) Sunpath_Shading
+## ![](../../images/icons/Sunpath_Shading.png) Sunpath Shading
 
 ![](../../images/components/Sunpath_Shading.png)
 

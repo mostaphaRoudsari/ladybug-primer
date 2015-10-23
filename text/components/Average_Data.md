@@ -1,4 +1,4 @@
-## ![](../../images/icons/Average Data.png) Average_Data
+## ![](../../images/icons/Average_Data.png) Average Data
 
 ![](../../images/components/Average_Data.png)
 

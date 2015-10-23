@@ -1,4 +1,4 @@
-## ![](../../images/icons/Clothing Function.png) Clothing_Function
+## ![](../../images/icons/Clothing_Function.png) Clothing Function
 
 ![](../../images/components/Clothing_Function.png)
 
