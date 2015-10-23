@@ -1,4 +1,4 @@
-## Sunlight Hours Analysis [![](../../images/icons/Sunlight_Hours_Analysis.png)]
+## ![](../../images/icons/Sunlight Hours Analysis.png) Sunlight_Hours_Analysis
 
 ![](../../images/components/Sunlight_Hours_Analysis.png)
 

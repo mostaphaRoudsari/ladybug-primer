@@ -1,4 +1,4 @@
-## Wh2BTU [![](../../images/icons/Wh2BTU.png)]
+## ![](../../images/icons/Wh2BTU.png) Wh2BTU
 
 ![](../../images/components/Wh2BTU.png)
 

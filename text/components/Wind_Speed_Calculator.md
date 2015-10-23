@@ -1,4 +1,4 @@
-## Wind Speed Calculator [![](../../images/icons/Wind_Speed_Calculator.png)]
+## ![](../../images/icons/Wind Speed Calculator.png) Wind_Speed_Calculator
 
 ![](../../images/components/Wind_Speed_Calculator.png)
 

@@ -1,4 +1,4 @@
-## Shading Parameters List [![](../../images/icons/Shading_Parameters_List.png)]
+## ![](../../images/icons/Shading Parameters List.png) Shading_Parameters_List
 
 ![](../../images/components/Shading_Parameters_List.png)
 

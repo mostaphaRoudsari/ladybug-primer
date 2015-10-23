@@ -1,4 +1,4 @@
-## Open EPW And STAT Weather Files [![](../../images/icons/Open_EPW_And_STAT_Weather_Files.png)]
+## ![](../../images/icons/Open EPW And STAT Weather Files.png) Open_EPW_And_STAT_Weather_Files
 
 ![](../../images/components/Open_EPW_And_STAT_Weather_Files.png)
 

@@ -1,4 +1,4 @@
-## Capture View [![](../../images/icons/Capture_View.png)]
+## ![](../../images/icons/Capture View.png) Capture_View
 
 ![](../../images/components/Capture_View.png)
 

@@ -1,4 +1,4 @@
-## DOY_HOY [![](../../images/icons/DOY_HOY.png)]
+## ![](../../images/icons/DOY_HOY.png) DOY_HOY
 
 ![](../../images/components/DOY_HOY.png)
 

@@ -1,4 +1,4 @@
-## SunPath [![](../../images/icons/SunPath.png)]
+## ![](../../images/icons/SunPath.png) SunPath
 
 ![](../../images/components/SunPath.png)
 

@@ -1,4 +1,4 @@
-## CDH_HDH [![](../../images/icons/CDH_HDH.png)]
+## ![](../../images/icons/CDH_HDH.png) CDH_HDH
 
 ![](../../images/components/CDH_HDH.png)
 

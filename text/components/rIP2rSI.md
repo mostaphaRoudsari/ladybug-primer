@@ -1,4 +1,4 @@
-## rIP2rSI [![](../../images/icons/rIP2rSI.png)]
+## ![](../../images/icons/rIP2rSI.png) rIP2rSI
 
 ![](../../images/components/rIP2rSI.png)
 

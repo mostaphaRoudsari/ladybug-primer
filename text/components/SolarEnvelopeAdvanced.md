@@ -1,4 +1,4 @@
-## SolarEnvelopeAdvanced [![](../../images/icons/SolarEnvelopeAdvanced.png)]
+## ![](../../images/icons/SolarEnvelopeAdvanced.png) SolarEnvelopeAdvanced
 
 ![](../../images/components/SolarEnvelopeAdvanced.png)
 

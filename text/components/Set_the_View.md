@@ -1,4 +1,4 @@
-## Set the View [![](../../images/icons/Set_the_View.png)]
+## ![](../../images/icons/Set the View.png) Set_the_View
 
 ![](../../images/components/Set_the_View.png)
 

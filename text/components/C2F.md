@@ -1,4 +1,4 @@
-## C2F [![](../../images/icons/C2F.png)]
+## ![](../../images/icons/C2F.png) C2F
 
 ![](../../images/components/C2F.png)
 

@@ -1,4 +1,4 @@
-## Import Location [![](../../images/icons/Import_Location.png)]
+## ![](../../images/icons/Import Location.png) Import_Location
 
 ![](../../images/components/Import_Location.png)
 

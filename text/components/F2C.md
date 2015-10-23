@@ -1,4 +1,4 @@
-## F2C [![](../../images/icons/F2C.png)]
+## ![](../../images/icons/F2C.png) F2C
 
 ![](../../images/components/F2C.png)
 

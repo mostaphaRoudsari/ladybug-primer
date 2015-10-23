@@ -1,4 +1,4 @@
-## kWh2Wh [![](../../images/icons/kWh2Wh.png)]
+## ![](../../images/icons/kWh2Wh.png) kWh2Wh
 
 ![](../../images/components/kWh2Wh.png)
 

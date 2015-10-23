@@ -1,4 +1,4 @@
-## Update Ladybug [![](../../images/icons/Update_Ladybug.png)]
+## ![](../../images/icons/Update Ladybug.png) Update_Ladybug
 
 ![](../../images/components/Update_Ladybug.png)
 

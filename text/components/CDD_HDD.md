@@ -1,4 +1,4 @@
-## CDD_HDD [![](../../images/icons/CDD_HDD.png)]
+## ![](../../images/icons/CDD_HDD.png) CDD_HDD
 
 ![](../../images/components/CDD_HDD.png)
 

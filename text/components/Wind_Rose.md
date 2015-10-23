@@ -1,4 +1,4 @@
-## Wind Rose [![](../../images/icons/Wind_Rose.png)]
+## ![](../../images/icons/Wind Rose.png) Wind_Rose
 
 ![](../../images/components/Wind_Rose.png)
 

@@ -1,4 +1,4 @@
-## Humidity Ratio Calculator [![](../../images/icons/Humidity_Ratio_Calculator.png)]
+## ![](../../images/icons/Humidity Ratio Calculator.png) Humidity_Ratio_Calculator
 
 ![](../../images/components/Humidity_Ratio_Calculator.png)
 

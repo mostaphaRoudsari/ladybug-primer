@@ -1,4 +1,4 @@
-## Photovoltaics Surface [![](../../images/icons/Photovoltaics_Surface.png)]
+## ![](../../images/icons/Photovoltaics Surface.png) Photovoltaics_Surface
 
 ![](../../images/components/Photovoltaics_Surface.png)
 

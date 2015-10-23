@@ -1,4 +1,4 @@
-## Radiation Analysis [![](../../images/icons/Radiation_Analysis.png)]
+## ![](../../images/icons/Radiation Analysis.png) Radiation_Analysis
 
 ![](../../images/components/Radiation_Analysis.png)
 

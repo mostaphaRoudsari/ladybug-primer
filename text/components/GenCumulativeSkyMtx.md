@@ -1,4 +1,4 @@
-## GenCumulativeSkyMtx [![](../../images/icons/GenCumulativeSkyMtx.png)]
+## ![](../../images/icons/GenCumulativeSkyMtx.png) GenCumulativeSkyMtx
 
 ![](../../images/components/GenCumulativeSkyMtx.png)
 

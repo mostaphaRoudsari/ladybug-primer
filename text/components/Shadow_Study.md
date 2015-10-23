@@ -1,4 +1,4 @@
-## Shadow Study [![](../../images/icons/Shadow_Study.png)]
+## ![](../../images/icons/Shadow Study.png) Shadow_Study
 
 ![](../../images/components/Shadow_Study.png)
 

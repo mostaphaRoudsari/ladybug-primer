@@ -1,4 +1,4 @@
-## View Analysis [![](../../images/icons/View_Analysis.png)]
+## ![](../../images/icons/View Analysis.png) View_Analysis
 
 ![](../../images/components/View_Analysis.png)
 

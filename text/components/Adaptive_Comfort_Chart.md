@@ -1,4 +1,4 @@
-## Adaptive Comfort Chart [![](../../images/icons/Adaptive_Comfort_Chart.png)]
+## ![](../../images/icons/Adaptive Comfort Chart.png) Adaptive_Comfort_Chart
 
 ![](../../images/components/Adaptive_Comfort_Chart.png)
 

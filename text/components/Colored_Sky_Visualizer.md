@@ -1,4 +1,4 @@
-## Colored Sky Visualizer [![](../../images/icons/Colored_Sky_Visualizer.png)]
+## ![](../../images/icons/Colored Sky Visualizer.png) Colored_Sky_Visualizer
 
 ![](../../images/components/Colored_Sky_Visualizer.png)
 

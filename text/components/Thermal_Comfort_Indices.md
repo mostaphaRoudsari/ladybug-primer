@@ -1,4 +1,4 @@
-## Thermal Comfort Indices [![](../../images/icons/Thermal_Comfort_Indices.png)]
+## ![](../../images/icons/Thermal Comfort Indices.png) Thermal_Comfort_Indices
 
 ![](../../images/components/Thermal_Comfort_Indices.png)
 

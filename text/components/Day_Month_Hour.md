@@ -1,4 +1,4 @@
-## Day_Month_Hour [![](../../images/icons/Day_Month_Hour.png)]
+## ![](../../images/icons/Day_Month_Hour.png) Day_Month_Hour
 
 ![](../../images/components/Day_Month_Hour.png)
 

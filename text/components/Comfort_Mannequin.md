@@ -1,4 +1,4 @@
-## Comfort Mannequin [![](../../images/icons/Comfort_Mannequin.png)]
+## ![](../../images/icons/Comfort Mannequin.png) Comfort_Mannequin
 
 ![](../../images/components/Comfort_Mannequin.png)
 

@@ -1,4 +1,4 @@
-## Adaptive Comfort Calculator [![](../../images/icons/Adaptive_Comfort_Calculator.png)]
+## ![](../../images/icons/Adaptive Comfort Calculator.png) Adaptive_Comfort_Calculator
 
 ![](../../images/components/Adaptive_Comfort_Calculator.png)
 

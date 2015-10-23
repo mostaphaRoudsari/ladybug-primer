@@ -1,4 +1,4 @@
-## ShadingDesigner [![](../../images/icons/ShadingDesigner.png)]
+## ![](../../images/icons/ShadingDesigner.png) ShadingDesigner
 
 ![](../../images/components/ShadingDesigner.png)
 

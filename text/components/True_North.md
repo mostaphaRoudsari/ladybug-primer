@@ -1,4 +1,4 @@
-## True North [![](../../images/icons/True_North.png)]
+## ![](../../images/icons/True North.png) True_North
 
 ![](../../images/components/True_North.png)
 

@@ -1,4 +1,4 @@
-## Forward Raytracing [![](../../images/icons/Forward_Raytracing.png)]
+## ![](../../images/icons/Forward Raytracing.png) Forward_Raytracing
 
 ![](../../images/components/Forward_Raytracing.png)
 

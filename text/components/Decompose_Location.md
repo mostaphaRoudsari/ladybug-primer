@@ -1,4 +1,4 @@
-## Decompose Location [![](../../images/icons/Decompose_Location.png)]
+## ![](../../images/icons/Decompose Location.png) Decompose_Location
 
 ![](../../images/components/Decompose_Location.png)
 

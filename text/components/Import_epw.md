@@ -1,4 +1,4 @@
-## Import epw [![](../../images/icons/Import_epw.png)]
+## ![](../../images/icons/Import epw.png) Import_epw
 
 ![](../../images/components/Import_epw.png)
 

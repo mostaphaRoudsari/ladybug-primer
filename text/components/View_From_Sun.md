@@ -1,4 +1,4 @@
-## View From Sun [![](../../images/icons/View_From_Sun.png)]
+## ![](../../images/icons/View From Sun.png) View_From_Sun
 
 ![](../../images/components/View_From_Sun.png)
 

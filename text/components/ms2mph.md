@@ -1,4 +1,4 @@
-## ms2mph [![](../../images/icons/ms2mph.png)]
+## ![](../../images/icons/ms2mph.png) ms2mph
 
 ![](../../images/components/ms2mph.png)
 

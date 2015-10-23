@@ -1,4 +1,4 @@
-## Create LB Header [![](../../images/icons/Create_LB_Header.png)]
+## ![](../../images/icons/Create LB Header.png) Create_LB_Header
 
 ![](../../images/components/Create_LB_Header.png)
 

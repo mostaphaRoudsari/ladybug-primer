@@ -1,4 +1,4 @@
-## Re-Color Mesh [![](../../images/icons/Re-Color_Mesh.png)]
+## ![](../../images/icons/Re-Color Mesh.png) Re-Color_Mesh
 
 ![](../../images/components/Re-Color_Mesh.png)
 

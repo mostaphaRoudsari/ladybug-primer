@@ -1,4 +1,4 @@
-## Import Ground Temp [![](../../images/icons/Import_Ground_Temp.png)]
+## ![](../../images/icons/Import Ground Temp.png) Import_Ground_Temp
 
 ![](../../images/components/Import_Ground_Temp.png)
 

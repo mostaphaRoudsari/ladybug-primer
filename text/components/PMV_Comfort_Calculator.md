@@ -1,4 +1,4 @@
-## PMV Comfort Calculator [![](../../images/icons/PMV_Comfort_Calculator.png)]
+## ![](../../images/icons/PMV Comfort Calculator.png) PMV_Comfort_Calculator
 
 ![](../../images/components/PMV_Comfort_Calculator.png)
 

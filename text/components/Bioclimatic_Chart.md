@@ -1,4 +1,4 @@
-## Bioclimatic Chart [![](../../images/icons/Bioclimatic_Chart.png)]
+## ![](../../images/icons/Bioclimatic Chart.png) Bioclimatic_Chart
 
 ![](../../images/components/Bioclimatic_Chart.png)
 

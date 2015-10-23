@@ -1,4 +1,4 @@
-## SolarFanBasic [![](../../images/icons/SolarFanBasic.png)]
+## ![](../../images/icons/SolarFanBasic.png) SolarFanBasic
 
 ![](../../images/components/SolarFanBasic.png)
 

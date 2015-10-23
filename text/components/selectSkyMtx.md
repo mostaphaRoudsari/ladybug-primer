@@ -1,4 +1,4 @@
-## selectSkyMtx [![](../../images/icons/selectSkyMtx.png)]
+## ![](../../images/icons/selectSkyMtx.png) selectSkyMtx
 
 ![](../../images/components/selectSkyMtx.png)
 

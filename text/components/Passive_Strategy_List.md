@@ -1,4 +1,4 @@
-## Passive Strategy List [![](../../images/icons/Passive_Strategy_List.png)]
+## ![](../../images/icons/Passive Strategy List.png) Passive_Strategy_List
 
 ![](../../images/components/Passive_Strategy_List.png)
 

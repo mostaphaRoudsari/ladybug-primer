@@ -1,4 +1,4 @@
-## Export Ladybug [![](../../images/icons/Export_Ladybug.png)]
+## ![](../../images/icons/Export Ladybug.png) Export_Ladybug
 
 ![](../../images/components/Export_Ladybug.png)
 

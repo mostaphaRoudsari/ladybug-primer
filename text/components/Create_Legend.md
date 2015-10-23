@@ -1,4 +1,4 @@
-## Create Legend [![](../../images/icons/Create_Legend.png)]
+## ![](../../images/icons/Create Legend.png) Create_Legend
 
 ![](../../images/components/Create_Legend.png)
 

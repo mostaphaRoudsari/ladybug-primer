@@ -1,4 +1,4 @@
-## SolarEnvelopeBasic [![](../../images/icons/SolarEnvelopeBasic.png)]
+## ![](../../images/icons/SolarEnvelopeBasic.png) SolarEnvelopeBasic
 
 ![](../../images/components/SolarEnvelopeBasic.png)
 

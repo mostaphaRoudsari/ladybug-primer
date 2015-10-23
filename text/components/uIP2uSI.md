@@ -1,4 +1,4 @@
-## uIP2uSI [![](../../images/icons/uIP2uSI.png)]
+## ![](../../images/icons/uIP2uSI.png) uIP2uSI
 
 ![](../../images/components/uIP2uSI.png)
 

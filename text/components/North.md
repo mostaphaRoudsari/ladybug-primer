@@ -1,4 +1,4 @@
-## North [![](../../images/icons/North.png)]
+## ![](../../images/icons/North.png) North
 
 ![](../../images/components/North.png)
 

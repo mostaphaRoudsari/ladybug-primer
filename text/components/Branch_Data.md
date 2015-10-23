@@ -1,4 +1,4 @@
-## Branch Data [![](../../images/icons/Branch_Data.png)]
+## ![](../../images/icons/Branch Data.png) Branch_Data
 
 ![](../../images/components/Branch_Data.png)
 
