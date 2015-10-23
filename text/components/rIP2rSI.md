@@ -5,7 +5,7 @@
 Use this component to convert R-Values in IP (h·ft2·°F/BTU) to R-Values in SI (K·m2/W) to plug into any of the Honeybee material components. - 
 
 #### Inputs
-* ##### _R_IP [Required]
+* ##### R_IP [Required]
 A R-Value in IP (h·ft2·°F/BTU).
 
 #### Outputs

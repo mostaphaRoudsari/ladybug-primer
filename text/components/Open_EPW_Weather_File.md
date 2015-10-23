@@ -5,7 +5,7 @@
 Use this component to open an .epw weather file from a location on your computer. - 
 
 #### Inputs
-* ##### _open [Required]
+* ##### open [Required]
 Set Boolean to True to browse for a weather file on your system.
 
 #### Outputs

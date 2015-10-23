@@ -5,7 +5,7 @@
 Use this component to calculate date information from an hour of the year.  Date information includes the day of the month, the month of the year and the hour of the day. - 
 
 #### Inputs
-* ##### _HOY [Required]
+* ##### HOY [Required]
 Hour of the year
 
 #### Outputs

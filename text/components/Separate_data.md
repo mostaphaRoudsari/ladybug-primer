@@ -5,7 +5,7 @@
 Use this component to separate the text strings from the numbers in the climate data streams output from the Import EPW component. You can then perform mathamatical functions on the numerical climate data using the Grasshopper math components or quickly preview the numerical data stream using the Grasshopper "Quick Graph" component. This component can also be used generally to separate any data stream that contains both numbers and text strings. - 
 
 #### Inputs
-* ##### _inputList [Required]
+* ##### inputList [Required]
 A list of data that contains both text srtings and numbers.  For example, a data stream output from the Import EPW component.
 
 #### Outputs

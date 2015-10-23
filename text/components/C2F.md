@@ -5,7 +5,7 @@
 Use this component to convert temperatures from Celcius to Fahrenheit. - 
 
 #### Inputs
-* ##### _C [Required]
+* ##### C [Required]
 A temperature or list of temperatures in Celcius.
 
 #### Outputs

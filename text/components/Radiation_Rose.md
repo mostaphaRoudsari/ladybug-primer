@@ -5,29 +5,29 @@
 Use this component to make a radiation rose in the Rhino scene.  Radiation roses give a sense of how much radiation comes from the different cardinal directions, which will give an initial idea of where glazing should be minimized, shading applied, or solar collectors placed. - 
 
 #### Inputs
-* ##### north_ [Optional]
+* ##### north [Optional]
 Input a vector to be used as a true North direction for the sun path or a number between 0 and 360 that represents the degrees off from the y-axis to make North.  The default North direction is set to the Y-axis (0 degrees).
-* ##### _selectedSkyMtx [Required]
+* ##### selectedSkyMtx [Required]
 The output from the selectSkyMtx component.
-* ##### context_ [Optional]
+* ##### context [Optional]
 Optional breps or meshes representing context surrounding the point at the center of the radiation rose.  This context geometry will block the radiation that shows up in the rose.
-* ##### _numOfArrows_ [Default]
+* ##### numOfArrows [Default]
 An interger that sets the number of arrows (or cardingal directions) in the radiation rose. The default is set to 36.
-* ##### _surfaceTiltAngle_ [Default]
+* ##### surfaceTiltAngle [Default]
 A number between 0 and 90 that sets the tilt angle in degrees of the analysis plane (0 = roof, 90 = vertical wall). The defult is set to 90 for a radiation study of a wall (ie. radiation on a curtain wall).
-* ##### _centerPoint_ [Default]
+* ##### centerPoint [Default]
 A point that sets the location of the radiation rose.  The default is set to the Rhino origin (0,0,0).
-* ##### _scale_ [Default]
+* ##### scale [Default]
 Use this input to change the scale of the radiation rose.  The default is set to 1 for any selSkyMtx that is longer than a day and 1000 for any selSkyMtx that is less than a day.
-* ##### _arrowHeadScale_ [Default]
+* ##### arrowHeadScale [Default]
 Use this input to change the scale of the arrow heads of the radiation rose.  The default is set to 1.
-* ##### legendPar_ [Optional]
+* ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
-* ##### showTotalOnly_ [Optional]
+* ##### showTotalOnly [Optional]
 Set to "True" to only show a radiation rose with the total radiation.  The default is "False", which will produce 3 radiation roses: one of diffuse radiation, one of direct radiation, and one of the total radiation.
-* ##### _runIt [Required]
+* ##### runIt [Required]
 Set to "True" to run the component and generate a radiation rose.
-* ##### bakeIt_ [Optional]
+* ##### bakeIt [Optional]
 Set to "True" to bake the radiation rose into the Rhino scene.
 
 #### Outputs

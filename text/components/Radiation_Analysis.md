@@ -5,31 +5,31 @@
 This component allows you to calculate the radiation fallin on input _geometry using a sky matrix from the selectSkyMxt component. This type of radiation sutdy is useful for building surfaces such as windows, where you might be interested in solar heat gain, or solar panels, where you might be interested in the energy that can be collected. This component is also good for surfaces representing outdoor spaces (such as parks or seating areas) where radiation could affect thermal comfort or vegetation growth. No reflection of sunlight is included in the radiation analysis with this component and it should therefore be used neither for interior daylight studies nor for complex geometries nor for surfaces with high a reflectivity. For these situations where the relfection of light is important, the Honeybee daylight components should be used instead of this one. - 
 
 #### Inputs
-* ##### north_ [Optional]
+* ##### north [Optional]
 Input a vector to be used as a true North direction for the sun path or a number between 0 and 360 that represents the degrees off from the y-axis to make North.  The default North direction is set to the Y-axis (0 degrees).
-* ##### _geometry [Required]
+* ##### geometry [Required]
 Geometry for which radiation analysis will be conducted.  Geometry must be either a Brep, a Mesh or a list of Breps or Meshes.
-* ##### context_ [Optional]
+* ##### context [Optional]
 Context geometry that could block sunlight to the test _geometry.  Conext geometry must be either a Brep, a Mesh or a list of Breps or Meshes.
-* ##### _gridSize_ [Default]
+* ##### gridSize [Default]
 A number in Rhino model units that represents the average size of a grid cell for radiation analysis on the test surface(s).  This value should be smaller than the smallest dimension of the test geometry for meaningful results.  Note that, the smaller the grid size, the higher the resolution of the analysis and the longer the calculation will take.
-* ##### _disFromBase [Required]
+* ##### disFromBase [Required]
 A number in Rhino model units that represents the offset distance of the test point grid from the input test _geometry.  Usually, the test point grid is offset by a small amount from the test _geometry in order to ensure that radiation analysis is done for the correct side of the test _geometry.  If the resulting radiation mesh of this component is offset to the wrong side of test _geometry, you should use the "Flip" Rhino command on the test _geometry before inputting it to this component.
-* ##### orientationStudyP_ [Optional]
+* ##### orientationStudyP [Optional]
 Optional output from the "Orientation Study Parameter" component.  You can use an Orientation Study input here to answer questions like "What orientation of my building will give me the highest or lowest radiation gain for my analysis period?"  An Orientation Study will automatically rotate your input _geometry around several times and record the radiation results each time in order to output a list of values for totalRadiation and a grafted data stream for radiationResult.
-* ##### _selectedSkyMtx [Required]
+* ##### selectedSkyMtx [Required]
 The output from the selectSkyMtx component.
-* ##### legendPar_ [Optional]
+* ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
-* ##### parallel_ [Optional]
+* ##### parallel [Optional]
 Set to "True" to run the radiation analysis using multiple CPUs.  This can dramatically decrease calculation time but can interfere with other intense computational processes that might be running on your machine.
-* ##### _runIt [Required]
+* ##### runIt [Required]
 Set to "True" to run the component and perform radiation analysis on the input _geometry.
-* ##### bakeIt_ [Optional]
+* ##### bakeIt [Optional]
 Set to True to bake the analysis results into the Rhino scene.
-* ##### workingDir_ [Optional]
+* ##### workingDir [Optional]
 Use this input to change the working directory of the radiation analysis on your system. Input here must be a valid file path location on your computer.  The default is set to "C:\Ladybug" and it is from this file location that radiation results are loaded into grasshopper after the analysis is done.
-* ##### projectName_ [Optional]
+* ##### projectName [Optional]
 Use this input to change the project name of the files generated in the working directory.  Input here must be a string without special characters.  If "bakeIt_" is set to "True", the result will be baked into a layer with this project name.
 
 #### Outputs

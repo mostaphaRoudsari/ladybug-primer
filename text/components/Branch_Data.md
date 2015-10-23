@@ -5,9 +5,9 @@
 Use this component to branch any data based on day, month and hour. Number of data items should match number of HOYs. - 
 
 #### Inputs
-* ##### _data [Required]
+* ##### data [Required]
 A list of data to be branched for each month
-* ##### _HOY [Required]
+* ##### HOY [Required]
 A list of numbers between 1 and 8760 that represents an hour of the year.
 
 #### Outputs

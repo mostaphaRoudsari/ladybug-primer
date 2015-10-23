@@ -5,11 +5,11 @@
 Use this component to construct a specific hour from corresponding time in hours, minutes and seconds.  The output can be plugged into the analysisPeriod or sunPath components. - 
 
 #### Inputs
-* ##### _hour_ [Default]
+* ##### hour [Default]
 A number between 1 and 23 representing the hour of the day.
-* ##### _minutes_ [Default]
+* ##### minutes [Default]
 A number between 1 and 60 representing the minute of the hour.
-* ##### _seconds_ [Default]
+* ##### seconds [Default]
 A number between 1 and 60 representing the second of the minute.
 
 #### Outputs

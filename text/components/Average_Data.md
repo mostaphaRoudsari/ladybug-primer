@@ -5,11 +5,11 @@
 Use this component to select the data out of an annual hourly data stream (from the importEPW component) using the "Analysis Period" component. This componenent also averages or totals the connected hourly data for each day, month, and average hour of each month in the analysis period. - 
 
 #### Inputs
-* ##### _annualHourlyData [Required]
+* ##### annualHourlyData [Required]
 An hourly data stream from the "Import epw" component.
-* ##### _analysisPeriod_ [Default]
+* ##### analysisPeriod [Default]
 The "analysisPeriod" Output from "Analysis Period" component. If no input is provided, the default analysis period is set to the whole year.
-* ##### totalOrAverage_ [Optional]
+* ##### totalOrAverage [Optional]
 Set to 'True' to have the component total the values for the given periods and set to 'False' to have the component average them.  The default is set to 'False' to average data.
 
 #### Outputs

@@ -5,7 +5,7 @@
 Use this component to open the epwmap page in your default web browser and download an .epw weather file. - 
 
 #### Inputs
-* ##### _download [Required]
+* ##### download [Required]
 Set Boolean to True to open the epw map page
 
 #### Outputs

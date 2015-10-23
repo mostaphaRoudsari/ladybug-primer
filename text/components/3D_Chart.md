@@ -5,23 +5,23 @@
 Use this component to make a 3D chart in the Rhino scene of any climate data or hourly simulation data. - 
 
 #### Inputs
-* ##### _inputData [Required]
+* ##### inputData [Required]
 A list of input data to plot.
-* ##### _basePoint_ [Default]
+* ##### basePoint [Default]
 An optional point with which to locate the 3D chart in the Rhino Model.  The default is set to the Rhino origin at (0,0,0).
-* ##### _xScale_ [Default]
+* ##### xScale [Default]
 The scale of the X axis of the graph. The default will plot the X axis with a length of 3650 Rhino model units (for 365 days of the year). Connect a list of values for multiple graphs.
-* ##### _yScale_ [Default]
+* ##### yScale [Default]
 The scale of the Y axis of the graph. The default will plot the Y axis with a length of 240 Rhino model units (for 24 hours of the day). Connect a list of values for multiple graphs.
-* ##### _zScale_ [Default]
+* ##### zScale [Default]
 The scale of the Z axis of the graph. The default will plot the Z axis with a number of Rhino model units corresponding to the input data values.  Set to 0 to see graphCurves appear on top of the mesh.  Connect a list of values for multiple graphs.
-* ##### _yCount_ [Default]
+* ##### yCount [Default]
 The number of segments on your y-axis.  The default is set to 24 for 24 hours of the day. This variable is particularly useful for input data that is not for each hour of the year.
-* ##### legendPar_ [Optional]
+* ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
-* ##### condStatement_ [Optional]
+* ##### condStatement [Optional]
 An optional conditional statement, which will remove data from the chart that does not fit the conditions. The input must be a valid python conditional statement (e.g. a > 25).
-* ##### bakeIt_ [Optional]
+* ##### bakeIt [Optional]
 If set to True, the chart will be Baked into the Rhino scene as a colored mesh.  Text will be baked as Rhino text objects, which facilitates easy export to PDF or vector-editing programs.
 
 #### Outputs

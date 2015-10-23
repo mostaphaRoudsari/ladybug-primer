@@ -5,7 +5,7 @@
 Use this component to convert energy values in W to kW, W/m2 to kW/m2, Wh to kWh, Wh/m2 to kWh/m2, BTU to kBTU, or BTU/ft2 to kBTU/ft2. - 
 
 #### Inputs
-* ##### _Wh [Required]
+* ##### Wh [Required]
 An energy value or list of energy values in W, W/m2, Wh, Wh/m2, BTU, or BTU/ft2.
 
 #### Outputs

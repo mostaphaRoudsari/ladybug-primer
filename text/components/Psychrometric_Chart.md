@@ -5,45 +5,45 @@
 Use this component to draw a psychrometric chart in the Rhino scene and evaluate a set of temperatures and humidity ratios in terms of indoor comfort.  Connected data can include either outdoor temperature and humidty ratios from imported EPW weather data, indoor temperature and humidity ratios from an energy simulation, or indivdual numerical inputs of temperature and humidity.  The input data will be plotted alongside polygons on the chart representing comfort as well as polygons representing the efects of passive building strategies on comfort. _ The specific human energy balance model used by the psychrometric chart is the Predicted Mean Vote (PMV) model developed by P.O. Fanger. PMV is a seven-point scale from cold (-3) to hot (+3) that is used in comfort surveys.  Each interger value of the scale indicates the following: -3:Cold, -2:Cool, -1:Slightly Cool, 0:Neutral, +1:Slightly Warm, +2:Warm, +3:Hot.  The range of comfort is generally accepted as a PMV between -1 and +1 and this is what defines the range of the comfort polygon on the psychrometric chart. Accordingly, this component will also output the PMV of the occupant for the input conditions as well as an estimated percentage of people dissatisfied (PPD) in the given conditions. _ The comfort models that make this component possible were translated to python from a series of validated javascript comfort models developed at the Berkely Center for the Built Environment (CBE). Specific documentation on the comfort models can be found here: https://code.google.com/p/cbe-comfort-tool/wiki/ComfortModels _ Special thanks goes to the authors of the online CBE Thermal Comfort Tool who first made the javascript models in order to power the tool: Hoyt Tyler, Schiavon Stefano, Piccioli Alberto, Moon Dustin, and Steinfeld Kyle, 2013, CBE Thermal Comfort Tool.  Center for the Built Environment, University of California Berkeley, http://cbe.berkeley.edu/comforttool/ _ The information for the polygons representing passive strategies comes from the climate consultant psychrometric chart.  Further information on how these polygons are calculated can be found here: http://apps1.eere.energy.gov/buildings/tools_directory/software.cfm/ID=123/pagename=alpha_list - 
 
 #### Inputs
-* ##### _dryBulbTemperature [Required]
+* ##### dryBulbTemperature [Required]
 A number representing the dry bulb temperature of the air in degrees Celcius.  This input can also accept a list of temperatures representing conditions at different times or the direct output of dryBulbTemperature from the Import EPW component.  Indoor temperatures from Honeybee energy simulations are also possible inputs.  Finally, this component can also acccept temperatures in Farenheit in order to draw a chart with IP units but, in order for this component to sense that the values are Farenheit, there must be at least one 'F' or '°F' in the stream of connected data.
-* ##### _relativeHumidity [Required]
+* ##### relativeHumidity [Required]
 A number between 0 and 100 representing the relative humidity of the air in percentage.  This input can also accept a list of relative humidity values representing conditions at different times or the direct output of relativeHumidity from of the Import EPW component.
-* ##### barometricPressure_ [Optional]
+* ##### barometricPressure [Optional]
 A number representing the barometric pressure in Pascals.  If no value is connected here, the default pressure will be 101325 Pa, which is air pressure at sea level.  It is recommended that you connect the barometric pressure from the Import epw component here as the air pressure at sea level can cause some misleading results for cities at higher elevations.
-* ##### meanRadTemperature_ [Optional]
+* ##### meanRadTemperature [Optional]
 A number representing the mean radiant temperature of the surrounding surfaces.  This value should be in degrees Celcius unless you have connected values in Farenheit to the dryBulbTemperature and you are seeing a chart in IP units.  If no value is plugged in here, this component will assume that the mean radiant temperature is equal to 23 C.  This input can also accept a list of temperatures and this will produce several comfort polygons (one for each mean radiant temperature).
-* ##### windSpeed_ [Optional]
+* ##### windSpeed [Optional]
 A number representing the wind speed of the air in meters per second.  If no value is plugged in here, this component will assume a very low wind speed of 0.05 m/s, characteristic of most indoor conditions.  This input can also accept a list of wind speeds representing conditions and this will produce several comfort polygons (one for each wind speed).
-* ##### metabolicRate_ [Optional]
+* ##### metabolicRate [Optional]
 A number representing the metabolic rate of the human subject in met.  This input can also accept text inputs for different activities.  Acceptable text inputs include Sleeping, Reclining, Sitting, Typing, Standing, Driving, Cooking, House Cleaning, Walking, Walking 2mph, Walking 3mph, Walking 4mph, Running 9mph, Lifting 10lbs, Lifting 100lbs, Shoveling, Dancing, and Basketball.  If no value is input here, the component will assume a metabolic rate of 1 met, which is the metabolic rate of a seated human being.  This input can also accept lists of metabolic rates and will produce multiple comfort polygons accordingly.
-* ##### clothingLevel_ [Optional]
+* ##### clothingLevel [Optional]
 A number representing the clothing level of the human subject in clo.  If no value is input here, the component will assume a clothing level of 1 clo, which is roughly the insulation provided by a 3-piece suit. A person dressed in shorts and a T-shirt has a clothing level of roughly 0.5 clo and a person in a thick winter jacket can have a clothing level as high as 2 to 4 clo.  This input can also accept lists of clothing levels and will produce multiple comfort polygons accordingly.
-* ##### mergeComfPolygons_ [Optional]
+* ##### mergeComfPolygons [Optional]
 Set to "True" if you have connected multiple values for any of the four comfort variables in the section above and you wish to merge all of the computed comfort polygons into one.
-* ##### comfortPar_ [Optional]
+* ##### comfortPar [Optional]
 Optional comfort parameters from the "Ladybug_PMV Comfort Parameters" component.  Use this to adjust maximum and minimum acceptable humidity ratios.  These comfortPar can also change whether comfort is defined by eighty or ninety percent of people comfortable.
-* ##### passiveStrategy_ [Optional]
+* ##### passiveStrategy [Optional]
 An optional text input of passive strategies to be laid over the psychrometric chart as polygons.  It is recommended that you use the "Ladybug_Passive Strategy List" to select which polygons you would like to display.  Otherwise, acceptable text inputs include "Evaporative Cooling", "Thermal Mass + Night Vent", "Occupant Use of Fans", "Internal Heat Gain", and "Dessicant Dehumidification".
-* ##### strategyPar_ [Optional]
+* ##### strategyPar [Optional]
 Optional passive strategy parameters from the "Ladybug_Passive Strategy Parameters" component.  Use this to adjust the maximum comfortable wind speed, the building balance temperature, and the temperature limits for thermal mass and night flushing.
-* ##### mollierHX_ [Optional]
+* ##### mollierHX [Optional]
 Set to "True" to visualize the psychrometric chart as a mollier-hx diagram.  This is essentially a psychrometric chart where the axes have been switched, which is popular in Europe.
-* ##### enthalpyOrWetBulb_ [Optional]
+* ##### enthalpyOrWetBulb [Optional]
 Set to "True" to have the psychrometric chart plot lines of constant enthalpy and set to "False" to have the chart plot linest of constant wet bulb temperature.  The default is set to "True" for enthalpy.
-* ##### analysisPeriod_ [Optional]
+* ##### analysisPeriod [Optional]
 An optional analysis period from the Ladybug_Analysis Period component.  If no Analysis period is given and epw data from the ImportEPW component has been connected, the analysis will be run for the enitre year.
-* ##### annualHourlyData_ [Optional]
+* ##### annualHourlyData [Optional]
 An optional list of hourly data from the Import epw component, which will be used to create hourPointColors that correspond to the hours of the data (e.g. windSpeed).  You can connect up several different annualHourly data here.
-* ##### conditionalStatement_ [Optional]
+* ##### conditionalStatement [Optional]
 This input allows users to remove data that does not fit specific conditions or criteria from the psychrometric chart. The conditional statement input here should be a valid condition statement in Python, such as "a>25" or "b<80" (without quotation marks). The current version of this component accepts "and" and "or" operators. To visualize the hourly data, only lowercase English letters should be used as variables, and each letter alphabetically corresponds to each of the lists (in their respective order): "a" always represents dryBulbtemperature, "b" always represents the relativeHumidity, "c" always represents the 1st list plugged into annualHourlyData_, "d" represents the 2nd list, etc. For example, if you want to plot the data for the time period when temperature is between 18C and 23C, and humidity is less than 80%, the conditional statement should be written as “18<a<23 and b<80” (without quotation marks).
-* ##### basePoint_ [Optional]
+* ##### basePoint [Optional]
 An optional base point that will be used to place the Psychrometric Chart in the Rhino scene.  If no base point is provided, the base point will be the Rhino model origin.
-* ##### scale_ [Optional]
+* ##### scale [Optional]
 An optional number to change the scale of the spychrometric chart in the Rhino scene.  By default, this value is set to 1.
-* ##### legendPar_ [Optional]
+* ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
-* ##### _runIt [Required]
+* ##### runIt [Required]
 Set to "True" to run the component and generate a psychrometric chart!
 
 #### Outputs

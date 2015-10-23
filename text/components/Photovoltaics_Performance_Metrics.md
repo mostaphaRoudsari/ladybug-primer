@@ -5,31 +5,31 @@
 Use this component to calculate various Photovoltaics performance metrics - 
 
 #### Inputs
-* ##### _PVsurface [Required]
+* ##### PVsurface [Required]
 - Input planar Surface (not polysurface) on which the PV modules will be applied. If you have a polysurface, explode it (using "Deconstruct Brep" component) and then feed its Faces(F) output to _PVsurface. Surface normal should be faced towards the sun. - Or input surface Area, in square meters (example: "100"). - Or input PV system size (nameplate DC power rating), in kiloWatts at standard test conditions (example: "4 kw").
-* ##### PVsurfacePercent_ [Optional]
+* ##### PVsurfacePercent [Optional]
 The percentage of surface which will be used for PV modules (range 0-100). - If not supplied, default value of 100 (all surface area will be covered in PV modules) is used.
-* ##### moduleActiveAreaPercent_ [Optional]
+* ##### moduleActiveAreaPercent [Optional]
 Percentage of the module's area excluding module framing and gaps between cells.  - If not supplied, default value of 90(%) will be used.
-* ##### moduleEfficiency_ [Optional]
+* ##### moduleEfficiency [Optional]
 The ratio of energy output from the PV module to input energy from the sun. It ranges from 0 to 100 (%). - If not defined, default value of 15(%) will be used.
-* ##### lifetime_ [Optional]
+* ##### lifetime [Optional]
 Life expectancy of a PV module. In years. - If not supplied default value of 30 (years) will be used.
-* ##### _ACenergyPerHour [Required]
+* ##### ACenergyPerHour [Required]
 Import "ACenergyPerYear" output data from "Photovoltaics surface" component. In kWh.
-* ##### _totalRadiationPerHour [Required]
+* ##### totalRadiationPerHour [Required]
 Import "totalRadiationPerHour" output data from "Photovoltaics surface" component. In kWh/m2.
-* ##### _cellTemperaturePerHour [Required]
+* ##### cellTemperaturePerHour [Required]
 Import "cellTemperaturePerHour" output data from "Photovoltaics surface" component. In °C.
-* ##### energyCostPerKWh_ [Optional]
+* ##### energyCostPerKWh [Optional]
 The cost of one kilowatt hour in any currency unit (dollar, euro, yuan...) - If not supplied, 0.15 $/kWh will be used as default value.
-* ##### embodiedEnergyPerM2_ [Optional]
+* ##### embodiedEnergyPerM2 [Optional]
 Energy necessary for an entire product life-cycle of PV module per square meter. In MJ/m2 (megajoules per square meter). - If not supplied default value of 4410 (MJ/m2) will be used.
-* ##### embodiedCO2PerM2_ [Optional]
+* ##### embodiedCO2PerM2 [Optional]
 Carbon emissions produced during PV module's life-cycle per square meter.. In kg CO2/m2 (kilogram of CO2 per square meter). - If not supplied default value of 225 (kg CO2/m2) will be used.
-* ##### gridEfficiency_ [Optional]
+* ##### gridEfficiency [Optional]
 An average primary energy to electricity conversion efficiency. - If not supplied default value of 29 (%) will be used.
-* ##### _runIt [Required]
+* ##### runIt [Required]
 ...
 
 #### Outputs

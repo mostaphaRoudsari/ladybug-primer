@@ -5,13 +5,13 @@
 Use this component to generate shading depths, numbers of shades, horizontal or vertical boolean values, and shade angles for different cardinal directions to be plugged into the "Ladybug_Shading Designer" component or the "Honeybee_EnergyPlus Window Shade Generator". - 
 
 #### Inputs
-* ##### _northShdParam_ [Default]
+* ##### northShdParam [Default]
 Shading parameter for north-facing glazing.
-* ##### _westShdParam_ [Default]
+* ##### westShdParam [Default]
 Shading parameter for west-facing glazing.
-* ##### _southShdParam_ [Default]
+* ##### southShdParam [Default]
 Shading parameter for south-facing glazing.
-* ##### _eastShdParam_ [Default]
+* ##### eastShdParam [Default]
 Shading parameter for east-facing glazing.
 
 #### Outputs

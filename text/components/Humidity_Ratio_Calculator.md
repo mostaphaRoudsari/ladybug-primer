@@ -5,11 +5,11 @@
 Calculates the humidity ratio from the ladybug weather file import parameters Conversion formulas are taken from the following publications: Vaisala. (2013) Humidity Conversion Formulas: Calculation Formulas for Humidity. www.vaisala.com/Vaisala%20Documents/Application%20notes/Humidity_Conversion_Formulas_B210973EN-F.pdf W. Wagner and A. Pruß:" The IAPWS Formulation 1995 for the Thermodynamic Properties of Ordinary Water Substance for General and Scientific Use ", Journal of Physical and Chemical Reference Data, June 2002 ,Volume 31, Issue 2, pp. 387535 - 
 
 #### Inputs
-* ##### _dryBulbTemperature [Required]
+* ##### dryBulbTemperature [Required]
 The dry bulb temperature from the Import epw component.
-* ##### _relativeHumidity [Required]
+* ##### relativeHumidity [Required]
 The relative humidity from the Import epw component.
-* ##### _barometricPressure [Required]
+* ##### barometricPressure [Required]
 The barometric pressure from the Import epw component.
 
 #### Outputs

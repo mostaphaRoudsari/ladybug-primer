@@ -5,7 +5,7 @@
 Use this component to convert U-Values in IP (BTU/h·ft2·°F) to U-Values in SI (W/K·m2) to plug into any of the Honeybee material components. - 
 
 #### Inputs
-* ##### _U_IP [Required]
+* ##### U_IP [Required]
 An R-Values in IP (h·ft2·°F/BTU).
 
 #### Outputs

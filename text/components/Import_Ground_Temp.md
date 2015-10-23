@@ -5,7 +5,7 @@
 Use this component to visualise ground temperatures throughout the year at specific depths. Please note that epw files usually only provide ground temperature data at depths 0.5 meters, 2 meters and 4 meters thus data has been interpolated for all other depths. In particular this interpolation assumes that ground temperatures do not vary over the seasons once the depth has reach 9 meters below the ground surface. - 
 
 #### Inputs
-* ##### _epwFile [Required]
+* ##### epwFile [Required]
 An .epw file path on your system as a string
 * ##### visualisedata_Season []
 Set to true to visualise the ground temperature data as an average for every season

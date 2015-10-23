@@ -5,11 +5,11 @@
 Use this component to see the area visible from a given viewpoint across a 2D plane of vision. The component will create a circular surface in this plane of vision that is interrupted by context geometry to show the places that can be seen through this context geometry. - 
 
 #### Inputs
-* ##### _context [Required]
+* ##### context [Required]
 Breps or Meshes representing context geometry that can block the view around a given viewPoint.
-* ##### _plane_ [Default]
+* ##### plane [Default]
 Test Plane
-* ##### _radius [Required]
+* ##### radius [Required]
 A radius to make the view rose in Rhino model units. Note that, if the view rose is not extending past the _context geometry, you should increase this value.
 
 #### Outputs

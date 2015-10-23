@@ -5,7 +5,7 @@
 Use this component to open a .stat file, which downloads with the .epw weather file and contains information such as the climate zone and maximum temperatures for designing heating/cooling systems. This component opens the file from a location on your computer. - 
 
 #### Inputs
-* ##### _open [Required]
+* ##### open [Required]
 Set Boolean to True to browse for a .stat file on your system.
 
 #### Outputs

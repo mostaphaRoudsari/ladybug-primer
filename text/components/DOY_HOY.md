@@ -5,11 +5,11 @@
 Use this component to calculate the day of the year and hour of the year from an input date with a day of the month, month of the year and hour of the day. - 
 
 #### Inputs
-* ##### _days_ [Default]
+* ##### days [Default]
 A number (or list of numbers) between 1 and 31 that represents the day(s) of the month.
-* ##### _months_ [Default]
+* ##### months [Default]
 A number (or list of numbers) between 1 and 12 that represents the month(s) of the year.
-* ##### _hours_ [Default]
+* ##### hours [Default]
 A number (or list of numbers) between 1 and 24 that represents the hour(s) of the day.
 
 #### Outputs

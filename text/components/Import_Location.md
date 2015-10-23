@@ -5,7 +5,7 @@
 Use this component to import location data from a standard .epw file. You can use the output to draw a sunpath. - 
 
 #### Inputs
-* ##### _epwFile [Required]
+* ##### epwFile [Required]
 An .epw file path on your system as a string.
 
 #### Outputs

@@ -5,39 +5,39 @@
 This component calculates the amount of annual shading of sun window due to location's surroundings. Sun (or solar) window being an area of the the sky dome between winter and summer solstice sun paths. Obstruction from buildings, structures, trees, mountains or other objects are considered. It can be used to calculate annual shading for Photovoltaic arrays, Solar hot water collectors or any other purpose. - Use "annualShading" or "beamIndexPerHour" output for Photovoltaic arrays and "beamIndexPerHour" output for Solar hot water collectors shading analysis. - Based on "Using sun path charts to estimate the effects of shading on PV arrays", University of Oregon, Frank Vignola: http://solardat.uoregon.edu/download/Papers/UsingSunPathChartstoEstimatetheEffectofShadingonPVArrays.pdf - 
 
 #### Inputs
-* ##### _PVsurface [Required]
+* ##### PVsurface [Required]
 Input planar Surface (not polysurface) on which the PV modules/Solar hot water collectors will be applied. If you have a polysurface, explode it (using "Deconstruct Brep" component) and then feed its Faces(F) output to _PVsurface. Surface normal should be faced towards the sun. Number inputs (example: "100") and kiloWatt (example: "4 kw"). are not supported.
-* ##### _epwFile [Required]
+* ##### epwFile [Required]
 Input .epw file path by using grasshopper's "File Path" component.
-* ##### ACenergyPerHour_ [Optional]
+* ##### ACenergyPerHour [Optional]
 Input the "ACenergyPerHour" output data from "Photovoltaics surface" component. If you are calculating shading analysis for "Solar hot water surface" component (instead of "Photovoltaics surface" component), leave this input empty. In kWh. If you are calculating shading analysis for any other purpose, input annual solar radiation per hour data.
-* ##### context_ [Optional]
+* ##### context [Optional]
 Buildings, structures, mountains and other permanent obstructions. Input polysurfaces, surfaces, or meshes.
-* ##### coniferousTrees_ [Optional]
+* ##### coniferousTrees [Optional]
 This input allows for partial shading from coniferous(evergreen) context trees. Input polysurfaces, surfaces, or meshes.
-* ##### deciduousTrees_ [Optional]
+* ##### deciduousTrees [Optional]
 This input allows for partial shading during in-leaf and leaf-less periods from deciduous context trees. In-leaf being a period from 21st March to 21st September in the northern hemisphere, and from 21st September to 21st March in the southern hemisphere. Leaf-less being a period from 21st September to 21st March in the northern hemisphere, and from 21st March to 21st September in the in the southern hemisphere. Input polysurfaces, surfaces, or meshes.
-* ##### coniferousAllyearIndex_ [Optional]
+* ##### coniferousAllyearIndex [Optional]
 All year round transmission index for coniferous(evergreen) context trees. It ranges from 0 to 1.0. 0 represents deciduous trees which do not allow solar radiation to pass through them (100% shading). 1 represents all solar radiation passing through deciduous trees, like the trees do not exist (0% shading). - If not supplied default value of 0.30 (equals 70% shading) will be used.
-* ##### deciduousInleafIndex_ [Optional]
+* ##### deciduousInleafIndex [Optional]
 Deciduous context trees transmission index for in-leaf period. In-leaf being a period from 21st March to 21st September in the northern hemisphere, and from 21st September to 21st March in the southern hemisphere. It ranges from 0 to 1.0. 0 represents deciduous trees which do not allow solar radiation to pass through them (100% shading). 1 represents all solar radiation passing through deciduous trees, like the trees do not exist (0% shading). - If not supplied default value of 0.23 (equals 77% shading) will be used.
-* ##### deciduousLeaflessIndex_ [Optional]
+* ##### deciduousLeaflessIndex [Optional]
 Deciduous context trees transmission index for leaf-less period. Leaf-less being a period from 21st September to 21st March in the northern hemisphere, and from 21st March to 21st September in the in the southern hemisphere. It ranges from 0 to 1.0. 0 represents deciduous trees which do not allow solar radiation to pass through them (100% shading). 1 represents all solar radiation passing through deciduous trees, like the trees do not exist (0% shading). - If not supplied default value of 0.64 (equals 36% shading) will be used.
-* ##### leaflessPeriod_ [Optional]
+* ##### leaflessPeriod [Optional]
 Define the leafless period for deciduous trees using Ladybug's "Analysis Period" component. IMPORTANT! This input affects only the "beamIndexPerHour" output. Due to limitations of the used sunpath diagram, it does not affect all the other shading outputs, where default leafless periods (see the line bellow) will always be used. - If not supplied the following default periods will be used: from 21st September to 21st March in the northern hemisphere, and from 21st March to 21st September in the in the southern hemisphere.
-* ##### north_ [Optional]
+* ##### north [Optional]
 Input a vector to be used as a true North direction, or a number between 0 and 360 that represents the clockwise degrees off from the Y-axis. - If not supplied, default North direction will be set to the Y-axis (0 degrees).
-* ##### scale_ [Optional]
+* ##### scale [Optional]
 Scale of the overall geometry (sunPath curves, sunWindow mesh). Use the scale number which enables encompassing all of your context_, coniferousTrees_, deciduousTrees_ objects. - If not supplied, default value of 1 will be used.
-* ##### hoursPositionScale_ [Optional]
+* ##### hoursPositionScale [Optional]
 Scale factor for positioning of solar time hour points (that's "hoursPositions" output). - If not supplied, default value of 1 will be used.
-* ##### precision_ [Optional]
+* ##### precision [Optional]
 Overall shading precision. Ranges from 1-100. It represents the square root number of shading analysis points per sun window quadrant. Example - precision of 20 would be 400 shading analysis points per single sun window quadrant. CAUTION!!! Higher precision numbers (50 >) require stronger performance PCs. If your "_context" contains only straight shape buildings/objects, and you have just a couple of trees supplied to the "coniferousTrees_" and "deciduousTrees_" inputs, the precision of < 50 will be just fine. - If not supplied, default value of 2 will be used.
-* ##### legendPar_ [Optional]
+* ##### legendPar [Optional]
 Optional legend parameters from the Ladybug "Legend Parameters" component.
-* ##### bakeIt_ [Optional]
+* ##### bakeIt [Optional]
 Set to "True" to bake the Sunpath shading results into the Rhino scene. - If not supplied default value "False" will be used.
-* ##### _runIt [Required]
+* ##### runIt [Required]
 ...
 
 #### Outputs

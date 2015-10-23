@@ -5,31 +5,31 @@
 This is the Bioclimactic Chart. It is based in the originally proposed chart by V. Olgyay and then in the chart presented in the book "Sun, Climate and Architecture" by Brown. Use this component to draw a Bioclimatic chart in the Rhino scene and evaluate a set of temperatures and humidity ratios in terms of indoor comfort. Connected data can include either outdoor temperature and humidty ratios from imported EPW weather data, indoor temperature and humidity ratios from an energy simulation, or indivdual numerical inputs of temperature and humidity.  The input data will be plotted alongside polygons on the chart representing comfort as well as polygons representing the efects of passive building strategies on comfort. References:     1. Olgyay, V., 1963. Design with Climate. Bioclimatic Approach to Architectural Regionalism. Van Nostrand reinhold, New York.     2. Givoni B., 1976. Man, Climate and Architecture. Applied Science Publishers, Ltd., London.     3. Murray M. and Givoni B., 1979. Architectural Design Based on Climate in Watson D. (ed), 1979. Energy COnservation Through Building Design. McGraw Hill Book Company.     4. Yezioro, A. & E. Shaviv. 1996. A Knowledge Based CAD System for Determining Thermal Comfort Design Strategies. Renewable Energy, 8: (1-4), (pp. 133-138).     5. Brown G.Z. and DeKay M., 2001. Sun, WInd & Light. Architectural Design Strategies (2nd edition). John WIley  & Sons, Inc. - 
 
 #### Inputs
-* ##### _dryBulbTemperature [Required]
+* ##### dryBulbTemperature [Required]
 A number representing the dry bulb temperature of the air in degrees Celcius. This input can also accept a list of temperatures representing conditions at different times or the direct output of dryBulbTemperature from the Import EPW component.  Indoor temperatures from Honeybee energy simulations are also possible inputs.
-* ##### _relativeHumidity [Required]
+* ##### relativeHumidity [Required]
 A number between 0 and 100 representing the relative humidity of the air in percentage. This input can also accept a list of relative humidity values representing conditions at different times or the direct output of relativeHumidity from of the Import EPW component.
-* ##### metabolicRate_ [Optional]
+* ##### metabolicRate [Optional]
 A number representing the metabolic rate of the human subject in met. This input can also accept text inputs for different activities. Acceptable text inputs include Sleeping, Reclining, Sitting, Typing, Standing, Driving, Cooking, House Cleaning, Walking, Walking 2mph, Walking 3mph, Walking 4mph, Running 9mph, Lifting 10lbs, Lifting 100lbs, Shoveling, Dancing, and Basketball.  If no value is input here, the component will assume a metabolic rate of 1 met, which is the metabolic rate of a seated human being.
-* ##### clothingLevel_ [Optional]
+* ##### clothingLevel [Optional]
 A number representing the clothing level of the human subject in clo. If no value is input here, the component will assume a clothing level of 1 clo, which is roughly the insulation provided by a 3-piece suit. A person dressed in shorts and a T-shirt has a clothing level of roughly 0.5 clo and a person in a thick winter jacket can have a clothing level as high as 2 to 4 clo.
-* ##### passiveStrategy_ [Optional]
+* ##### passiveStrategy [Optional]
 An optional text input of passive strategies to be laid over the Bioclimatic chart as polygons.  Text inputs include "Passive Solar Heating", "Evaporative Cooling", "Thermal Mass + Night Vent" and "Natural Ventilation". NOT WORKING RIGHT NOW!!
-* ##### cullMesh_ [Optional]
+* ##### cullMesh [Optional]
 Set to "True" to cull the colored mesh to where they have climatic data on them. See chartMesh output. Deafult "False"
-* ##### calculateCharts_ [Optional]
+* ##### calculateCharts [Optional]
 Set to "True" to calculate and show a column type graph showing the percentage of time each strategy is capable of providing comfort conditions. See resultsChart output. Deafult "False"
-* ##### analysisPeriodWinter_ [Optional]
+* ##### analysisPeriodWinter [Optional]
 An optional analysis period from the Analysis Period component. If no Analysis period is given and epw data from the ImportEPW component has been connected, the analysis will be run for the enitre year. ONLY WORKS FOR THE WHOLE YEAR RIGHT NOW!!
-* ##### analysisPeriodSummer_ [Optional]
+* ##### analysisPeriodSummer [Optional]
 An optional analysis period from the Analysis Period component. If no Analysis period is given and epw data from the ImportEPW component has been connected, the analysis will be run for the enitre year. ONLY WORKS FOR THE WHOLE YEAR RIGHT NOW!!
-* ##### basePoint_ [Optional]
+* ##### basePoint [Optional]
 An optional base point that will be used to place the Bioclimatic Chart in the Rhino scene. If no base point is provided, the base point will be the Rhino model origin.
-* ##### scale_ [Optional]
+* ##### scale [Optional]
 An optional number to change the scale of the Bioclimatic chart in the Rhino scene. By default, this value is set to 1.
-* ##### legendPar_ [Optional]
+* ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
-* ##### _runIt [Required]
+* ##### runIt [Required]
 Set to "True" to run the component and calculate the adaptive comfort metrics.
 
 #### Outputs

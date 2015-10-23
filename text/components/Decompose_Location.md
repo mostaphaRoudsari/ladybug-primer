@@ -5,7 +5,7 @@
 Use this component to separate and exctract the information in the 'location' output of the importEPW or constructLocation component. - 
 
 #### Inputs
-* ##### _location [Required]
+* ##### location [Required]
 The output from the importEPW or constructLocation component.  This is essentially a list of text summarizing a location on the earth.
 
 #### Outputs

@@ -5,21 +5,21 @@
 This component allows you to visualize a selected sky matrix from the selectSkyMxt component in order to see the patches of the sky dome where radiation is coming from. The component will produce 3 sky domes by default: a dome showing just the diffuse radiation, a dome showing just the direct radiation, and a dome showing the total radiation. - 
 
 #### Inputs
-* ##### north_ [Optional]
+* ##### north [Optional]
 Input a vector to be used as a true North direction for the sun path or a number between 0 and 360 that represents the degrees off from the y-axis to make North.  The default North direction is set to the Y-axis (0 degrees).
-* ##### _selectedSkyMtx [Required]
+* ##### selectedSkyMtx [Required]
 The output from the selectSkyMtx component.
-* ##### _centerPoint_ [Default]
+* ##### centerPoint [Default]
 A point that sets the location of the sky domes.  The default is set to the Rhino origin (0,0,0).
-* ##### _scale_ [Default]
+* ##### scale [Default]
 Use this input to change the scale of the sky dome.  The default is set to 1.
-* ##### legendPar_ [Optional]
+* ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
-* ##### showTotalOnly_ [Optional]
+* ##### showTotalOnly [Optional]
 Set to "True" to only show a sky dome with the total radiation.  The default is "False", which will produce 3 sky domes: one of diffuse radiation, one of direct radiation, and one of the total radiation.
-* ##### _runIt [Required]
+* ##### runIt [Required]
 Set to "True" to run the component and generate a sky dome.
-* ##### bakeIt_ [Optional]
+* ##### bakeIt [Optional]
 Set to "True" to bake the sky dome into the Rhino scene.
 
 #### Outputs

@@ -5,17 +5,17 @@
 Use this component to set an analysis period, which can be used as input for a variety of other Ladybug and Honeybee components.  Default analysis period without any inputs is set to the entire year. - 
 
 #### Inputs
-* ##### _fromMonth_ [Default]
+* ##### fromMonth [Default]
 A number between 1 and 12 that represents the month of the year for the start of the analysis.  Default starting month is set to 1 (January).
-* ##### _fromDay_ [Default]
+* ##### fromDay [Default]
 A number between 1 and 31 that represents the day of the month for the start of the analysis. Default starting day is set to 1 (the first of the month).
-* ##### _fromHour_ [Default]
+* ##### fromHour [Default]
 A number between 1 and 24 that represents the hour of the day for the start of the analysis. Default starting hour is set to 1 (the first hour of the day after midnight).
-* ##### _toMonth_ [Default]
+* ##### toMonth [Default]
 A number between 1 and 12 that represents the month of the year for the end of the analysis. Default end month is set to 12 (December).
-* ##### _toDay_ [Default]
+* ##### toDay [Default]
 A number between 1 and 31 that represents the day of the month for the end of the analysis.  Default end day is set to 31 (the 31st of the month).
-* ##### _toHour_ [Default]
+* ##### toHour [Default]
 A number between 1 and 24 that represents the hour of the day for the end of the analysis. Default end hour is set to 24 (the last hour of the day before midnight)
 
 #### Outputs
