@@ -1,0 +1,13 @@
+#### Component list:
+* ![IMAGE](images/icons/Radiation_Analysis.png) [Radiation Analysis](text/components/Radiation_Analysis.md)
+* ![IMAGE](images/icons/SolarEnvelopeBasic.png) [SolarEnvelopeBasic](text/components/SolarEnvelopeBasic.md)
+* ![IMAGE](images/icons/SolarFanBasic.png) [SolarFanBasic](text/components/SolarFanBasic.md)
+* ![IMAGE](images/icons/Sunlight_Hours_Analysis.png) [Sunlight Hours Analysis](text/components/Sunlight_Hours_Analysis.md)
+* ![IMAGE](images/icons/Bounce_from_Surface.png) [Bounce from Surface](text/components/Bounce_from_Surface.md)
+* ![IMAGE](images/icons/View_Analysis.png) [View Analysis](text/components/View_Analysis.md)
+* ![IMAGE](images/icons/View_From_Sun.png) [View From Sun](text/components/View_From_Sun.md)
+* ![IMAGE](images/icons/view_Rose.png) [view Rose](text/components/view_Rose.md)
+* ![IMAGE](images/icons/Comfort_Shade_Benefit_Evaluator.png) [Comfort Shade Benefit Evaluator](text/components/Comfort_Shade_Benefit_Evaluator.md)
+* ![IMAGE](images/icons/ShadingDesigner.png) [ShadingDesigner](text/components/ShadingDesigner.md)
+* ![IMAGE](images/icons/SolarFan.png) [SolarFan](text/components/SolarFan.md)
+* ![IMAGE](images/icons/Forward_Raytracing.png) [Forward Raytracing](text/components/Forward_Raytracing.md)
