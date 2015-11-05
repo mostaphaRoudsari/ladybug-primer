@@ -29,12 +29,16 @@ Set to "True" to run the component and calculate the PMV comfort metrics.
 #### Outputs
 * ##### readMe!
 ...
-* ##### OUT_SET
-The Outdoor Standard Effective Temperature (OUT_SET) in degrees Celcius.  OUT_SET is an ajusted temperature scale meant to reflect the heat stress or cold felt by an individual and has passed peer review as an indicator of outdoor comfort.  HOWEVER, if you are interested in knowing whether outdoor conditions are actually comfortable, it is highly recommended that you use the Ladybug UTCI Comfort Calculator.  OUT-SET has been shown to be a poor indicator of outdoor comfort and is better used as a tool to help understand what clothing and metabolic rate a comfortable person might have in the outdoors AFTER running a UTCI study.
-* ##### restrictedComfOrNot
-Because the PMV comfort model is derived from indoor comfort studies and you have hooked up outdoor data, the comfortableOrNot values out of this component should be taken with a grain of salt.  The comfort here represents a very narrow range because you are restricting the theoretical person's clothing and metabolic rate, which is normally unrestricted in the outdoors.
-* ##### restrictedPercentComf
-Because the PMV comfort model is derived from indoor comfort studies and you have hooked up outdoor data, the percentOfTimeComfortable values out of this component should be taken with a grain of salt.  The comfort here represents a very narrow range because you are restricting the theoretical person's clothing and metabolic rate, which is normally unrestricted in the outdoors.
+* ##### predictedMeanVote
+The estimated predicted mean vote (PMV) of test subjects under the input conditions.  PMV is a seven-point scale from cold (-3) to hot (+3) that was used in comfort surveys of P.O. Fanger.  Each interger value of the scale indicates the following: -3:Cold, -2:Cool, -1:Slightly Cool, 0:Neutral, +1:Slightly Warm, +2:Warm, +3:Hot.  The range of comfort is generally accepted as a PMV between -1 and +1.  Exceeding +1 will result in an uncomfortably warm occupant while dropping below -1 will result in an uncomfortably cool occupant.  For detailed information on the PMV scale, see P.O. Fanger's original paper: Fanger, P Ole (1970). Thermal Comfort: Analysis and applications in environmental engineering.
+* ##### percentPeopleDissatisfied
+The estimated percentage of people dissatisfied (PPD) under the given input conditions.  Specifically, this is defined by the percent of people who would have a PMV less than -1 or greater than +1 under the conditions.  Note that, with this model, it is not possible to get a PPD of 0% and most engineers just aim to have a PPD below 20%.
+* ##### standardEffectiveTemperature
+The standard effective temperature (SET) for the given input conditions in degrees Celcius. SET is an ajusted temperature scale meant to reflect the heat stress or cold felt by the occupant. Specifically, SET is definied as the equivalent temperature of an imaginary environment at 50% relative humidity, <0.1 m/s air speed, and mean radiant temperature equal to air temperature, in which the total heat loss from the skin of an imaginary occupant is the same as that from a person existing under the input conditions. It is also important to note that the imaginary occupant is modeled with an activity level of 1.0 met and a clothing level of 0.6 clo.  The actual occupant in the real environment can have different values from these.
+* ##### comfortableOrNot
+A stream of 0's and 1's (or 'False' and 'True' values) indicating whether the occupant is comfortable for each hour of the input conditions.  0 indicates that the occupant is not comfortable while 1 indicates that the occupant is comfortable.
+* ##### percentOfTimeComfortable
+The percent of input conditions for which the occupant is comfortable.  Note that this output is only menaingful when multiple values are connected for the input conditions.
 * ##### balanceTemperature
 The balance temperature is the temperature for the input windSpeed_, _relativeHumidity, metabolicRate_, and clothingLevel_ at which the PMV is equal to 0 (or the energy flowing into the human body is equal to the energy flowing out).  Setting the dry bulb and radiant temperatures to this value will produce a PMV of 0 and will yield the lowest possible PPD.
 

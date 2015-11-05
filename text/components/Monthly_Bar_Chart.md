@@ -7,6 +7,10 @@ Use this component to make a bar chart in the Rhino scene of any monhtly or avrM
 #### Inputs
 * ##### inputData [Required]
 A list of input data to plot.  This should usually be data out of the 'Ladybug_Average Data' component or monthly data from an energy simulation but can also be hourly or daily data from the 'Ladybug_Import EPW.'  However, it is recommended that you use the 'Ladybug_3D Chart' component for daily or hourly data as this is usually a bit clearer.
+* ##### comfortModel [Optional]
+An optional interger to draw the comfort model on the chart.  Choose from the following:   0 - No comfort range   1 - PMV comfort range (indoor)   2 - Adaptive confort range (naturally ventilated)   3 - UTCI Comfort (outdoor)   Note that this option is only available when temperature is connected so, by default, it is set to 0 for no comfort range.
+* ##### bldgBalancePt [Optional]
+An optional float value to represent the outdoor temperature at which the energy passively flowing into a building is equal to that flowing out of the building.  This is usually a number that is well below the comfort temperture (~ 12C - 18C) since the internal heat of a building and its insulation keep the interior warmer then the exterior.  However, by default, this is set to 23.5C for fully outdoor conditions.
 * ##### stackValues [Optional]
 Set to 'True' if you have multiple connected monthly or daily _inputData with the same units and want them to be drawn as bars stacked on top of each other.  Otherwise, all bars for monthly/daily data will be placed next to each other.  The default is set to 'False' to have these bars placed next to each other.
 * ##### plotFromZero [Optional]

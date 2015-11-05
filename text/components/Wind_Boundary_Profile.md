@@ -43,8 +43,6 @@ Set to "True" to bake the wind boundary profile into the Rhino scene.
 ...
 * ##### windSpeeds
 The wind speeds that correspond to the wind vectors in the wind profile visualization.
-* ##### windDirections
-The wind directions that correspond to the wind vectors in the wind profile visualization.
 * ##### windVectors
 The wind vectors that correspond to those in the wind profile visualization.  Note that the magnitude of these vectors will be scaled based on the windVectorScale_ input.
 * ##### vectorAnchorPts
