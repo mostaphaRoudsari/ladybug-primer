@@ -6,23 +6,25 @@ Use this component to calculate the Basal Metabolic Rate, Body Mass Index indice
 
 #### Inputs
 * ##### age [Optional]
-An age of the person in years. - If not supplied, default value of 35 will be used.
-* ##### gender [Optional]
-Person's gender. - 1 or "male" 2 or "female". - If not supplied, "male" will be used as a default value.
+An age of the person. - If not supplied, default value of 35 will be used. - In years.
+* ##### sex [Optional]
+Person's sex. - 1 or "male" 2 or "female". - If not supplied, "male" will be used as a default value.
 * ##### height [Optional]
-Person's height in centimetres. - If not supplied default value of 175 cm will be used.
+Person's height. - If not supplied default value of 175 cm will be used. - In centimetres.
 * ##### weight [Optional]
-Person's weight in kilograms. - If not supplied default value of 75 kg will be used.
+Person's weight. - If not supplied default value of 75 kg will be used. - In kilograms.
 * ##### bodyPosition [Optional]
 Position of person's body. - 1 or "sitting" for sitting position. 2 or "standing" for standing position. 3 or "crouching" for crouching position. - If not supplied, 2 (standing) will be used as a default value.
 * ##### clothingInsulation [Optional]
-Clothing insulation of a person in "clo" units. It ranges from 0 (nude person) to 4 (polar outfit). Overall clo value can be determined by adding individual clo values for each type of cloths, based on a clo values table ( http://www.engineeringtoolbox.com/clo-clothing-thermal-insulation-d_732.html ) A more simplified approch would be: - 0.20 - Very light summer cloths (shorts/skirt, t-shirt, slippers, no socks) 0.55 - Summer cloths (light trousers, short sleeves or blouse) 1 - Street-business suit or Typical indoor winter clothing 1.5 - Suit and cotton coat 2 - Winter suit and coat 4 - Heavy polar outfit (fur pants, coat, hood, gloves...) - If not supplied it will be caclulated for each hour based on air temperature, with minimal 0.6 and maximal 4 clo values.
+Clothing insulation of a person in "clo" units. It ranges from 0 (nude person) to 4 (polar outfit). Overall clo value can be determined by adding individual clo values for each type of clothes, based on a clo values table ( http://www.engineeringtoolbox.com/clo-clothing-thermal-insulation-d_732.html ) A more simplified approch would be: - 0.20 - very light summer clothes (shorts/skirt, t-shirt, slippers, no socks) 0.55 - summer clothes (light trousers, short sleeves or blouse) 1 - street-business suit or Typical indoor winter clothing 1.5 - suit and cotton coat 2 - winter suit and coat 2.58 - firefighting clothes 4 - heavy polar outfit (fur pants, coat, hood, gloves...) - If not supplied it will be caclulated for each hour based on air temperature, with minimal 0.5 and maximal 4.1 clo values. - In clo.
+* ##### clothingAlbedo [Optional]
+Average clothing and skin albedo of a person. Ranges from 0 to 100%. In theory clothes-skin albedo of 0 would absorb, while 100% will reflect all solar radiation. Some of the examples: - light colored (white and bright clothes) - 57 % dark colored (black and gray clothes) - 21 % medium colored (any clothes colors between upper two) - 37 % protective polyethylene/aluminium suits - 95 % - If not supplied 37% (medium colored) will be used as a default. - In percent.
 * ##### acclimated [Optional]
-Determine whether the test person had previously experienced heat/cold stress. - "acclimated" or True if person in subject is acclimatized, "unacclimated" or False if it's not. - If no value is supplied, False (unacclimated) will be used by default.
+Determine whether the test person had previously experienced heat/cold stress. - "acclimated" or True if person in subject is acclimatized, "unacclimated" or False if it's not. - If no value is supplied, True (acclimated) will be used by default.
 * ##### metabolicRate [Optional]
-Activity's metabolic rate in mets. If not supplied 2.32 will be used as default value Here are some of the examples of metabolic rates mets based on activity: Activity - met ------------------- Reclining  - 0.8 Seating - 1.0 Car driving - 1.2 Sedentary activity (office, dwelling, school, laboratory) - 1.2 Standing - 1.2 Standing (light activity: shopping, laboratory, light industry) - 1.6 Standing (medium activity: shop assistant, domestic work) - 2.0 Walking (4 km/h) - 2.32 Walking (5 km/h) - 3.4 ... Washing dishes standing - 2.5 Domestic work (raking leaves on the lawn) - 2.9 Domestic work (washing by hand and ironing) - 2.9 Iron and steel (ramming the mould with a pneumatic hammer) - 3.0 Building industry (brick laying) - 2.2 Building industry (forming the mould) - 3.1 Building industry (loading a wheelbarrow with stones and mortar) - 4.7 Forestry (cutting with chainsaw) - 3.5 Forestry (working with an axe) - 8.5 Agriculture (digging with a spade) - 6.5 ... Volleyball - 4.0 Golf - 5.0 Softball - 5.0 Gymnastics - 5.5 Aerobic Dancing - 6.0 Swimming - 6.0 Ice skating - 6.2 Bicycling (15 km/h) - 4.0 Bicycling (20km/h) - 6.2 Skiing (9 km/h) - 7.0 Backpacking - 7.0 Basketball - 7.0 Handball - 8.0 Hockey - 8.0 Racquetball - 8.0 Soccer - 8.0 Running (8 km/h) - 8.5 Running (15km/h) - 9.5 - If not supplied default value of 2.32 (walking 4 km/h or 1.1m/s) mets will be used.
+Activity's metabolic rate in mets. If not supplied 2.32 will be used as default value Here are some of the examples of metabolic rates mets based on activity: Activity - met ------------------- Reclining  - 0.8 Seating - 1.0 Car driving - 1.2 Sedentary activity (office, dwelling, school, laboratory) - 1.2 Standing - 1.2 Standing (light activity: shopping, laboratory, light industry) - 1.6 Standing (medium activity: shop assistant, domestic work) - 2.0 Walking (4 km/h) - 2.32 Walking (5 km/h) - 3.4 ... Washing dishes standing - 2.5 Domestic work (raking leaves on the lawn) - 2.9 Domestic work (washing by hand and ironing) - 2.9 Iron and steel (ramming the mould with a pneumatic hammer) - 3.0 Building industry (brick laying) - 2.2 Building industry (forming the mould) - 3.1 Building industry (loading a wheelbarrow with stones and mortar) - 4.7 Forestry (cutting with chainsaw) - 3.5 Forestry (working with an axe) - 8.5 Agriculture (digging with a spade) - 6.5 ... Volleyball - 4.0 Golf - 5.0 Softball - 5.0 Gymnastics - 5.5 Aerobic Dancing - 6.0 Swimming - 6.0 Ice skating - 6.2 Bicycling (15 km/h) - 4.0 Bicycling (20km/h) - 6.2 Skiing (9 km/h) - 7.0 Backpacking - 7.0 Basketball - 7.0 Handball - 8.0 Hockey - 8.0 Racquetball - 8.0 Soccer - 8.0 Running (8 km/h) - 8.5 Running (15km/h) - 9.5 - If not supplied default value of 2.32 (walking 4 km/h or 1.1m/s) mets will be used. - In mets.
 * ##### activityDuration [Optional]
-Duration of the activity sequence in minutes. - If not supplied, default value of 480 minutes (8 hours) will be used.
+Duration of the activity sequence. It should not be lower than 180 minutes (3 hours) and it should be dividable with 60 (meaning only full hour values are accepted: 180, 240, 300, 360, 420, 480, 540 ...) - If not supplied, default value of 480 minutes (8 hours) will be used. - In minutes.
 
 #### Outputs
 * ##### readMe!
@@ -34,7 +36,7 @@ Body Mass Index - is the ratio of the persons weight to square of height. It is 
 * ##### BMILevel
 Level of BMI for adult (18 years and older) males and females: ---------------- - for males: BMI < 17.5 - Anorexia 17.5 < BMI < 20.7 - Underweight 20.7 < BMI < 26.4 - Normal weight 26.4 < BMI < 27.8 - Marginally overweight 27.8 < BMI < 31.1 - Overweight 31.1 < BMI < 40 - Obese BMI > 40 - Extreme obesity - - for females: BMI < 17.5 - Anorexia 17.5 < BMI < 19.1 - Underweight 19.1 < BMI < 25.8 - Normal weight 25.8 < BMI < 27.3 - Marginally overweight 27.3 < BMI < 32.3 - Overweight 32.3< BMI < 40 - Obese BMI > 40 - Extreme obesity - In calories/day.
 * ##### bodyCharacteristics
-A list of inputted values (age, gender, height, weight, bodyPosition, clothingInsulation, acclimated, metabolicRate, activityDuration). - Use it for the "Thermal comfort indices" component's "bodyCharacteristics_" input.
+A list of inputted values (age, sex, height, weight, bodyPosition, clothingInsulation, acclimated, metabolicRate, activityDuration). - Use it for the "Thermal comfort indices" component's "bodyCharacteristics_" input.
 
 
 [Check Hydra Example Files for Body Characteristics](https://hydrashare.github.io/hydra/index.html?keywords=Ladybug_Body Characteristics)

@@ -18,11 +18,13 @@ Input a point here to change the location of the legend in the Rhino scene.  The
 * ##### legendScale [Optional]
 Input a number here to change the scale of the legend in relation to its corresponding Ladybug graphic.  The default is set to 1.
 * ##### font [Optional]
-An optional text string that sets the font of the text. Examples include "Arial", "Times New Roman" or "Courier" (all without quotations).  The text input here can be any font that is on your computer but the font must be of an Editable file type (as seen in the font folder off of your control panel).  Font files that are Print and Preview will not work.
+An optional text string that sets the font of the text. Examples include "Arial", "Times New Roman" or "Courier" (all without quotations).  The text input here can be any font that is on your computer but the font must be of an Editable file type (as seen in the font folder off of your control panel).  Font files that are Print and Preview will not work.  If you wish to use a Bolded version of the font, include a ", Bold" at the end of the font name (example: "Arial, Bold").
 * ##### fontSize [Optional]
 An optional number to set the size of the text in Rhino model units.
-* ##### bold [Optional]
-Set to 'True' to have the text be bolded and set to 'False' to have it displayed in medium type face.  The default is set to 'False.'
+* ##### decimalPlaces [Optional]
+An interger representing the number of decimal places to make the legend values.  The default is set to 2 decimal places.
+* ##### removeLessThan [Optional]
+Set to 'True' to have the "<=" and ">=" symbols removed from the legend.  The default is set to 'False' to have these symbols included.
 
 #### Outputs
 * ##### legendPar

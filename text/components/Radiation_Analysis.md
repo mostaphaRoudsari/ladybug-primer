@@ -52,7 +52,7 @@ A legend for the radiation study showing radiation values that correspond to the
 * ##### legendBasePt
 The legend base point, which can be used to move the legend in relation to the radiation mesh with the grasshopper "move" component.
 * ##### totalRadiation
-The total radiation in kWh falling on the input test _geometry.  This is computed through a mass addition of all the kWh/m2 results at each of the test points and then multiplying this by the area of all the the surfaces in the test _geometry.
+The total radiation in kWh falling on the input test _geometry.  This is computed through a mass addition of results at each of the test points in kWh/m2 multiplied by the area of the face that the test point is representing.
 * ##### intersectionMtx
 A python list that includes the relation between each test point and all the sky patchs on the sky dome.  After running a basic radiation study, you can connect this output to the Ladybug "Real Time Radiation Analysis" component to scroll through the radiation falling on your test geometry on an hour-by-hour, day-by-day, or month-by-month basis in real time.
 

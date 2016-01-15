@@ -9,8 +9,6 @@ Use this component to adjust an existing Mean Radiant Temperature for shortwave 
 The location output from the 'Ladybug_Import epw' component.
 * ##### cumSkyMtxOrDirNormRad [Required]
 Either the output from a GenCumulativeSkyMtx component (for high-resolution analysis) or the directNormallRadiation ouput from the 'Ladybug_Import epw' component (for simple, low-resolution analsysis).
-* ##### diffuseHorizRad [Required]
-If you are running a simple analysis with Direct Normal Radiation above, you must provide the diffuseHorizaontalRadiation ouput from the 'Ladybug_Import epw' component here.  Otherwise, this input is not required.
 * ##### meanRadTemperature [Required]
 A number or list of numbers representing the mean radiant temperature of the surrounding surfaces in degrees Celcius.  This number will be modified to account for solar radiation.  This input can be air temperature data from the 'Import_epw' component and will follow the assumption that the surrounding mean radiant temperature is the same as the air temperature.  This assumption is ok for a person in an outdoor open field.  However, the more obstacles that surround the person (and the more 'contextShading_' that you add), the more important it is to derive a starting mean radiant temperature from a Honeybee Energy simulation.
 * ##### bodyPosture [Optional]
@@ -38,7 +36,7 @@ Set to 'True' to have the mannequin labled with adjusted perceived radiant tempe
 * ##### parallel [Optional]
 Set to 'True' to run the component using multiple CPUs.  This can dramatically decrease calculation time but can interfere with other intense computational processes that might be running on your machine.  For this reason, the default is set to 'True.'
 * ##### runIt [Required]
-Set to "True" to run the component and calculate solar-adjusted Mean Radiant Temperature.
+The legend base point, which can be used to move the legend in relation to the chart with the grasshopper 'move' component.
 
 #### Outputs
 * ##### readMe!

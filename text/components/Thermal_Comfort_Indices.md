@@ -2,37 +2,33 @@
 
 ![](../../images/components/Thermal_Comfort_Indices.png)
 
-Use this component to calculate different thermal comfort indices 
+Use this component to calculate various thermal comfort indices: ------ - HI (Heat Index) - humidex (humidity index) - DI (Discomfort Index) - WCI (Wind Chill Index) - WCT (Wind Chill Temperature) - WBGT (Wet-Bulb Globe Temperature) indoors - WBGT (Wet-Bulb Globe Temperature) outdoors - TE (Effective Temperature) - AT (Apparent Temperature) - TS (Thermal Sensation) - ASV (Actual Sensation Vote) - MRT (Mean Radiant Temperature) - Iclp (Predicted Insulation Index Of Clothing) - HR (Heart Rate) - DhRa (Dehydration Risk) - PET (Physiological Equivalent Temperature) - THI (Temperature Humidity Index) - PHS (Predicted Heat Strain) - 
 
 #### Inputs
 * ##### comfortIndex [Required]
-Choose one of the comfort indices: 0 - HI (Heat Index) 1 - humidex (humidity index) 2 - DI (Discomfort Index) 3 - WCI (Wind Chill Index) 4 - WCT (Wind Chill Temperature) 5 - WBGT (Wet-Bulb Globe Temperature) indoors 6 - WBGT (Wet-Bulb Globe Temperature) outdoors 7 - TE (Effective Temperature) 8 - AT (Apparent Temperature) 9 - TS (Thermal Sensation) 10 - ASV (Actual Sensation Vote) 11 - MRT (Mean Radiant Temperature) 12 - Iclp (Predicted Insulation Index Of Clothing) 13 - HR (Heart Rate) 14 - DhRa (Dehydration Risk)
+Choose one of the comfort indices: 0 - HI (Heat Index) 1 - humidex (humidity index) 2 - DI (Discomfort Index) 3 - WCI (Wind Chill Index) 4 - WCT (Wind Chill Temperature) 5 - WBGT (Wet-Bulb Globe Temperature) indoors 6 - WBGT (Wet-Bulb Globe Temperature) outdoors 7 - TE (Effective Temperature) 8 - AT (Apparent Temperature) 9 - TS (Thermal Sensation) 10 - ASV (Actual Sensation Vote) 11 - MRT (Mean Radiant Temperature) 12 - Iclp (Predicted Insulation Index Of Clothing) 13 - HR (Heart Rate) 14 - DhRa (Dehydration Risk) 15 - PET (Physiological Equivalent Temperature) for temperate climates 16 - PET (Physiological Equivalent Temperature) for tropical and subtropical humid climates 17 - THI (Temperature Humidity Index) 18 - PHS (Predicted Heat Strain)
 * ##### location [Required]
-Input data from Ladybug's "Import epw" "location" output, or create your own location data with Ladybug's "Construct Location" component
+Input data from Ladybug's "Import epw" "location" output, or create your own location data with Ladybug's "Construct Location" component.
 * ##### dryBulbTemperature [Required]
-Hourly Dry Bulb Temperature (air temperature), in Celsius
+Air temperature. Input a single value or a whole list from "Import epw" component's "dryBulbTemperature" output. - In Celsius degrees (°C).
+* ##### meanRadiantTemperature [Optional]
+An average temperature of the surfaces that surround the analysis location. For indoor conditions or outdoor in-shade, it should be equal to air temperature. So just input the same data you inputted to "_dryBulbTemperature". - If nothing supplied, it will be calculated for outdoor conditions (both in-shade and out-shade). - In Celsius degrees (°C).
 * ##### dewPointTemperature [Optional]
-Hourly Dew Point Temperature, in Celsius If not supplied, it will be calculated from dryBulbTemperature and relativeHumidity
-* ##### relativeHumidity [Required]
-Hourly Relative Humidity, in percent (from 0% to 110%)
+Dew point temperature. Input a single value or a whole list from "Import epw" component's "dewPointTemperature" output. - If not supplied, it will be calculated from _dryBulbTemperature and relativeHumidity_ data. - In Celsius degrees (°C).
+* ##### relativeHumidity [Optional]
+Relative humidity. Input a single value or a whole list from "Import epw" component's "relativeHumidity" output. - If not supplied 50% will be used as a default (indoor conditions). - In percent (from 0% to 110%).
 * ##### windSpeed [Optional]
-Hourly Wind Speed, in meters/second If not supplied, default value of 0.3 m/s is used.
+Wind speed at 1.1 meters height from analysis surface (height of standing person’s gravity center). It can be a single value or a list of values. Take the "windSpeed" output from "Import epw" component and plug it to "Wind Speed Calculator" component's "_windSpeed_tenMeters" input. Set the "heightAboveGround_" input to "1.1". Then plug in the data from "Wind Speed Calculator" component's "windSpeedAtHeight" output to this component's "windSpeed_" input. In this way we converted the 10 meter wind speed from the .epw file to required 1.1m. - If not supplied, default value of 0.3 m/s is used (meaning: the analysis is conducted in outdoor no wind conditions, or indoor conditions). - In meters/second.
 * ##### globalHorizontalRadiation [Optional]
-Total amount of direct and diffuse solar radiation received on a horizontal surface, in Wh/m2. If not supplied, default value of 0 Wh/m2 is used.
+Total amount of direct and diffuse solar radiation that an analysis person received. Use the "globalHorizontalRadiation" data from Ladybug's "Import epw" component for analysis without shading. For analysis with shading included, use the "shadedSolarRadiationPerHour" output from "Sunpath shading" component instead. - If not supplied, default value of 0 Wh/m2 will be used (meaning: the analysis is conducted in outdoor in shade conditions, or indoor conditions). - In Wh/m2.
 * ##### totalSkyCover [Optional]
-Amount of sky dome in tenths covered by clouds or obscuring phenomena, in tenths of coverage (from 1 to 10). For example: 1 is 1/10 covered. 10 is total coverage (10/10). If not supplied, dfault value of 8 (8/10) is used.
-* ##### metabolicRate [Optional]
-Input metabolic rate in mets. If not supplied 2.32 will be used as default value Here are some of the examples of metabolic rates mets based on activity: Activity - met ------------------- Reclining  - 0.8 Seating - 1.0 Car driving - 1.2 Sedentary activity (office, dwelling, school, laboratory) - 1.2 Standing - 1.2 Standing (light activity: shopping, laboratory, light industry) - 1.6 Standing (medium activity: shop assistant, domestic work) - 2.0 Walking (5 km/h) - 3.4 ... Washing dishes standing - 2.5 Domestic work (raking leaves on the lawn) - 2.9 Domestic work (washing by hand and ironing) - 2.9 Iron and steel (ramming the mould with a pneumatic hammer) - 3.0 Building industry (brick laying) - 2.2 Building industry (forming the mould) - 3.1 Building industry (loading a wheelbarrow with stones and mortar) - 4.7 Forestry (cutting with chainsaw) - 3.5 Forestry (working with an axe) - 8.5 Agriculture (digging with a spade) - 6.5 ... Volleyball - 4.0 Golf - 5.0 Softball - 5.0 Gymnastics - 5.5 Aerobic Dancing - 6.0 Swimming - 6.0 Ice skating - 6.2 Bicycling (15 km/h) - 4.0 Bicycling (20km/h) - 6.2 Skiing (9 km/h) - 7.0 Backpacking - 7.0 Basketball - 7.0 Handball - 8.0 Hockey - 8.0 Racquetball - 8.0 Soccer - 8.0 Running (8 km/h) - 8.5 Running (15km/h) - 9.5
-* ##### age [Optional]
-An age of the person. This input is only important for HR (Heart Rate) index. If not supplied, default value of 30 will be used.
-* ##### gender [Optional]
-Input 0 or "male"  or  1 or "female". This input is only important for HR (Heart Rate) index. If not supplied, "male" will be used as a default value.
-* ##### acclimated [Optional]
-Input True if person in subject is acclimatized, or False if it's not. This input is only important for DhRa (Dehydration risk). If no value is supplied, False (unacclimated) will be used by default.
+Amount of sky dome covered by clouds. Input a single value or a whole list from "Import epw" component's "totalSkyCover" output. It ranges from from 1 to 10. For example: 1 is 1/10 covered. 10 is total coverage (10/10). - If not supplied 6/10 will be used (cloud coverage of temperate humid climate). - In tenths of sky cover.
+* ##### bodyCharacteristics [Optional]
+A list of body characteristics in the following order: age, sex, height, weight, bodyPosition, clothingInsulation, acclimated, metabolicRate, activityDuration. Use Ladybug's "Body Characteristics" component to generate it. - If not supplied, the following default values will be used: -- 30 - age "male" - sex 175 - height in centimeters 75 - weight in kilograms "standing" - bodyPosition None (clothingInsulation - "None" means that it will be calculated based on air temperature) 37 - clothingAlbedo in % (for medium colored clothes) "unacclimated" - acclimated 2.32 - metabolicRate in mets (2.32 corresponds to walking 4km/h) 480 - activityDuration in minutes
 * ##### HOY [Optional]
-An hour of the year for which you would like to calculate thermal indices.  This must be a value between 1 and 8760. This input will override the analysisPeriod_ input below.
+An hour (or hours) of the year for which you would like to calculate thermal indices. These hours must be a value between 1 and 8760. This input will override the analysisPeriod_ input below. - If not supplied, this input will be ignored.
 * ##### analysisPeriod [Optional]
-An optional analysis period from the Analysis Period component. 
+An optional analysis period from the "Analysis Period" component. - If not supplied, the whole year period will be used as an analysis period.
 * ##### runIt [Required]
 ...
 
@@ -40,17 +36,17 @@ An optional analysis period from the Analysis Period component.
 * ##### readMe!
 ...
 * ##### comfortIndexValue
-Humidex (°C) - the human-perceived increase in air temperature due to Dew point temperature increase. Used by Canadian Meteorologist service.
-* ##### comfortIndexCategory
-Each number (from 0 to 5) represents a certain humidex thermal sensation category. With categories being the following:     - category 0 (<30°C): Little or no discomfort     - category 1 (30-35°C): Noticeable discomfort     - category 2 (35-40°C): Evident discomfort     - category 3 (40-45°C): Intense discomfort; avoid exertion     - category 4 (45-54°C): Dangerous discomfort     - category 5 (>54°C): Heat stroke probable
+The value of the chosen comfort.
+* ##### comfortIndexLevel
+The level (category, sensation) of the chosen index.
 * ##### comfortableOrNot
-Outputs 0 or 1. 0 indicates that a person is not comfortable, 1 that he/she is comfortable at that hour (meaning humidex is < 30°C)
+Indication of whether that person is comfortable (1) or not (0) at particular hour.
 * ##### percentComfortable
-Percentage of time chosen for analysis period, during which humidex is < 26.6°C
+Percentage of time, during which chosen index falls into the comfortable category.
 * ##### percentHotExtreme
-Percentage of time chosen for analysis period, during which humidex is > 54.4°C
+Percentage of time, during which chosen index falls into the hot extreme category.
 * ##### percentColdExtreme
- 
+Percentage of time, during which chosen index falls into the cold extreme category.
 
 
 [Check Hydra Example Files for Thermal Comfort Indices](https://hydrashare.github.io/hydra/index.html?keywords=Ladybug_Thermal Comfort Indices)

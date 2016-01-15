@@ -15,8 +15,6 @@ Optional UV coordinates to tilt the viewport camera off from from the input _cam
 An optional float number that sets the lens length of the viewport camera.
 
 #### Outputs
-* ##### readMe!
-...
 
 
 [Check Hydra Example Files for Set the View](https://hydrashare.github.io/hydra/index.html?keywords=Ladybug_Set the View)

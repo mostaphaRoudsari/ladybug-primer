@@ -6,7 +6,6 @@
 * ![IMAGE](../../images/icons/CDD_HDD.png) [CDD_HDD](../components/CDD_HDD.md)
 * ![IMAGE](../../images/icons/Wind_Speed_Calculator.png) [Wind_Speed_Calculator](../components/Wind_Speed_Calculator.md)
 * ![IMAGE](../../images/icons/Adaptive_Comfort_Calculator.png) [Adaptive_Comfort_Calculator](../components/Adaptive_Comfort_Calculator.md)
-* ![IMAGE](../../images/icons/Body_Characteristics.png) [Body_Characteristics](../components/Body_Characteristics.md)
 * ![IMAGE](../../images/icons/Outdoor_Comfort_Calculator.png) [Outdoor_Comfort_Calculator](../components/Outdoor_Comfort_Calculator.md)
 * ![IMAGE](../../images/icons/PMV_Comfort_Calculator.png) [PMV_Comfort_Calculator](../components/PMV_Comfort_Calculator.md)
 * ![IMAGE](../../images/icons/Thermal_Comfort_Indices.png) [Thermal_Comfort_Indices](../components/Thermal_Comfort_Indices.md)

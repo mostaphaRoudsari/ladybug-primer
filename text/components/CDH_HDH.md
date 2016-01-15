@@ -8,9 +8,9 @@ Calculates heating and cooling degree-hours. Degree-hours are defined as the di
 * ##### hourlyDryBulbTemperature [Required]
 Annual dry bulb temperature from the Import epw component (in degrees Celsius).
 * ##### coolingBaseTemperature [Default]
-Base temperature for cooling (in degrees Celsius). Default is set to 18.3C but this can be much lower if the analysis is for a building with high heat gain or insulation.
+Base temperature for cooling (in degrees Celsius). Default is set to 23.3C but this can be much lower if the analysis is for a building with high heat gain or insulation.
 * ##### heatingBaseTemperature [Default]
-Base temperature for heating (in degrees Celsius). Default is set to 23.3C but this can be much lower if the analysis is for a building with high heat gain or insulation.
+Base temperature for heating (in degrees Celsius). Default is set to 18.3C but this can be much lower if the analysis is for a building with high heat gain or insulation.
 
 #### Outputs
 * ##### readMe!

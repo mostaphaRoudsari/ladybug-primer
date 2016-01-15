@@ -6,15 +6,11 @@ Use this component to calculate various Photovoltaics performance metrics -
 
 #### Inputs
 * ##### PVsurface [Required]
-- Input planar Surface (not polysurface) on which the PV modules will be applied. If you have a polysurface, explode it (using "Deconstruct Brep" component) and then feed its Faces(F) output to _PVsurface. Surface normal should be faced towards the sun. - Or input surface Area, in square meters (example: "100"). - Or input PV system size (nameplate DC power rating), in kiloWatts at standard test conditions (example: "4 kw").
+- Input planar Grasshopper/Rhino Surface (not a polysurface) on which the PV modules will be applied. If you have a polysurface, explode it (using "Deconstruct Brep" component) and then feed its Faces(F) output to _PVsurface. Surface normal should be faced towards the sun. - Or create the Surface based on initial PV system size by using "PV SWH system size" component.
 * ##### PVsurfacePercent [Optional]
 The percentage of surface which will be used for PV modules (range 0-100). - Some countries and states, have local codes which limit the portion of the roof, which can be covered by crystalline silicon modules. For example, this may include having setbacks(distances) of approximatelly 90cm from side and top edges of a roof, as a fire safety regulation. - If not supplied, default value of 100 (all surface area will be covered in PV modules) is used.
-* ##### moduleActiveAreaPercent [Optional]
-Percentage of the module's area excluding module framing and gaps between cells.  - If not supplied, default value of 90(%) will be used.
-* ##### moduleEfficiency [Optional]
-The ratio of energy output from the PV module to input energy from the sun. It ranges from 0 to 100 (%). - If not defined, default value of 15(%) will be used.
-* ##### lifetime [Optional]
-Life expectancy of a PV module. In years. - If not supplied default value of 30 (years) will be used.
+* ##### PVmoduleSettings [Optional]
+Script variable PhotovoltaicsPerformanceMetrics
 * ##### ACenergyPerHour [Required]
 Import "ACenergyPerYear" output data from "Photovoltaics surface" component. In kWh.
 * ##### totalRadiationPerHour [Required]
@@ -29,28 +25,34 @@ The cost of one kilowatt hour in any currency unit (dollar, euro, yuan...) - I
 Energy necessary for an entire product life-cycle of PV module per square meter. In MJ/m2 (megajoules per square meter). - If not supplied default value of 4410 (MJ/m2) will be used.
 * ##### embodiedCO2PerM2 [Optional]
 Carbon emissions produced during PV module's life-cycle per square meter.. In kg CO2/m2 (kilogram of CO2 per square meter). - If not supplied default value of 225 (kg CO2/m2) will be used.
+* ##### lifetime [Optional]
+Life expectancy of a PV module. In years. - If not supplied default value of 30 (years) will be used.
 * ##### gridEfficiency [Optional]
 An average primary energy to electricity conversion efficiency. - If not supplied default value of 29 (%) will be used.
+* ##### optimal [Optional]
+Set to "True" to calculate optimal PVsurface area. An optimal PVsurface area will cover 100% of the of the annual electricity load ("ACenergyDemandPerHour_").
 * ##### runIt [Required]
 ...
 
 #### Outputs
 * ##### readMe!
 ...
+* ##### optimalSystemSize
+Optimal PV system size (optimal total size of the PV array) for a given PVsurface's tilt, array and "ACenergyDemandPerHour_". Minimum system size is 0.01 kW. Input it to "systemSize_" input of "PV SWH system size" component to see how much area it would require. - To calculate it, set the "optimal_" input to "True". - In thermal kiloWatts (kWt).
 * ##### CUFperYear
-Capacity Utilization Factor (sometimes called Plant Load Factor (PLF)) - ratio of the annual AC power output and maximum possible output under ideal conditions if the sun shone throughout the day and throughout the year. It is sometimes used by investors or developers for Financial and Maintenance analysis of the PV systems, instead of "basicPRperYear" (e.g. in India). - In percent (%).
+Capacity Utilization Factor (or Capacity Factor or sometimes evan called Plant Load Factor (PLF)) - ratio of the annual AC power output and maximum possible output under ideal conditions if the sun shone throughout the day and throughout the year. It is sometimes used by investors or developers for Financial and Maintenance analysis of the PV systems, instead of "basicPRperYear". - In percent (%).
 * ##### basicPRperYear
 Basic Performance Ratio - ratio of the actual and theoretically possible annual energy output. It is worldwide accepted standard metric for measuring the performance of the PV system, therefor it is used for Maintenance analysis of PV systems. Used for Maintenance analysis of PV systems. - basicPR is more precise than upper "CUF" and should be used instead of it, unless "CUF" is specifically required. - In percent(%).
 * ##### temperatureCorrectedPRperMonth
-Temperature corrected Performance Ratio - ratio of the actual and theoretically possible energy output per month, corrected for PV module's Cell temperature. Mid-day hours (solarRadiation > 0.6 kWh/m2) only taken into account. - It is more precise than upper "basicPR" and should be used instead of it, unless "basicPR" is specifically required. - In percent(%).
+Temperature corrected Performance Ratio - ratio of the actual and theoretically possible energy output for each month during a year, corrected for PV module's Cell temperature. Mid-day hours (solarRadiation > 0.6 kWh/m2) only taken into account. Used for Maintenance analysis of PV systems. - In percent(%).
 * ##### temperatureCorrectedPRperYear
-Temperature corrected Performance Ratio - ratio of the actual and theoretically possible annual energy output, corrected for PV module's Cell temperature. Mid-day hours (solarRadiation > 0.6 kWh/m2) only taken into account. - It is more precise than upper "basicPR" and should be used instead of it, unless "basicPR" is specifically required. - In percent(%).
+Temperature corrected Performance Ratio - ratio of the actual and theoretically possible annual energy output, corrected for PV module's Cell temperature. Mid-day hours (solarRadiation > 0.6 kWh/m2) only taken into account. Used for Maintenance analysis of PV systems. - It is more precise than upper "basicPR" and should be used instead of it, unless "basicPR" is specifically required. - In percent(%).
 * ##### energyOffsetPerMonth
-Percentage of the electricity demand covered by Photovoltaics system for each month. - It is used for Financial and Maintenance analysis of the PV system. - In percent(%).
+Percentage of the electricity demand covered by Photovoltaics system for each month during a year. - It is used for Financial and Maintenance analysis of the PV system. - In percent(%).
 * ##### energyOffsetPerYear
 Percentage of the total annual electricity demand covered by Photovoltaics system for a whole year. - It is used for Financial and Maintenance analysis of the PV system. - In percent(%).
-* ##### energyValuePerMonth
-Total Energy value for each month in currency unit (dollars, euros, yuans...) - It is used for Financial analysis of the PV system.
+* ##### energyValue
+Total Energy value for the whole year in currency unit (dollars, euros, yuans...) - It is used for Financial analysis of the PV system.
 * ##### Yield
 Ratio of annual AC power output and nameplate DC power rating. It is used for Financial analysis of the PV systems. - In hours (h).
 * ##### EROI
