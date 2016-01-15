@@ -1,6 +1,6 @@
 ## ![](../../images/icons/rIP2rSI.png) rIP2rSI
 
-![](../../images/components/rIP2rSI.png)
+![](../../images/500x500/rIP2rSI.png)
 
 Use this component to convert R-Values in IP (h·ft2·°F/BTU) to R-Values in SI (K·m2/W) to plug into any of the Honeybee material components. - 
 

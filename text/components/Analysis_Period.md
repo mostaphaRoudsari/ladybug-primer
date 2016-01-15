@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Analysis_Period.png) Analysis Period
 
-![](../../images/components/Analysis_Period.png)
+![](../../images/500x500/Analysis_Period.png)
 
 Use this component to set an analysis period, which can be used as input for a variety of other Ladybug and Honeybee components.  Default analysis period without any inputs is set to the entire year. - 
 

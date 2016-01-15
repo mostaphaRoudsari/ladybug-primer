@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Radiation_Analysis.png) Radiation Analysis
 
-![](../../images/components/Radiation_Analysis.png)
+![](../../images/500x500/Radiation_Analysis.png)
 
 This component allows you to calculate the radiation fallin on input _geometry using a sky matrix from the selectSkyMxt component. This type of radiation sutdy is useful for building surfaces such as windows, where you might be interested in solar heat gain, or solar panels, where you might be interested in the energy that can be collected. This component is also good for surfaces representing outdoor spaces (such as parks or seating areas) where radiation could affect thermal comfort or vegetation growth. No reflection of sunlight is included in the radiation analysis with this component and it should therefore be used neither for interior daylight studies nor for complex geometries nor for surfaces with high a reflectivity. For these situations where the relfection of light is important, the Honeybee daylight components should be used instead of this one. - 
 

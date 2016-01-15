@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Solar_Water_Heating_System.png) Solar Water Heating System
 
-![](../../images/components/Solar_Water_Heating_System.png)
+![](../../images/500x500/Solar_Water_Heating_System.png)
 
 Use this component to define Solar water heating system settings. - If nothing inputed, the following swh system will be used by default: - glazed flat plate collectors - active - closed loop - 1 story - unshaded - 
 

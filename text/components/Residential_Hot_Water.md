@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Residential_Hot_Water.png) Residential Hot Water
 
-![](../../images/components/Residential_Hot_Water.png)
+![](../../images/500x500/Residential_Hot_Water.png)
 
 Use this component to calculate domestic hot water consumption for each hour during a year, for a single family household (house). - Component based on paper: "Modeling patterns of hot water use in households", Ernest Orlando Lawrence Berkeley National Laboratory; Lutz, Liu, McMahon, Dunham, Shown, McGrue; Nov 1996: http://ees.lbl.gov/sites/all/files/modeling_patterns_of_hot_water_use_in_households_lbl-37805_rev.pdf - 
 

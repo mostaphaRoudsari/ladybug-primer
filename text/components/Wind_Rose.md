@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Wind_Rose.png) Wind Rose
 
-![](../../images/components/Wind_Rose.png)
+![](../../images/500x500/Wind_Rose.png)
 
 Use this component to make a windRose in the Rhino scene. - 
 

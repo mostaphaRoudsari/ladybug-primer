@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Orient_to_Camera.png) Orient to Camera
 
-![](../../images/components/Orient_to_Camera.png)
+![](../../images/500x500/Orient_to_Camera.png)
 
 Use this component to generate a plane that is oriented perpendicular to the active Rhino viewport camera direction and centered at an input _initPosition point. This is useful for orienting geometry Grasshopper to the Rhino viewport camera, which may help in presenting certain Ladybug visualizations in Rhino. Connect a Grasshopper "Timer" component to the refresh_ input of this component in order to get a real time update of the oriented plane based on the Rhino viewport camera direction. - 
 

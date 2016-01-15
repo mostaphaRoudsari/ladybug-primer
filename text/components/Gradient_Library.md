@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Gradient_Library.png) Gradient Library
 
-![](../../images/components/Gradient_Library.png)
+![](../../images/500x500/Gradient_Library.png)
 
 Use this component to access a library of typical gradients useful throughout Ladybug.  The output from this component should be plugged into the customColors_ input of the "Ladybug_Legend Parameters" component. _ For an image of each of the gardients in the library, check here: https://github.com/mostaphaRoudsari/ladybug/blob/master/resources/gradients.jpg - 
 

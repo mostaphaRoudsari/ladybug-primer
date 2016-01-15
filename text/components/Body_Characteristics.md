@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Body_Characteristics.png) Body Characteristics
 
-![](../../images/components/Body_Characteristics.png)
+![](../../images/500x500/Body_Characteristics.png)
 
 Use this component to calculate the Basal Metabolic Rate, Body Mass Index indices and to create the "bodyCharacterstics_" input for the "Thermal comfort indices" component. - Basal Metabolic Rate formula by Mifflin-St. Jeor. Body Mass Index formula by Adolphe Quetelet. - Formulas from: "Comparison of predictive equations for resting Metabolic rate in healthy nonobese and obese adults: a systematic review", Frankenfield, Roth-Yousey, Compher, American Dietetic Association, 2005.: https://www.andeal.org/files/Docs/Frankenfield_et_al_2005%5B1%5D.pdf - 
 

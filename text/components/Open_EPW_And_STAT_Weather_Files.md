@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Open_EPW_And_STAT_Weather_Files.png) Open EPW And STAT Weather Files
 
-![](../../images/components/Open_EPW_And_STAT_Weather_Files.png)
+![](../../images/500x500/Open_EPW_And_STAT_Weather_Files.png)
 
 Use this component to automatically download a .zip file from the Department of Energy's (DOE) database, unzip the file, and open both the .epw and .stat weather files into Grasshopper. The component requires the URL of the zipped file for the specific climate that you want to import from the DOE's website.  To open the DOE's website, use the Ladybug_download EPW Weather File component. Note that you can copy the zip file URL to your clipboard by right-clicking on the "ZIP" link for the climate that you want on the DOE's website and choosing "Copy Link Address." - 
 

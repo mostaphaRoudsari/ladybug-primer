@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Shading_Mask_II.png) Shading Mask_II
 
-![](../../images/components/Shading_Mask_II.png)
+![](../../images/500x500/Shading_Mask_II.png)
 
 Use this component to see the portion of the sky dome that is masked by context geometry around a given viewpoint. The component will generate separate meshs for the portions of the sky dome that are masked and visible. The component will also calculate the percentage of the sky that is masked by the context geometry and the percentage that is visible (the sky view factor). - 
 

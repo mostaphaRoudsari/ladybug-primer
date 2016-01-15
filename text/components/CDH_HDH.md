@@ -1,6 +1,6 @@
 ## ![](../../images/icons/CDH_HDH.png) CDH_HDH
 
-![](../../images/components/CDH_HDH.png)
+![](../../images/500x500/CDH_HDH.png)
 
 Calculates heating and cooling degree-hours. Degree-hours are defined as the difference between the base temperature and the average ambient outside air temperature multiplied by the number of hours that this difference condition exists. - 
 

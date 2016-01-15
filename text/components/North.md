@@ -1,6 +1,6 @@
 ## ![](../../images/icons/North.png) North
 
-![](../../images/components/North.png)
+![](../../images/500x500/North.png)
 
 Use this component to create a compass sign that indicates the direction of North in the Rhino scene. - 
 

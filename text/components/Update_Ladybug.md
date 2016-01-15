@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Update_Ladybug.png) Update Ladybug
 
-![](../../images/components/Update_Ladybug.png)
+![](../../images/500x500/Update_Ladybug.png)
 
 Code Developers and Beta Testers of new Ladybug components can use this component to remove old Ladybug components, add new Ladybug components, and update existing Ladybug components from a synced Github folder on their computer. This component can also update outdated Ladybug components in an old Grasshopper file so long as the updates to the components do not involve new inputs or outputs. - 
 

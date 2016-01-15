@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Wind_Boundary_Profile.png) Wind Boundary Profile
 
-![](../../images/components/Wind_Boundary_Profile.png)
+![](../../images/500x500/Wind_Boundary_Profile.png)
 
 Use this component to visualize a wind profile curve for a given terrain type.  Wind speed increases as one leaves the ground and wind profiles are a means of visualizing this change in wind speed with height. - More information on the power law of the wind profile can be found here: http://en.wikipedia.org/wiki/Wind_profile_power_law - 
 

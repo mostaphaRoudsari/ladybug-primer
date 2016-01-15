@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Branch_Data.png) Branch Data
 
-![](../../images/components/Branch_Data.png)
+![](../../images/500x500/Branch_Data.png)
 
 Use this component to convert any list of annual data into a data tree branched by day of the year, month of the year, or hour of the day. If the data is not 8760 value sof each hour, the number of _data items should match number of items in HOY_. - 
 

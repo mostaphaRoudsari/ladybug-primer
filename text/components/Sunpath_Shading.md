@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Sunpath_Shading.png) Sunpath Shading
 
-![](../../images/components/Sunpath_Shading.png)
+![](../../images/500x500/Sunpath_Shading.png)
 
 This component calculates the shading of: - Photovoltaic modules - Solar Water Heating collectors - any other purpose (shading of points) - Use "annualShading", "Sep21toMar21Shading" and "Mar21toSep21Shading" outputs for Photovoltaic modules shading.  Use "beamIndexPerHour" and "skyViewFactor" outputs for Solar Water Heating collectors shading, or any other purpose. - "annualShading" output is based on "Using sun path charts to estimate the effects of shading on PV arrays", University of Oregon, Frank Vignola: http://solardat.uoregon.edu/download/Papers/UsingSunPathChartstoEstimatetheEffectofShadingonPVArrays.pdf - 
 

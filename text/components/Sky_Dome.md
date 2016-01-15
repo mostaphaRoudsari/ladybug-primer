@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Sky_Dome.png) Sky Dome
 
-![](../../images/components/Sky_Dome.png)
+![](../../images/500x500/Sky_Dome.png)
 
 This component allows you to visualize a selected sky matrix from the selectSkyMxt component in order to see the patches of the sky dome where radiation is coming from. The component will produce 3 sky domes by default: a dome showing just the diffuse radiation, a dome showing just the direct radiation, and a dome showing the total radiation. - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/SolarEnvelope.png) SolarEnvelope
 
-![](../../images/components/SolarEnvelope.png)
+![](../../images/500x500/SolarEnvelope.png)
 
 Use this component to generate a solar envelope for a given test surface, set of solar vectors, and context geometry that you want to ensure solar access to.  Solar envelopes are typically used to illustrate the volume that can be built within in order to ensure that a new development does not shade the surrounding properties for a given set of sun vectors. - 
 

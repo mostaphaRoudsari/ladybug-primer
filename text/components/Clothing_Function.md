@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Clothing_Function.png) Clothing Function
 
-![](../../images/components/Clothing_Function.png)
+![](../../images/500x500/Clothing_Function.png)
 
 Use this component to generate a list of values representing a clothing schedule based on outdoor air temperature.  This schedule can be plugged into the clothingLevel_ input of the PMV Comfort Calculator component. By default, this function used to derive clothing levels based on outside temperature was developed by Schiavon, Stefano and implemented on the CBE comfort tool (http://smap.cbe.berkeley.edu/comforttool/). This version of the component allows users to change the maximum and minimum clothing levels, which Schiavon set at 1 and 0.46 respectively, and the temperatures at which these clothing levels occur, which Schiavon set at 26C and -5 C respectively. Note that Schiavon did not endorse the changing of these values but they are provided here to allow users an additional level of freedom. - 
 

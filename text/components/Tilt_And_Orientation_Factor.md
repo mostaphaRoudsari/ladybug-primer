@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Tilt_And_Orientation_Factor.png) Tilt And Orientation Factor
 
-![](../../images/components/Tilt_And_Orientation_Factor.png)
+![](../../images/500x500/Tilt_And_Orientation_Factor.png)
 
 This component calculates the Optimal Tilt, Optimal Orientation and TOF (Tilt and Orientation Factor) for PV modules or Solar water heating collectors. TOF is a solar radiation at the actual tilt and orientation divided by the solar radiation at the optimum tilt and orientation. - 
 

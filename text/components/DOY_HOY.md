@@ -1,6 +1,6 @@
 ## ![](../../images/icons/DOY_HOY.png) DOY_HOY
 
-![](../../images/components/DOY_HOY.png)
+![](../../images/500x500/DOY_HOY.png)
 
 Use this component to calculate the day of the year and hour of the year from an input date with a day of the month, month of the year and hour of the day. - 
 

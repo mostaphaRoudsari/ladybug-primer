@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Open_EPW_Weather_File.png) Open EPW Weather File
 
-![](../../images/components/Open_EPW_Weather_File.png)
+![](../../images/500x500/Open_EPW_Weather_File.png)
 
 Use this component to open an .epw weather file from a location on your computer. - 
 

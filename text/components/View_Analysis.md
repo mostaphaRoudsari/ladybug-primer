@@ -1,6 +1,6 @@
 ## ![](../../images/icons/View_Analysis.png) View Analysis
 
-![](../../images/components/View_Analysis.png)
+![](../../images/500x500/View_Analysis.png)
 
 Use this component to evaluate the visibility of input _geometry from a set of key viewing points. For example, this component can be used to evaluate the visibility of an 3D architectural feature from a set of key viewing points along a nearby street or park where people congregate. Another example would be evaluating the visibility of park vegetation geometry from a set of key sun position points from the sunPath component. Yet another example would be evaluating the "visibility" of an outdoor overhead radiative heater from a set of key "viewing" points located over a human body standing beneath it. This component outputs a percentage of viewpoints seen by the input _geometry.  In the three examples here, this would be the percentage of the 3D architectural feature seen from the street, the percentage of sunlit hours received by the vegetation, or the percentage of the human body warmed by the heater. This component will evaluate view from the test points objectively in all directions.  - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Real_Time_Radiation_Analysis.png) Real Time Radiation Analysis
 
-![](../../images/components/Real_Time_Radiation_Analysis.png)
+![](../../images/500x500/Real_Time_Radiation_Analysis.png)
 
 Use this component to scroll through the results of a Ladybug Radiation Analysis on an hour-by-hour, day-by-day, or month-by-month basis in real time! The component uses a sky matrix (SkyMxt) from the selectSkyMxt component and the intersection matrix (intersectionMxt) from the Radiation Analysis component to calculate real time radiation results. Once the correct inputs have been hooked up to this component, you should use the inputs of the connected selectSkyMxt component to scroll through results. - 
 

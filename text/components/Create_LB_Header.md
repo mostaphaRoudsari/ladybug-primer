@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Create_LB_Header.png) Create LB Header
 
-![](../../images/components/Create_LB_Header.png)
+![](../../images/500x500/Create_LB_Header.png)
 
 Use this component to generates a Ladybug Header that can be combined with any raw data in order to format it for use with the Ladybug/Honeybee components. _ This component is particularly useful if you are bringing in data from other plugins or from instrumental measurements and you want to visualize it or analyze it with the Ladybug and Honeybee components.  It is also useful if you want to replace the header on Ladybug data. - 
 

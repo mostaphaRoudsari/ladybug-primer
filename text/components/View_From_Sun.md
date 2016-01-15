@@ -1,6 +1,6 @@
 ## ![](../../images/icons/View_From_Sun.png) View From Sun
 
-![](../../images/components/View_From_Sun.png)
+![](../../images/500x500/View_From_Sun.png)
 
 Use this component to open a new viewport in Rhino that shows the view from the sun.  This is useful for understanding what parts of Rhino geometry are shaded at a particular hour of the day. - 
 

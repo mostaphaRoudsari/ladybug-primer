@@ -1,6 +1,6 @@
 ## ![](../../images/icons/selectSkyMtx.png) selectSkyMtx
 
-![](../../images/components/selectSkyMtx.png)
+![](../../images/500x500/selectSkyMtx.png)
 
 Use this component to select a specific sky matrix (skyMxt) for an hour of the year or for an analysis period. - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/PV_SWH_System_Size.png) PV SWH System Size
 
-![](../../images/components/PV_SWH_System_Size.png)
+![](../../images/500x500/PV_SWH_System_Size.png)
 
 Use this component to generate the PVsurface or SWHsurface for "Photovoltaics surface" or "Solar Water Heating surface" components, based on initial PV or SWH system sizes. - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Day_Month_Hour.png) Day_Month_Hour
 
-![](../../images/components/Day_Month_Hour.png)
+![](../../images/500x500/Day_Month_Hour.png)
 
 Use this component to calculate date information from an hour of the year.  Date information includes the day of the month, the month of the year and the hour of the day. - 
 

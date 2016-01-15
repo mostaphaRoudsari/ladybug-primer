@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Radiation_Calla_Lily.png) Radiation Calla Lily
 
-![](../../images/components/Radiation_Calla_Lily.png)
+![](../../images/500x500/Radiation_Calla_Lily.png)
 
 Use this component to draw Radiation Calla Lily or Dome, which shows you how radiation would fall on an object from all directions for a given sky. _ It is useful for finding the best direction with which to orient solar panels and gives a sense of the consequences of deviating from such an orientation. _ The Calla Lily/Dome can be understood in three different ways: _ 1) The Calla Lily/Dome a 3D representation of all possible radiation roses for a given sky since it includes all vertical angles from 0 to 90. 2) The Calla Lily/Dome is the reciprocal of the Tergenza Sky Dome since the Cala Dome essentially shows you how the radiation from the sky will fall onto a hemispherical object. 3) The Calla Lily/Dome is a smart radiation analysis of a hemisphere.  Your results would effectively be the same if you made a hemisphere in Rhino and ran it through the "Radiation Analysis" component but, with this component, you will get a smoother color gradient and the component will automatically output the point (or vector) with the most radiation. - 
 

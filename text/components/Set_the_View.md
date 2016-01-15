@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Set_the_View.png) Set the View
 
-![](../../images/components/Set_the_View.png)
+![](../../images/500x500/Set_the_View.png)
 
 Use this component to set the camera location and direction for the Rhino "Perspective" viewport. Here is the video that shows how it works: http://www.youtube.com/watch?v=7Mmhz867zY8 - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/SolarFanBasic.png) SolarFanBasic
 
-![](../../images/components/SolarFanBasic.png)
+![](../../images/500x500/SolarFanBasic.png)
 
 Use this component to generate a solar fan with minimumal input data. This component predefines monthly and hourly ranges in order to simplify the creation of useful fan geometry.     The solar fan is used to ensure that a given property within a boundary curve is guarenteed a specified minimum hours of direct solar access for each day in a specified month range of the year. Thus, context geometries surrounding this boundary curve that do not penetrate the solar fan will not cast shadows onto the boundary area for the specified hour and month range. The start and end dates that determine the month range for solar access can be chosen from the following options: 0) Mar 21 - Jun 21 1) Mar 21 - Sep 21 2) Mar 21 - Dec 21 3) Jun 21 - Sep 21 4) Jun 21 - Dec 21 5) Sep 21 - Dec 21 The default set to 3) June 21 to September 21. Note that extremely complicated concave shapes will take a long time to calculate a solar fan for. - 
 

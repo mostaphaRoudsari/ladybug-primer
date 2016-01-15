@@ -1,6 +1,6 @@
 ## ![](../../images/icons/BTU2Wh.png) BTU2Wh
 
-![](../../images/components/BTU2Wh.png)
+![](../../images/500x500/BTU2Wh.png)
 
 Use this component to convert energy values in BTU to Wh, kBTU to kWh, BTU/ft2 to Wh/m2, or kBTU/ft2 to kWh/m2. - 
 

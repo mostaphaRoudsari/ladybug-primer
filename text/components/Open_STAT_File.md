@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Open_STAT_File.png) Open STAT File
 
-![](../../images/components/Open_STAT_File.png)
+![](../../images/500x500/Open_STAT_File.png)
 
 Use this component to open a .stat file, which downloads with the .epw weather file and contains information such as the climate zone and maximum temperatures for designing heating/cooling systems. This component opens the file from a location on your computer. - 
 

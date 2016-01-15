@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Construct_Time.png) Construct Time
 
-![](../../images/components/Construct_Time.png)
+![](../../images/500x500/Construct_Time.png)
 
 Use this component to construct a specific hour from corresponding time in hours, minutes and seconds.  The output can be plugged into the analysisPeriod or sunPath components. - 
 

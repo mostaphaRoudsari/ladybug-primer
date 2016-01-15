@@ -1,6 +1,6 @@
 ## ![](../../images/icons/F2C.png) F2C
 
-![](../../images/components/F2C.png)
+![](../../images/500x500/F2C.png)
 
 Use this component to convert temperatures from Fahrenheit to Celcius. - 
 
