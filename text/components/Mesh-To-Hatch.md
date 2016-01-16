@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Mesh-To-Hatch.png) Mesh-To-Hatch
 
-![](../../images/500x500/Mesh-To-Hatch.png)
+![](../../images/components/Mesh-To-Hatch.png)
 
 Use this component to bake a clored mesh into the Rhino scene as a series of colored hatches.  This is particularly useful if you are trying to export ladybug graphics from Rhino to vector-based programs like Inkscape or Illustrator. - 
 

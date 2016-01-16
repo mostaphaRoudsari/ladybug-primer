@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Comfort_Mannequin.png) Comfort Mannequin
 
-![](../../images/500x500/Comfort_Mannequin.png)
+![](../../images/components/Comfort_Mannequin.png)
 
 Use this component to color a mannequin based on their relation to a comfort temperature. - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/ms2mph.png) ms2mph
 
-![](../../images/500x500/ms2mph.png)
+![](../../images/components/ms2mph.png)
 
 Convert from m/s to mile/h  - 
 

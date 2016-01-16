@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Import_stat.png) Import stat
 
-![](../../images/500x500/Import_stat.png)
+![](../../images/components/Import_stat.png)
 
 Use this component to import climate data found in the .stat file that downloads with the .epw file (in the same .zip folder). Sepcifcally, this allows you to import the ASHRAE and Koppen climate zones as well as design temperatures representing the temperature extremes of the climate that should be used to design and size heating and cooling systems. Lastly, this component brings in the typical and extreme weeks of the year as ladybug analysis periods that can be plugged into the other ladybug components. - 
 

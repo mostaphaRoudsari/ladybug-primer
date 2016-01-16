@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Import_epw.png) Import epw
 
-![](../../images/500x500/Import_epw.png)
+![](../../images/components/Import_epw.png)
 
 Use this component to import lists of weather data into Grasshopper from a standard .epw file. For detailed information about the structure of an epw file, you may want to read the "Weather Converter Program" section in "Auxiliary EnergyPlus Programs" document. All descriptions of importaed data are borrowed from this document. The document is available online at this address: "http://apps1.eere.energy.gov/buildings/energyplus/pdfs/auxiliaryprograms.pdf" - 
 

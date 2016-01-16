@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Sunlight_Hours_Analysis.png) Sunlight Hours Analysis
 
-![](../../images/500x500/Sunlight_Hours_Analysis.png)
+![](../../images/components/Sunlight_Hours_Analysis.png)
 
 This component calculates the number of hours of direct sunlight received by input geometry using sun vectors from the sunPath component. This component can be used to evaluate the number of hours of sunlight received by vegetation in a park or the hours where direct sunlight might make a certain outdoor space comfortable or uncomfortable. It can also be used for coarsely-gridded shadow studies in the Rhino scene .  For finer and more detailed shadow studies with simple input geometry, the Ladybug ShadowStudy component can be used.  For detailed shadow studies with complex geometry, the Honeybee daylight tools are recommended. - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Export_Ladybug.png) Export Ladybug
 
-![](../../images/500x500/Export_Ladybug.png)
+![](../../images/components/Export_Ladybug.png)
 
 Code Developers of Ladybug and Honeybee can use this component to export Ladybug/Honeybee user objects and source code that they create to the Github folder on their computer. This eases and automates the steps before commiting new components to the Github. This component was written thanks to Giulio Piacentino a really helpful example. - 
 

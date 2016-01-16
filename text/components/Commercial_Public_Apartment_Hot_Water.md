@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Commercial_Public_Apartment_Hot_Water.png) Commercial Public Apartment Hot Water
 
-![](../../images/500x500/Commercial_Public_Apartment_Hot_Water.png)
+![](../../images/components/Commercial_Public_Apartment_Hot_Water.png)
 
 Use this component to calculate domestic hot water consumption for each hour during a year, for Commercial, Public and Apartment buildings. The following types of buildings are supported: - - office - apartment house or multifamily building - hotel/motel - restaurants, cafeterias - drive-ins, grilles, luncheonettes, sandwich, snack shops - primary school - junior and senior high school - men's dormitory - women's dormitory - hospital - nursing home - factory - Component based on paper: ASHRAE 2003 Applications Handbook (SI), Chapter 49, Service water heating: https://cours.etsmtl.ca/mec735/Documents/Notes_de_cours/2012/Hiver_2012/Service_Water_heating_ASHRAE.pdf - 
 

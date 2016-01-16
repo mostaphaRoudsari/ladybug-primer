@@ -1,6 +1,6 @@
 ## ![](../../images/icons/ShadingDesigner.png) ShadingDesigner
 
-![](../../images/500x500/ShadingDesigner.png)
+![](../../images/components/ShadingDesigner.png)
 
 Use this component to generate shading breps for any glazed surface or list of glazed surfaces.  The component supports two methods for shading generation.  The first is a simple depth method, which will generate an overhang of the speficied depth (or multiple overhangs if the _numOfShds is increased).  The second method is to input a set of solar vectors from the Sunpath component that should be blocked by the shade. - 
 

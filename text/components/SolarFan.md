@@ -1,6 +1,6 @@
 ## ![](../../images/icons/SolarFan.png) SolarFan
 
-![](../../images/500x500/SolarFan.png)
+![](../../images/components/SolarFan.png)
 
 Use this component to generate a solar fan for a given test surface and set of solar vectors.  Solar fans essentially illustrate the volume that should be clear of shading in order to provide solar access to a test surface for a given set of sun vectors. Solar fans are typically used to ensure solar access for park vegetation in the midst of large developments constructed around it.  It can be also used to ensure solar access for windows that might want to use the sun for heating for ceratin hours of the year. - 
 

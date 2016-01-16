@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Create_Legend.png) Create Legend
 
-![](../../images/500x500/Create_Legend.png)
+![](../../images/components/Create_Legend.png)
 
 Use this component to create a custom legend for any set of data or to create a more flexible legend for any ladybug component with a legend.  Specifically, this component outputs data that can be plugged into the grasshopper "Text Tag 3D" component so that the legend text can be baked into the Rhino scene as actual text instead of surfaces representing text. - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Shading_Parameters_List.png) Shading Parameters List
 
-![](../../images/500x500/Shading_Parameters_List.png)
+![](../../images/components/Shading_Parameters_List.png)
 
 Use this component to generate shading depths, numbers of shades, horizontal or vertical boolean values, and shade angles for different cardinal directions to be plugged into the "Ladybug_Shading Designer" component or the "Honeybee_EnergyPlus Window Shade Generator". - 
 

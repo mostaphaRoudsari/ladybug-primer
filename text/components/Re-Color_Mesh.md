@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Re-Color_Mesh.png) Re-Color Mesh
 
-![](../../images/500x500/Re-Color_Mesh.png)
+![](../../images/components/Re-Color_Mesh.png)
 
 Use this component to re-color a mesh with new a numerical data set whose length corresponds to the number of faces in the _inputMesh. This component is useful if you have post-processed any of the numerical data out of the Ladybug components using Grasshopper math components. It is also necessary to view results from the Ladybug Real Time Radiation Analysis. - 
 

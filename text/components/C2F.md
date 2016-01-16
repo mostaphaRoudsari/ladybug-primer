@@ -1,6 +1,6 @@
 ## ![](../../images/icons/C2F.png) C2F
 
-![](../../images/500x500/C2F.png)
+![](../../images/components/C2F.png)
 
 Use this component to convert temperatures from Celcius to Fahrenheit. - 
 

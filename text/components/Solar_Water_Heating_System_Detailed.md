@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Solar_Water_Heating_System_Detailed.png) Solar Water Heating System Detailed
 
-![](../../images/500x500/Solar_Water_Heating_System_Detailed.png)
+![](../../images/components/Solar_Water_Heating_System_Detailed.png)
 
 Use this component to define a detailed Solar water heating system settings. - If nothing inputed, the following swh system will be used by default: - glazed flat plate collectors - active - closed loop - pipe length: 20 meters - unshaded - 
 

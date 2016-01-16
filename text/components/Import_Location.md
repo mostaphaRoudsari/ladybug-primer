@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Import_Location.png) Import Location
 
-![](../../images/500x500/Import_Location.png)
+![](../../images/components/Import_Location.png)
 
 Use this component to import location data from a standard .epw file. You can use the output to draw a sunpath. - 
 

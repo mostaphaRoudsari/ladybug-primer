@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Decompose_Location.png) Decompose Location
 
-![](../../images/500x500/Decompose_Location.png)
+![](../../images/components/Decompose_Location.png)
 
 Use this component to separate and exctract the information in the 'location' output of the importEPW or constructLocation component. - 
 

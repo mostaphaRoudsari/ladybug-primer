@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Thermal_Comfort_Indices.png) Thermal Comfort Indices
 
-![](../../images/500x500/Thermal_Comfort_Indices.png)
+![](../../images/components/Thermal_Comfort_Indices.png)
 
 Use this component to calculate various thermal comfort indices: ------ - HI (Heat Index) - humidex (humidity index) - DI (Discomfort Index) - WCI (Wind Chill Index) - WCT (Wind Chill Temperature) - WBGT (Wet-Bulb Globe Temperature) indoors - WBGT (Wet-Bulb Globe Temperature) outdoors - TE (Effective Temperature) - AT (Apparent Temperature) - TS (Thermal Sensation) - ASV (Actual Sensation Vote) - MRT (Mean Radiant Temperature) - Iclp (Predicted Insulation Index Of Clothing) - HR (Heart Rate) - DhRa (Dehydration Risk) - PET (Physiological Equivalent Temperature) - THI (Temperature Humidity Index) - PHS (Predicted Heat Strain) - 
 

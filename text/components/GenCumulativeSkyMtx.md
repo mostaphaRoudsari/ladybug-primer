@@ -1,6 +1,6 @@
 ## ![](../../images/icons/GenCumulativeSkyMtx.png) GenCumulativeSkyMtx
 
-![](../../images/500x500/GenCumulativeSkyMtx.png)
+![](../../images/components/GenCumulativeSkyMtx.png)
 
 This component uses Radiance's gendaymtx function to calculate the sky's radiation for each hour of the year. This is a necessary pre-step before doing radiation analysis with Rhino geometry or generating a radiation rose. The first time you use this component, you will need to be connected to the internet so that the component can download the "gendaymtx.exe" function to your system. Gendaymtx is written by Ian Ashdown and Greg Ward. For more information, check the Radiance manual at: http://www.radiance-online.org/learning/documentation/manual-pages/pdfs/gendaymtx.pdf - 
 

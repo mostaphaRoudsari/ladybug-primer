@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Average_Data.png) Average Data
 
-![](../../images/500x500/Average_Data.png)
+![](../../images/components/Average_Data.png)
 
 Use this component to select the data out of an annual hourly data stream (from the importEPW component) using the "Analysis Period" component. This componenent also averages or totals the connected hourly data for each day, month, and average hour of each month in the analysis period. - 
 

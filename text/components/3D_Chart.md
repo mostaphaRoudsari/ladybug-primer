@@ -1,6 +1,6 @@
 ## ![](../../images/icons/3D_Chart.png) 3D Chart
 
-![](../../images/500x500/3D_Chart.png)
+![](../../images/components/3D_Chart.png)
 
 Use this component to make a 3D chart in the Rhino scene of any climate data or hourly simulation data. - 
 

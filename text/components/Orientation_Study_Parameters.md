@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Orientation_Study_Parameters.png) Orientation Study Parameters
 
-![](../../images/500x500/Orientation_Study_Parameters.png)
+![](../../images/components/Orientation_Study_Parameters.png)
 
 Use this component with the Ladybug "Radiation Analysis", "Sunlight Hours Analysis", or "View Analysis" component to set up the parameters for an Orientation Study. You can use an Orientation Study to answer questions like "What orientation of my building will give me the highest or lowest radiation gain for my analysis period?" Another question might be "What direction should I orient my static solar panel to get the maximum radiation during my analysis period?" An Orientation Study will automatically rotate your geometry around several times based on the inputs made to this component and the results will be recorded in the corresponding Analysis component that this one is hooked up to. - 
 

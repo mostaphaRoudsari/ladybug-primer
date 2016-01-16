@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Monthly_Bar_Chart.png) Monthly Bar Chart
 
-![](../../images/500x500/Monthly_Bar_Chart.png)
+![](../../images/components/Monthly_Bar_Chart.png)
 
 Use this component to make a bar chart in the Rhino scene of any monhtly or avrMonthyPerHour climate data or simulation data. _ This component can also plot daily or hourly data but, for visualizing this type of data, it is recommended that you use the "Ladybug_3D Chart" component. - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Wind_Speed_Calculator.png) Wind Speed Calculator
 
-![](../../images/500x500/Wind_Speed_Calculator.png)
+![](../../images/components/Wind_Speed_Calculator.png)
 
 Use this component to calculate wind speed at a specific height for a given terrain type.  By default, the component will calculate ground wind speed, which is useful for comfrt calculations.  Also, by hooking up wind data from an epw file, you can use the resulting data to create a wind rose at any height. - 
 

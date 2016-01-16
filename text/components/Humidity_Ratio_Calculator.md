@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Humidity_Ratio_Calculator.png) Humidity Ratio Calculator
 
-![](../../images/500x500/Humidity_Ratio_Calculator.png)
+![](../../images/components/Humidity_Ratio_Calculator.png)
 
 Calculates the humidity ratio from the ladybug weather file import parameters Conversion formulas are taken from the following publications: Vaisala. (2013) Humidity Conversion Formulas: Calculation Formulas for Humidity. www.vaisala.com/Vaisala%20Documents/Application%20notes/Humidity_Conversion_Formulas_B210973EN-F.pdf W. Wagner and A. Pruß:" The IAPWS Formulation 1995 for the Thermodynamic Properties of Ordinary Water Substance for General and Scientific Use ", Journal of Physical and Chemical Reference Data, June 2002 ,Volume 31, Issue 2, pp. 387535 - 
 

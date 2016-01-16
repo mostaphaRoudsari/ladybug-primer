@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Solar_Water_Heating_Performance_Metrics.png) Solar Water Heating Performance Metrics
 
-![](../../images/500x500/Solar_Water_Heating_Performance_Metrics.png)
+![](../../images/components/Solar_Water_Heating_Performance_Metrics.png)
 
 Use this component to calculate various Solar water heating performance metrics. Also use it to calculate the optimal SWH system size and tank storage volume. - 
 

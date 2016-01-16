@@ -1,6 +1,6 @@
 ## ![](../../images/icons/SunPath.png) SunPath
 
-![](../../images/500x500/SunPath.png)
+![](../../images/components/SunPath.png)
 
 Use this component to make a 3D sun-path (aka. sun plot) in the Rhino scene.  The component also outputs sun vectors that can be used for sunlight hours analysis or shading design with the other Ladybug components. The sun-path function used here is a Python version of the RADIANCE sun-path script by Greg Ward. The RADIANCE source code can be accessed at: http://www.radiance-online.org/download-install/CVS%20source%20code - 
 

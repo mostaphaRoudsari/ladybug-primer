@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Colored_Sky_Visualizer.png) Colored Sky Visualizer
 
-![](../../images/500x500/Colored_Sky_Visualizer.png)
+![](../../images/components/Colored_Sky_Visualizer.png)
 
 Use this component to visualize a Perez sky as a colored mesh in the Rhino scene using the weather file location, a time and date, and an estimate of turbidity (or amount of particulates in the atmosphere. - 
 

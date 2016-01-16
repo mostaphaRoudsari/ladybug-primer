@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Photovoltaics_Module.png) Photovoltaics Module
 
-![](../../images/500x500/Photovoltaics_Module.png)
+![](../../images/components/Photovoltaics_Module.png)
 
 Use this component to define the Photovoltaics module settings. - If nothing inputed, the following PV module settings will be used by default: - moduleType: Close (flush) roof mount  - moduleEfficiency: 15% - temperatureCoefficient: -0.5 %/°C - moduleActiveAreaPercent: 90% - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/SolarEnvelopeBasic.png) SolarEnvelopeBasic
 
-![](../../images/500x500/SolarEnvelopeBasic.png)
+![](../../images/components/SolarEnvelopeBasic.png)
 
 Use this component to generate a solar envelope for a closed boundary curve with minimum inputs. This component predefines monthly and hourly ranges in order to simplify the creation of useful envelope geometry.   The solar envelope is used to ensure that its adjacent neighbors (defined as anything outside of the chosen boundary curve) will receive a specified minimum hours of direct solar access for each day in a specified month range of the year. Any geometry built within the solar envelope boundaries will therefore not cast any shadow on adjacent property for the given hour and month range. The start and end dates that determine the month range for solar access can be chosen from the following options: 0) Mar 21 - Jun 21 1) Mar 21 - Sep 21 2) Mar 21 - Dec 21 3) Jun 21 - Sep 21 4) Jun 21 - Dec 21 5) Sep 21 - Dec 21 The default set to 4) June 21 to December 21. Reference: Niemasz, J., Sargent, J., Reinhart D.F., "Solar Zoning and Energy in  Detached Residential Dwellings," Proceedings of SIMAUD 2011, Boston, April 2011. - 
 

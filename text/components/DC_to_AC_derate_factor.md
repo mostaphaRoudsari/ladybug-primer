@@ -1,6 +1,6 @@
 ## ![](../../images/icons/DC_to_AC_derate_factor.png) DC to AC derate factor
 
-![](../../images/500x500/DC_to_AC_derate_factor.png)
+![](../../images/components/DC_to_AC_derate_factor.png)
 
 Use this component to calculate overall DC to AC derate factor for Photovoltaics Surface's "DCtoACderateFactor_" input. Overall DC to AC derate factor corresponds to various locations and instances in a PV system where power is lost from DC system nameplate to AC power. - Component first calculates PVWatts v5 Total losses, then converts them to PVWatts v1 overall DC to AC derate factor. Based on PVWatts v5 Manual: http://www.nrel.gov/docs/fy14osti/62641.pdf - If nothing supplied to the inputs, default value of 0.85 will be used. - 
 

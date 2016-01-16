@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Photovoltaics_Surface.png) Photovoltaics Surface
 
-![](../../images/500x500/Photovoltaics_Surface.png)
+![](../../images/components/Photovoltaics_Surface.png)
 
 Use this component to calculate amount of electrical energy that can be produced by a surface if a certain percentage of it is covered with Photovoltaics. Component based on NREL PVWatts v1 fixed tilt calculator for crystalline silicon (c-Si) photovoltaics. - Sources: http://www.nrel.gov/docs/fy14osti/60272.pdf https://pvpmc.sandia.gov - 
 

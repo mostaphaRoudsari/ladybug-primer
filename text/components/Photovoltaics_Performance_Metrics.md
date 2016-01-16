@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Photovoltaics_Performance_Metrics.png) Photovoltaics Performance Metrics
 
-![](../../images/500x500/Photovoltaics_Performance_Metrics.png)
+![](../../images/components/Photovoltaics_Performance_Metrics.png)
 
 Use this component to calculate various Photovoltaics performance metrics - 
 

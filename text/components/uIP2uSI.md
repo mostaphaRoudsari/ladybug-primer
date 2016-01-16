@@ -1,6 +1,6 @@
 ## ![](../../images/icons/uIP2uSI.png) uIP2uSI
 
-![](../../images/500x500/uIP2uSI.png)
+![](../../images/components/uIP2uSI.png)
 
 Use this component to convert U-Values in IP (BTU/h·ft2·°F) to U-Values in SI (W/K·m2) to plug into any of the Honeybee material components. - 
 

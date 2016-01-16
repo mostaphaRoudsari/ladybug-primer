@@ -1,6 +1,6 @@
 ## ![](../../images/icons/L2G.png) L2G
 
-![](../../images/500x500/L2G.png)
+![](../../images/components/L2G.png)
 
 Use this component to convert the liquid volume from Liters to U.S. Gallons (not Imperial Gallons). - 
 

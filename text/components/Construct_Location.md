@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Construct_Location.png) Construct Location
 
-![](../../images/500x500/Construct_Location.png)
+![](../../images/components/Construct_Location.png)
 
 Use this component if you do not have an .epw weather file but have a latitude or other information on the site. The location output of this component can be used to make a sun plot in the absence of an .epw weather file. - 
 

@@ -1,6 +1,6 @@
 ## ![](../../images/icons/view_Rose.png) view Rose
 
-![](../../images/500x500/view_Rose.png)
+![](../../images/components/view_Rose.png)
 
 Use this component to see the area visible from a given viewpoint across a 2D plane of vision. The component will create a circular surface in this plane of vision that is interrupted by context geometry to show the places that can be seen through this context geometry. - 
 

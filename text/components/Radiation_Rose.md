@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Radiation_Rose.png) Radiation Rose
 
-![](../../images/500x500/Radiation_Rose.png)
+![](../../images/components/Radiation_Rose.png)
 
 Use this component to make a radiation rose in the Rhino scene.  Radiation roses give a sense of how much radiation comes from the different cardinal directions, which will give an initial idea of where glazing should be minimized, shading applied, or solar collectors placed. - 
 

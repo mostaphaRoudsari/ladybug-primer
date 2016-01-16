@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Passive_Strategy_List.png) Passive Strategy List
 
-![](../../images/500x500/Passive_Strategy_List.png)
+![](../../images/components/Passive_Strategy_List.png)
 
 Provides a list of passive thermal strategies to be plugged into the Ladybug_Psychrometric Chart
 

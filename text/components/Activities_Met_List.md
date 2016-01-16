@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Activities_Met_List.png) Activities Met List
 
-![](../../images/500x500/Activities_Met_List.png)
+![](../../images/components/Activities_Met_List.png)
 
 Provides a list of available activites and outputs the metabolic rate of that activity for use in the Ladybug PMV comfort calculator.
 

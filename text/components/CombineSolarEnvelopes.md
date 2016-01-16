@@ -1,6 +1,6 @@
 ## ![](../../images/icons/CombineSolarEnvelopes.png) CombineSolarEnvelopes
 
-![](../../images/500x500/CombineSolarEnvelopes.png)
+![](../../images/components/CombineSolarEnvelopes.png)
 
 Use this component to combine two or more solar envelopes from Ladybug_SolarEnvelope component - 
 

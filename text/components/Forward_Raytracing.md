@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Forward_Raytracing.png) Forward Raytracing
 
-![](../../images/500x500/Forward_Raytracing.png)
+![](../../images/components/Forward_Raytracing.png)
 
 Use this component to get a sense of how sunlight is reflected by a set of context geometries by tracing sun rays forwards through this geometry. Examples where this component might be useful include the evaluation of the diffusion of light by a light shelf, or testing to see whether a parabolic building geometry (like a Ghery building) might focus sunlight to dangerous levels at certain times of the year. Note that this component assumes that all sun light is reflected off of these geometries specularly (as if they were a mirror) and, for more detailed raytrace analysis, the Honeybee daylight components should be used. - 
 

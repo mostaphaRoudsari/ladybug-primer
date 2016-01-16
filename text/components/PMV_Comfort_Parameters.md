@@ -1,6 +1,6 @@
 ## ![](../../images/icons/PMV_Comfort_Parameters.png) PMV Comfort Parameters
 
-![](../../images/500x500/PMV_Comfort_Parameters.png)
+![](../../images/components/PMV_Comfort_Parameters.png)
 
 Use this component to set PMV comfort parameters for the PMV comfort calculator or the Psychrometric Chart.   _ Parameters include whether comfort is defined by 80 or 90 percent of the occupants comfortable as well as maximum and minimum acceptable humidity ratios.  Note that the applied science and engineering community differs widely on its inderstanding of these parameters. _ The air conditioning industy set out with the goal of satisfying 80% of the occupants (assuming they all had similar clothing and metabolic rates) but many today set 90% as their benchmark.  Also note that, if you try to restrict everyone's clothing and metabolic rate as the PMV model assumed, you can never make 100% of the people comfortable. _ Further note that cultures differ widely in terms of their treatment of humidity at cooler temperatures and lack of humidity. - 
 

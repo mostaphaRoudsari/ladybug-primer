@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Legend_Parameters.png) Legend Parameters
 
-![](../../images/500x500/Legend_Parameters.png)
+![](../../images/components/Legend_Parameters.png)
 
 Use this component to change the colors, numerical range, and/or number of divisions of any Ladybug legend along with the corresponding colored mesh that the legend refers to. This component can also move a legend and change its scale. Any Ladybug component that outputs a colored mesh and a legend will have an input that can accept Legend Parameters from this component. This component particularly helpful in making the colors of Ladybug graphics consistent for a presentation or for synchonizing the numerical range and colors between Ladybug graphics. - 
 

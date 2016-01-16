@@ -1,6 +1,6 @@
 ## ![](../../images/icons/Solar_Water_Heating_Surface.png) Solar Water Heating Surface
 
-![](../../images/500x500/Solar_Water_Heating_Surface.png)
+![](../../images/components/Solar_Water_Heating_Surface.png)
 
 Use this component to calculate amount of thermal energy that can be produced by a surface if a certain percentage of it is covered with Solar water heating liquid collectors. The thermal energy can then be used for domestic hot water, space heating or space cooling. - Component based on: "Solar Engineering of Thermal Processes", John Wiley and Sons, J. Duffie, W. Beckman, 4th ed., 2013. "Technical Manual for the SAM Solar Water Heating Model", NREL, N. DiOrio, C. Christensen, J. Burch, A. Dobos, 2014. "A simplified method for optimal design of solar water heating systems based on life-cycle energy analysis", Renewable Energy journal, Yan, Wang, Ma, Shi, Vol 74, Feb 2015 - http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470873663.html https://sam.nrel.gov/system/tdf/SimpleSolarWaterHeatingModel_SAM_0.pdf?file=1&type=node&id=69521 http://www.sciencedirect.com/science/article/pii/S0960148114004807 - 
 

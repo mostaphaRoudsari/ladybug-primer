@@ -1,6 +1,6 @@
 ## ![](../../images/icons/download_EPW_Weather_File.png) download EPW Weather File
 
-![](../../images/500x500/download_EPW_Weather_File.png)
+![](../../images/components/download_EPW_Weather_File.png)
 
 Use this component to open the epwmap page in your default web browser and download an .epw weather file. - 
 
