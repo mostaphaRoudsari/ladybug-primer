@@ -25,10 +25,10 @@ Use this input to change the scale of the arrow heads of the radiation rose.  Th
 Optional legend parameters from the Ladybug Legend Parameters component.
 * ##### showTotalOnly [Optional]
 Set to "True" to only show a radiation rose with the total radiation.  The default is "False", which will produce 3 radiation roses: one of diffuse radiation, one of direct radiation, and one of the total radiation.
+* ##### bakeIt [Optional]
+An integer that tells the component if/how to bake the bojects in the Rhino scene.  The default is set to 0.  Choose from the following options: 0 (or False) - No geometry will be baked into the Rhino scene (this is the default). 1 (or True) - The geometry will be baked into the Rhino scene as a colored hatch and Rhino text objects, which facilitates easy export to PDF or vector-editing programs. 2 - The geometry will be baked into the Rhino scene as colored meshes, which is useful for recording the results of paramteric runs as light Rhino geometry.
 * ##### runIt [Required]
 Set to "True" to run the component and generate a radiation rose.
-* ##### bakeIt [Optional]
-Set to "True" to bake the radiation rose into the Rhino scene.
 
 #### Outputs
 * ##### readMe!

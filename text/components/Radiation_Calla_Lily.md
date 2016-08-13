@@ -21,10 +21,10 @@ Input a number here to change vertical (Z) scale of the graph. The default value
 Set to "True" to have the component create a radiation dome and set to "False" to have it generate a Lily.  The default is set to "False" for a Lily. _ The difference between the Dome and the Lily is that, for the Lily, the Z scale is essentially the same as the color scale, which is redundant but also beautiful and potentially useful if you have to present data with a Black/White printer or to someone who is color blind. _ For the Dome, the vertical angles of rotation serve to define the Z scale.  In this sense, the normal to the dome at any given point is the angle at which the radiation study is being run.  This gives a geometric intuitive sense of how you should orient panels to capture or avoid the most sun.
 * ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
+* ##### bakeIt [Optional]
+An integer that tells the component if/how to bake the bojects in the Rhino scene.  The default is set to 0.  Choose from the following options: 0 (or False) - No geometry will be baked into the Rhino scene (this is the default). 1 (or True) - The geometry will be baked into the Rhino scene as a colored hatch and Rhino text objects, which facilitates easy export to PDF or vector-editing programs. 2 - The geometry will be baked into the Rhino scene as colored meshes, which is useful for recording the results of paramteric runs as light Rhino geometry.
 * ##### runIt [Required]
 Set to "True" to run the component and generate a radiation Calla Lily.
-* ##### bakeIt [Optional]
-Set to "True" to bake the Calla Lily into the Rhino scene.
 
 #### Outputs
 * ##### readMe!

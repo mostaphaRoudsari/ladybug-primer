@@ -12,3 +12,5 @@
 * ![IMAGE](../../images/icons/CDH_HDH.png) [CDH_HDH](../components/CDH_HDH.md)
 * ![IMAGE](../../images/icons/Clothing_Function.png) [Clothing_Function](../components/Clothing_Function.md)
 * ![IMAGE](../../images/icons/Humidity_Ratio_Calculator.png) [Humidity_Ratio_Calculator](../components/Humidity_Ratio_Calculator.md)
+* ![IMAGE](../../images/icons/Radiant_Asymmetry_Discomfort.png) [Radiant_Asymmetry_Discomfort](../components/Radiant_Asymmetry_Discomfort.md)
+* ![IMAGE](../../images/icons/WetBulbTemp.png) [WetBulbTemp](../components/WetBulbTemp.md)

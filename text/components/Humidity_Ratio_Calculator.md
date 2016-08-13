@@ -9,7 +9,7 @@ Calculates the humidity ratio from the ladybug weather file import parameters C
 The dry bulb temperature from the Import epw component.
 * ##### relativeHumidity [Required]
 The relative humidity from the Import epw component.
-* ##### barometricPressure [Required]
+* ##### barometricPressure [Optional]
 The barometric pressure from the Import epw component.
 
 #### Outputs

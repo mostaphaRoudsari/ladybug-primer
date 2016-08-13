@@ -36,7 +36,7 @@ By default, this value is set to "True" (or 1), which will produce a sun path fo
 * ##### solarOrStandardTime [Optional]
 Set to 'True' to have the sunPath display in solar time and set to 'False' to have it display in standard time.  The default is set to 'False.'  Note that this input only changes the way in which the supath curves are drawn currently and does not yet change the position of the sun based on the input hour.
 * ##### bakeIt [Optional]
-Set to True to bake the sunpath into the Rhino scene.
+An integer that tells the component if/how to bake the bojects in the Rhino scene.  The default is set to 0.  Choose from the following options: 0 (or False) - No geometry will be baked into the Rhino scene (this is the default). 1 (or True) - The geometry will be baked into the Rhino scene as a colored hatch and Rhino text objects, which facilitates easy export to PDF or vector-editing programs. 2 - The geometry will be baked into the Rhino scene as colored meshes, which is useful for recording the results of paramteric runs as light Rhino geometry.
 
 #### Outputs
 * ##### readMe!

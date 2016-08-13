@@ -33,7 +33,7 @@ Optional legend parameters from the Ladybug Legend Parameters component.
 Set to "True" to run the component and calculate the adaptive comfort metrics.
 
 #### Outputs
-* ##### readMe!
+* ##### out
 ...
 * ##### comfortResults
 The number of hours and percent of the input data that are inside all comfort and passive strategy polygons.

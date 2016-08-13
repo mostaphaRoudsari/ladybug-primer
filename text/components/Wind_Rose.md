@@ -27,10 +27,10 @@ An optional number between 1 and 100 that represents the maximum percentage of h
 Input a number here to change the scale of the wind rose.  The default is set to 1.
 * ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
+* ##### bakeIt [Optional]
+An integer that tells the component if/how to bake the bojects in the Rhino scene.  The default is set to 0.  Choose from the following options: 0 (or False) - No geometry will be baked into the Rhino scene (this is the default). 1 (or True) - The geometry will be baked into the Rhino scene as a colored hatch and Rhino text objects, which facilitates easy export to PDF or vector-editing programs. 2 - The geometry will be baked into the Rhino scene as colored meshes, which is useful for recording the results of paramteric runs as light Rhino geometry.
 * ##### runIt [Required]
 Set this value to "True" to run the component and generate a wind rose in the Rhino scene.
-* ##### bakeIt [Optional]
-Set this value to "True" to bake the wind rose into the Rhino scene.
 
 #### Outputs
 * ##### readMe!

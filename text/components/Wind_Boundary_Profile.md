@@ -12,9 +12,11 @@ The wind speed from the import EPW component or a number representing the wind s
 * ##### windDirection [Optional]
 An optional number representing the degrees from north of the wind direction.  This can also be the windDirection output from the import EPW component.  This direction will be used to orient the wind profile in 3 dimensions to the direction of the prevailing wind.
 * ##### terrainType [Optional]
-An interger from 0 to 3 that sets the terrain class associated with the output windSpeedAtHeight. Interger values represent the following terrain classes: 0 = Urban: large city centres, 50% of buildings above 21m over a distance of at least 2000m upwind. 1 = Suburban: suburbs, wooded areas. 2 = Country: open, with scattered objects generally less than 10m high. 3 = Water: Flat, unobstructed areas exposed to wind flowing over a large water body (no more than 500m inland).
+An interger or text string that sets the terrain class associated with the output windSpeedAtHeight. Interger values represent the following terrain classes: 0 = City: large city centres, 50% of buildings above 21m over a distance of at least 2000m upwind. 1 = Suburban: suburbs, wooded areas. 2 = Country: open, with scattered objects generally less than 10m high. 3 = Water: Flat, unobstructed areas exposed to wind flowing over a large water body (no more than 500m inland).
 * ##### epwTerrain [Optional]
-An optional interger from 0 to 3 that sets the terrain class associated with the output windSpeedAtHeight. The default is set to 2 for flat clear land, which is typical for most EPW files that are recorded at airports.  Interger values represent the following terrain classes: 0 = Urban: large city centres, 50% of buildings above 21m over a distance of at least 2000m upwind. 1 = Suburban: suburbs, wooded areas. 2 = Country: open, with scattered objects generally less than 10m high. 3 = Water: Flat, unobstructed areas exposed to wind flowing over a large water body (no more than 500m inland).
+An interger or text string that sets the terrain class associated with the output windSpeedAtHeight. The default is set to 2 for flat clear land, which is typical for most EPW files that are recorded at airports.  Interger values represent the following terrain classes: 0 = City: large city centres, 50% of buildings above 21m over a distance of at least 2000m upwind. 1 = Suburban: suburbs, wooded areas. 2 = Country: open, with scattered objects generally less than 10m high. 3 = Water: Flat, unobstructed areas exposed to wind flowing over a large water body (no more than 500m inland).
+* ##### powerOrLog [Optional]
+Set to "True" to use a power law to translate the wind speed to that at a given height and set to "False" to use a log law to translate the wind speed.  The default is set to "True" for a power law as this is the function that is used by EnergyPlus.
 * ##### HOY [Optional]
 Use this input to select out specific indices of a list of values connected for wind speed and wind direction.  If you have connected hourly EPW data, this is the equivalent of a "HOY" input and you can use the "Ladybug_DOY_HOY" component to select out a specific hour and date.  Note that this overrides the analysisPeriod_ input below.
 * ##### analysisPeriod [Optional]
@@ -36,7 +38,7 @@ An optional integer to set the style of the wind vectors.  The default is set to
 * ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
 * ##### bakeIt [Optional]
-Set to "True" to bake the wind boundary profile into the Rhino scene.
+An integer that tells the component if/how to bake the bojects in the Rhino scene.  The default is set to 0.  Choose from the following options: 0 (or False) - No geometry will be baked into the Rhino scene (this is the default). 1 (or True) - The geometry will be baked into the Rhino scene as a colored hatch and Rhino text objects, which facilitates easy export to PDF or vector-editing programs. 2 - The geometry will be baked into the Rhino scene as colored meshes, which is useful for recording the results of paramteric runs as light Rhino geometry.
 
 #### Outputs
 * ##### readMe!

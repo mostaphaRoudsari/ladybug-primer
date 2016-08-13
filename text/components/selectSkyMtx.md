@@ -8,7 +8,7 @@ Use this component to select a specific sky matrix (skyMxt) for an hour of the y
 * ##### cumulativeSkyMtx [Required]
 The output from a GenCumulativeSkyMtx component.
 * ##### HOY [Optional]
-An hour of the year for which you would like to select a sky.  This must be a value between 1 and 8760.
+An hour of the year or list of hours of the year for which you would like to select a sky.  This must be a value between 1 and 8760.
 * ##### analysisPeriod [Default]
 An analysis period from Analysis Period component.  This will override an input HOY (hour of the year).
 * ##### removeDiffuse [Optional]

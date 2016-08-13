@@ -17,8 +17,8 @@ Specific heat of the working fluid. - If swh system is intended to be used in 
 Test flow rate of working fluid through the collector per square meter of collector's area. The higher the flow rate, the higher the collector efficiency is. On the other hand higher flow rates require more pump power, larger pipe diameters and can cause erosion corrosion. - If not supplied, a value of 0.012 kg/s/m2 will be used. - In kg/s/m2.
 * ##### IAMcoefficient [Optional]
 Incidence angle modifier coefficient (bo) - Use this input to account for collector efficiency losses due to different angles of incidence. Depends on the type of collector, tilt angle... Some default values depending on the type of collector: - 0.1 - glazed flat plate 0.1 - unglazed flat plate -0.05 - evacuated tube - If not supplied, 0.1 (glazed flat plate) will be used. - Unitless.
-* ##### skyViewFactor [Optional]
-Continuous Sky View Factor - portion of the visible sky (dome). It defines the shading of the parts of diffuse irradiance. It ranges from 0 to 1. Import it from "Sunpath shading" component's "skyViewFactor" output. - If not supplied, 1 will be used as a default value (SWHsurface is unshaded). - Unitless.
+* ##### skyExposureFactor [Optional]
+Continuous Sky Exposure Factor - portion of the visible sky (dome). It defines the shading of the diffuse irradiance components. It ranges from 0 to 1. Import it from "Sunpath shading" component's "skyExposureFactor" output. - If not supplied, 1 will be used as a default value (SWHsurface is unshaded). - Unitless.
 * ##### beamIndexPerHour [Optional]
 Transmission index of beam (direct) irradiance for each hour during a year. It ranges from 0-1. Import it from "Sunpath shading" component's "beamIndexPerHour" output. - If not supplied, a value of 1 for each hour during a year, will be used (SWHsurface is unshaded). - Unitless.
 * ##### maxWorkingTemperature [Optional]

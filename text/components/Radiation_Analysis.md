@@ -26,7 +26,7 @@ Set to "True" to run the radiation analysis using multiple CPUs.  This can drama
 * ##### runIt [Required]
 Set to "True" to run the component and perform radiation analysis on the input _geometry.
 * ##### bakeIt [Optional]
-Set to True to bake the analysis results into the Rhino scene.
+An integer that tells the component if/how to bake the bojects in the Rhino scene.  The default is set to 0.  Choose from the following options: 0 (or False) - No geometry will be baked into the Rhino scene (this is the default). 1 (or True) - The geometry will be baked into the Rhino scene as a colored hatch and Rhino text objects, which facilitates easy export to PDF or vector-editing programs. 2 - The geometry will be baked into the Rhino scene as colored meshes, which is useful for recording the results of paramteric runs as light Rhino geometry.
 * ##### workingDir [Optional]
 Use this input to change the working directory of the radiation analysis on your system. Input here must be a valid file path location on your computer.  The default is set to "C:\Ladybug" and it is from this file location that radiation results are loaded into grasshopper after the analysis is done.
 * ##### projectName [Optional]

@@ -30,7 +30,7 @@ Surface on which PV/SWH array will be laid onto. This can be a surface of an an
 * ##### arrayOriginPt [Optional]
 UV coordinate of baseSurface_ at which PV_SWH array will start. It ranges from 0 to 1.0 for both U and V coordinate. Use grasshopper's "Construct Point" or "MD slider" components to input it. - If not supplied, (0.5,0,0) will be used as a default value.
 * ##### arrayOriginCorner [Optional]
-Corner at which the PV/SWH array begins: - 0 - center bottom 1 - left bottom 2 - right bottom - If not supplied, 0 will be used as a default (bottom center).
+Corner at which the PV/SWH array begins: - 0 - center bottom 1 - left bottom 2 - right bottom 3 - center top - If not supplied, 0 will be used as a default (bottom center).
 * ##### north [Optional]
 Input a vector to be used as a true North direction, or a number between 0 and 360 that represents the clockwise degrees off from the Y-axis. - If not supplied, default North direction will be set to the Y-axis (0 degrees).
 * ##### energyLoadPerHour [Optional]
@@ -43,6 +43,8 @@ A list of energy load values for each hour, during a year. 1) In case of PV arr
 Surfaces on which PV modules/SWH collectors will be laid on.
 * ##### PV_SWHsurfacesArea
 Total area of the PV_SWHsurfaces. - In Rhino documents units (meters, centimeters, feets...).
+* ##### minimalSpacing
+Minimal distance between fixed (anchor) points of rows. The distance is measured on the ground (or along the base surface if it has been inputted). - In meters.
 * ##### minimalSpacingDate
 Exact date taken from "minimalSpacingPeriod_" input for which minimal spacing between rows has been calculated.
 * ##### arrayOriginPt

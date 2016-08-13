@@ -19,7 +19,7 @@ Input a vector to be used as a true North direction or a number between 0 and 36
 An optional interger value to change the month range for which solar access is being considered. The default month range is Jun 21 - Sep 21. Integers input here must be between 0 - 5 and correspond to the following : --- 0 = Mar 21 - Jun 21 1 = Mar 21 - Sep 21 2 = Mar 21 - Dec 21 3 = Jun 21 - Sep 21 4 = Jun 21 - Dec 21 5 = Sep 21 - Dec 21 --- Where, in the North/South Hemispheres, these dates repsectively signify: Mar 21 = Vernal/Autumnal Equinox Jun 21 = Summer/Winter Solstice Sep 21 = Autumnal/Vernal Equinox Dec 21 = Winter/Summer Solstice
 
 #### Outputs
-* ##### out
+* ##### readMe!
 ...
 * ##### solarFan
 Brep representing a solar fan.  This volume should be clear of shading in order to ensure solar access to the area inside the boundary curve for the given number of hours.
