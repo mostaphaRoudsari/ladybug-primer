@@ -6,7 +6,7 @@ Use this component to access a library of typical gradients useful throughout La
 
 #### Inputs
 * ##### gradIndex [Required]
-An index refering to one of the following possible gradients: 0 - Orignal Ladybug 1 - Nuanced Ladybug 2 - Multi-colored Ladybug 3 - View Analysis 1 4 - View Analysis 2 (Red,Green,Blue) 5 - Sunlight Hours 6 - Ecotect 7 - Thermal Comfort Percentage 8 - Thermal Comfort Colors 9 - Thermal Comfort Colors (UTCI) 10 - Hot Hours 11 - Cold Hours 12 - Shade Benefit/Harm 13 - Thermal Comfort Colors v2 (UTCI) 14 - Shade Harm 15 - Shade Benefit 16 - Black to White 17 - CFD Colors 1 18 - CFD Colors 2 19 - Energy Balance 20 - THERM 21 - Cloud Cover 22 - Glare Potential
+An index refering to one of the following possible gradients: 0 - Orignal Ladybug 1 - Nuanced Ladybug 2 - Multi-colored Ladybug 3 - View Analysis 1 4 - View Analysis 2 (Red,Green,Blue) 5 - Sunlight Hours 6 - Ecotect 7 - Thermal Comfort Percentage 8 - Thermal Comfort Colors 9 - Thermal Comfort Colors (UTCI) 10 - Hot Hours 11 - Cold Hours 12 - Shade Benefit/Harm 13 - Thermal Comfort Colors v2 (UTCI) 14 - Shade Harm 15 - Shade Benefit 16 - Black to White 17 - CFD Colors 1 18 - CFD Colors 2 19 - Energy Balance 20 - THERM 21 - Cloud Cover 22 - Glare Potential 23 - Radiation Benefit
 
 #### Outputs
 * ##### customColors

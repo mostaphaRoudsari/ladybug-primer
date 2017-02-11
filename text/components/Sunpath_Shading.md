@@ -36,11 +36,11 @@ Scale of the overall geometry (sunPath curves, sunWindow mesh). Use the scale n
 * ##### hoursPositionScale [Optional]
 Scale factor for positioning of solar time hour points (that's "hoursPositions" output). - If not supplied, default value of 1 will be used.
 * ##### precision [Optional]
-Overall shading precision. Ranges from 1-100. It represents the square root number of shading analysis points per sun window quadrant. Example - precision of 20 would be 400 shading analysis points per single sun window quadrant. CAUTION!!! Higher precision numbers (50 >) require stronger performance PCs. If your "_context" contains only straight shape buildings/objects, and you have just a couple of trees supplied to the "coniferousTrees_" and "deciduousTrees_" inputs, the precision of < 50 will be just fine. - If not supplied, default value of 2 will be used.
+Overall shading precision. Ranges from 1-100. It represents the square root number of shading analysis points per sun window quadrant. Example - precision of 20 would be 400 shading analysis points per single sun window quadrant. CAUTION!!! Higher precision numbers (50 >) require stronger performance PCs. If your "_context" contains only straight shape buildings/objects, and you have just a couple of trees supplied to the "coniferousTrees_" and "deciduousTrees_" inputs, the precision of <= 50 will be just fine. - If not supplied, default value of 20 will be used.
 * ##### legendPar [Optional]
 Optional legend parameters from the Ladybug "Legend Parameters" component.
 * ##### bakeIt [Optional]
-Set to "True" to bake the Sunpath shading results into the Rhino scene. - If not supplied default value "False" will be used.
+Set to "True" to bake the Sunpath shading results into the Rhino scene. - Baking can only be used if surface(s) is(are) inputted into _analysisGeometry and data is inputted in ACenergyPerHour_. Otherwise there will be nothing to be baked. - If not supplied default value "False" will be used.
 * ##### runIt [Required]
 ...
 
@@ -64,11 +64,11 @@ Each vertex of the inputted _analysisGeometry for which a separate shading analy
 * ##### sunWindowCenPt
 The center point of the "sunWindowCrvs" and "sunWindowMesh" geometry. It is calculated for analysisGeometry area centroid. Use this point to move "sunWindowCrvs" and "sunWindowMesh" geometry around in the Rhino scene with the grasshopper's "Move" component. - Connect this output to a Grasshopper's "Point" parameter in order to preview the "sunWindowCenPt" point in the Rhino scene.
 * ##### sunWindowCrvs
-Geometry of the sun window based on 3D polar sun path diagram. Perpendical curves represent solar time hours. Horizontal arc curves represent sun paths for: 21st December, 21st November/January, 21st October/February, 21st September/March, 21st August/April, 21st July/May, 21st June. The whole sunWindowCrvs geometry output is calculated for analysisGeometry area centroid.
+Geometry of the sun window based on 3D polar sun path diagram. Perpendicular curves represent solar time hours. Horizontal arc curves represent sun paths for: 21st December, 21st November/January, 21st October/February, 21st September/March, 21st August/April, 21st July/May, 21st June. The whole sunWindowCrvs geometry output is calculated for analysisGeometry area centroid.
 * ##### sunWindowMesh
-Sun window mesh based on 3D polar sun path diagram. It is calculated for analysisGeometry area centroid. Black areas represent 100% shaded portions of the sun window (of both active and inactive quadrants). Darker green and green areas represent partially shaded portions from the coniferous and deciduous trees, respectively. - It is calculated ONLY if data is supplied to the "ACenergyPerHour_" input".
+Sun window mesh based on 3D polar sun path diagram. It is calculated for analysisGeometry area centroid. Black areas represent 100% shaded portions of the sun window (of both active and inactive quadrants). Darker green and green areas represent partially shaded portions from the coniferous and deciduous trees, respectively. - It is calculated ONLY if data is supplied to the "ACenergyPerHour_" input" !
 * ##### legend
-A legend of the sunWindowMesh. Connect this output to a Grasshopper's "Geo" parameter in order to preview the legend separately in the Rhino scene.  
+A legend of the sunWindowMesh. - Connect this output to a Grasshopper's "Geo" parameter in order to preview the legend separately in the Rhino scene.
 * ##### legendBasePt
 Legend base point, which can be used to move the "legend" geometry with grasshopper's "Move" component. - Connect this output to a Grasshopper's "Point" parameter in order to preview the "annalysisPts" geometry in the Rhino scene.
 * ##### quadrantCentroids

@@ -9,6 +9,8 @@ Use this component to calculate view factors from a point or plane to a set of s
 A point or plane from which view vectors will be pojected.  Note that, if a point is connected, all view vectors will be weighted evenly (assuming no directional bias).  However, if a plane is connected, vectors will be weighted based on their angle to the plane normal, producing view factors for a surface in the connected plane.  The first is useful for MRT calculations while the latter is needed for radiant assymetry calculations.  This input can also be a list of points or planes.
 * ##### testSrfs [Required]
 A list of breps, surfaces, or meshes to which you want to compute view factors.  Note that by meshing and joining several goemtries together, you can calculate the combined view factor to these geometries.
+* ##### context [Optional]
+Optional context geometry as breps, surfaces, or meshes that can block the view to the _testSrfs.
 * ##### viewResolution [Default]
 An interger, which sets the number of times that the tergenza skyview patches are split.  A higher number will ensure a greater accuracy but will take longer.  The default is set to 1 for a quick calculation.
 * ##### parallel [Optional]

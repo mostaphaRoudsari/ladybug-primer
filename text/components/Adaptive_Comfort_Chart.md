@@ -47,6 +47,10 @@ A stream of 0's and 1's (or "False" and "True" values) indicating whether occupa
 A stream of interger values from -1 to +1 that correspond to each hour of the input data and indicate the following: -1 = The input conditions are too cold for occupants. 0 = The input conditions are comfortable for occupants. +1 = The input conditions are too hot for occupants.
 * ##### degreesFromTarget
 A stream of temperature values in degrees Celcius indicating how far from the target temperature the conditions of the people are.  Positive values indicate conditions hotter than the target temperature while negative values indicate degrees below the target temperture.
+* ##### prevailingTemp
+A stream of temperature values in degrees Celcius indicating the prevailing outdoor temperature.  This is the temperture that determines the conditions occupants find comfortable and is either a monthly average temperature or a running mean of outdoor temperature.
+* ##### targetTemperature
+A stream of temperature values in degrees Celcius indicating the mean target temperture (or neutral temperature) that the most people will find most comfortable.
 * ##### chartCurvesAndTxt
 The chart curves and text labels of the adaptive chart.
 * ##### adaptiveChartMesh

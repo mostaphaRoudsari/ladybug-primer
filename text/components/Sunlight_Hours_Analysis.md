@@ -6,7 +6,7 @@ This component calculates the number of hours of direct sunlight received by inp
 
 #### Inputs
 * ##### north [Optional]
-Input a vector to be used as a true North direction for the sun path or a number between 0 and 360 that represents the degrees off from the y-axis to make North.  The default North direction is set to the Y-axis (0 degrees).
+Input a vector to be used as a true North direction for the sun path or a number between 0 and 360 that represents the degrees off from the y-axis to make North.  The default North direction is set to the Y-axis (0 degrees). In case you have provided rotation value for the North in the Sunpath component, there's no need to provide the same rotation value here. Doing this will give you erroneous results.
 * ##### geometry [Required]
 Geometry for which sunlight hours analysis will be conducted.  Geometry must be either a Brep, a Mesh or a list of Breps or Meshes.
 * ##### context [Optional]

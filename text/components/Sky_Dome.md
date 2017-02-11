@@ -13,6 +13,8 @@ The output from the selectSkyMtx component.
 A point that sets the location of the sky domes.  The default is set to the Rhino origin (0,0,0).
 * ##### scale [Default]
 Use this input to change the scale of the sky dome.  The default is set to 1.
+* ##### projection [Default]
+A number to set the projection of the sky hemisphere.  The default is set to draw a 3D hemisphere.  Choose from the following options: 0 = 3D hemisphere 1 = Orthographic (straight projection to the XY Plane) 2 = Stereographic (equi-angular projection to the XY Plane)
 * ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.
 * ##### showTotalOnly [Optional]
@@ -29,8 +31,10 @@ Set to "True" to run the component and generate a sky dome.
 A colored mesh representing the intensity of radiation for each of the sky patches of the sky dome.
 * ##### baseCrvs
 A set of guide curves that mark information on the sky dome.
+* ##### altitudeCrvs
+A set of circular curves that denote the altitude.  Note that these will only appear when the _projection_ is set to something other than a 3D sun path.
 * ##### legend
-A legend for the sky dome. Connect this output to a grasshopper "Geo" component in order to preview the legend separately in the Rhino scene.  
+A legend for the sky dome. Connect this output to a grasshopper "Geo" component in order to preview the legend separately in the Rhino scene.
 * ##### legendBasePts
 The legend base point(s), which can be used to move the legend(s) in relation to the sky domes with the grasshopper "move" component.
 * ##### skyPatchesCenPts

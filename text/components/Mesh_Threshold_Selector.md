@@ -2,13 +2,15 @@
 
 ![](../../images/components/Mesh_Threshold_Selector.png)
 
-Use this component to delete out unwanted areas of a shade after a shade benefit evaluation has been run.  This will help turn your shade evaluation results into an actual shade brep based on a percentage of beneficial shade cells that you decide. - 
+Use this component to select out the part of a colored mesh that meets a certain conditional statement.  This has multiple uses: The generation of a custom shade from a shade benefit analysis, Quantifying the daylight area from a daylight analysis, Selecting out the portion of a roof with enough solar radiation for PV panels, and much more. - 
 
 #### Inputs
 * ##### inputMesh [Required]
 The mesh for which you would like to highlight the portion that meets a threshold.
 * ##### analysisResult [Required]
 A numerical data set whose length corresponds to the number of faces in the _inputMesh.
+* ##### operator [Default]
+A text string representing an operator for the the conditional statement.  The default is set to be greater than (>).  This must be an operator in python and examples include: > - Greater Than < - Less Than >= - Greater or Equal <= - Less or Equal == - Equals
 * ##### percentToKeep [Optional]
 A number between 0 and 100 that represents the percentage of the mesh faces that you would like to include in the resulting newColoredMesh.  By default, this is set to 25%.
 * ##### levelOfPerform [Optional]

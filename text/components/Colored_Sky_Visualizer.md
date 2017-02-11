@@ -23,8 +23,8 @@ An optional input for the resolution of the generated mesh.  A higher resolution
 An optional input to scale the dome mesh.  The default is set to 1.
 * ##### centerPt [Optional]
 An optional point to move the center of the sky dome mesh.  The default is set to the Rhino origin.
-* ##### domeOrRect [Optional]
-Set to "True" to generate a sky color mesh that is in the shape of a dome and set to "False" to generate a sky as a flat rectangular mesh.  The default is set to "True" to generate the sky as a dome.
+* ##### projection [Default]
+A number to set the projection of the sky hemisphere.  The default is set to draw a 3D hemisphere.  Choose from the following options: 0 = 3D hemisphere 1 = Orthographic (straight projection to the XY Plane) 2 = Stereographic (equi-angular projection to the XY Plane) 3 = Cylindrical (unrolled rectangular map of the sky - like a Mercator projection)
 * ##### bakeIt [Optional]
 An integer that tells the component if/how to bake the bojects in the Rhino scene.  The default is set to 0.  Choose from the following options: 0 (or False) - No geometry will be baked into the Rhino scene (this is the default). 1 (or True) - The geometry will be baked into the Rhino scene as a colored hatch and Rhino text objects, which facilitates easy export to PDF or vector-editing programs. 2 - The geometry will be baked into the Rhino scene as colored meshes, which is useful for recording the results of paramteric runs as light Rhino geometry.
 

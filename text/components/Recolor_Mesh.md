@@ -11,6 +11,10 @@ A numerical data set whose length corresponds to the number of faces in the _inp
 An already-colored mesh from one of the Ladybug components which you would like to re-color based on data in the _analysisResult.
 * ##### heightDomain [Optional]
 Optional height domain to create a 3D mesh result. Use Construct Domain component to create a domain
+* ##### lowBoundColor [Optional]
+A color representing the higher boundary of the legend's numerical range, use the Swatch component to specify a color.
+* ##### highBoundColor [Optional]
+A color representing the lowest boundary of the legend's numerical range, use the Swatch component to specify a color.
 * ##### legendPar [Optional]
 Optional legend parameters from the Ladybug Legend Parameters component.  Legend Parameters can be used to change the colors, numerical range, and/or number of divisions of any Ladybug legend along with the corresponding colored mesh.
 * ##### analysisTitle [Optional]
@@ -32,9 +36,9 @@ A new legend that that corresponds to the colors of the newMesh. Connect this ou
 * ##### legendBasePt
 The legend base point, which can be used to move the legend in relation to the newMesh with the grasshopper "move" component.
 * ##### meshColors
-Script variable reColorMesh
+The colors associated with each face of the newMesh.
 * ##### legendColors
-Script variable reColorMesh
+The colors associated with each segment of the newLegend.
 
 
 [Check Hydra Example Files for Recolor Mesh](https://hydrashare.github.io/hydra/index.html?keywords=Ladybug_Recolor Mesh)

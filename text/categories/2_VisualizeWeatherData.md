@@ -7,7 +7,7 @@
 * ![IMAGE](../../images/icons/selectSkyMtx.png) [selectSkyMtx](../components/selectSkyMtx.md)
 * ![IMAGE](../../images/icons/Colored_Sky_Visualizer.png) [Colored_Sky_Visualizer](../components/Colored_Sky_Visualizer.md)
 * ![IMAGE](../../images/icons/Outdoor_Solar_Temperature_Adjustor.png) [Outdoor_Solar_Temperature_Adjustor](../components/Outdoor_Solar_Temperature_Adjustor.md)
-* ![IMAGE](../../images/icons/Radiation_Calla_Lily.png) [Radiation_Calla_Lily](../components/Radiation_Calla_Lily.md)
+* ![IMAGE](../../images/icons/Radiation_Calla_Dome.png) [Radiation_Calla_Dome](../components/Radiation_Calla_Dome.md)
 * ![IMAGE](../../images/icons/Radiation_Rose.png) [Radiation_Rose](../components/Radiation_Rose.md)
 * ![IMAGE](../../images/icons/Sky_Dome.png) [Sky_Dome](../components/Sky_Dome.md)
 * ![IMAGE](../../images/icons/SunPath.png) [SunPath](../components/SunPath.md)

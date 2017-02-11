@@ -25,6 +25,8 @@ Input a point here to change the location of the sun path in the Rhino scene.  T
 Input a number here to change the scale of the sun path.  The default is set to 1.
 * ##### sunScale [Default]
 Input a number here to change the scale of the sun spheres located along the sun path.  The default is set to 1.
+* ##### projection [Default]
+A number to set the projection of the sky hemisphere.  The default is set to draw a 3D hemisphere.  Choose from the following options: 0 = 3D hemisphere 1 = Orthographic (straight projection to the XY Plane) 2 = Stereographic (equi-angular projection to the XY Plane)
 * ##### annualHourlyData [Optional]
 An optional list of hourly data from the Import epw component, which will be used to color the sun spheres of the sun path (e.g. dryBulbTemperature).
 * ##### conditionalStatement [Optional]
@@ -33,7 +35,7 @@ This input allows users to remove data that does not fit specific conditions or 
 Optional legend parameters from the Ladybug Legend Parameters component.
 * ##### dailyOrAnnualSunPath [Default]
 By default, this value is set to "True" (or 1), which will produce a sun path for the whole year.  Set this input to "False" (or 0) to generate a sun path for just one day of the year (or several days if multiple days are included in the analysis period).
-* ##### solarOrStandardTime [Optional]
+* ##### solarOrStandardTime [Default]
 Set to 'True' to have the sunPath display in solar time and set to 'False' to have it display in standard time.  The default is set to 'False.'  Note that this input only changes the way in which the supath curves are drawn currently and does not yet change the position of the sun based on the input hour.
 * ##### bakeIt [Optional]
 An integer that tells the component if/how to bake the bojects in the Rhino scene.  The default is set to 0.  Choose from the following options: 0 (or False) - No geometry will be baked into the Rhino scene (this is the default). 1 (or True) - The geometry will be baked into the Rhino scene as a colored hatch and Rhino text objects, which facilitates easy export to PDF or vector-editing programs. 2 - The geometry will be baked into the Rhino scene as colored meshes, which is useful for recording the results of paramteric runs as light Rhino geometry.
@@ -50,7 +52,11 @@ Number(s) indicating the sun azimuths in degrees for each sun position on the su
 * ##### sunSpheresMesh
 A colored mesh of spheres representing sun positions.  Colors indicate annualHourlyData_ and will be yellow if no data is hooked up to annualHourlyData_.
 * ##### sunPathCrvs
-A set of guide curves that mark the path of the sun across the sky dome.
+A set of curves that mark the path of the sun across the sky dome.
+* ##### compassCrvs
+A set of curves and text meshes that denote the cardinal directions and azimuth angles.
+* ##### altitudeCrvs
+A set of circular curves that denote the altitude.  Note that these will only appear when the _projection_ is set to something other than a 3D sun path.
 * ##### legend
 A legend for the sun path. Connect this output to a grasshopper "Geo" component in order to preview the legend separately in the Rhino scene.  
 * ##### legendBasePts
