@@ -1,6 +1,6 @@
 # Summary
 
-* [What is this premier?](README.md)
+* [What is this primer?](README.md)
 * [Components](text/categories/README.md)
 	* [0 | Ladybug](text/categories/0_Ladybug.md)
 		* [Ladybug](text/components/Ladybug.md)
