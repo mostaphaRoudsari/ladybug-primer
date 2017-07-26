@@ -7,14 +7,16 @@ Use this component to export geometries into an Google Earth file. It requires 
 #### Inputs
 * ##### geometry [Required]
 A list of Breps, Meshes and Surfaces to export.
-* ##### basePoint [Required]
-Input a point here to georeference the model.
-* ##### basePointGeo [Required]
+* ##### basePoint [Default]
+Input a point here to georeference the model. Default value is origin point.
+* ##### location [Required]
 It accepts two type of inputs.  a) latitude, longitude and elevation that represent WSG84 coordinates of the base point. You can achieve these type of coordinates from Google Maps or similar. e.g. 40.821796, 14.426439, 990 - b) location, you can obtain this type of input from "Ladybug_Construct Location", "Ladybug_Location Finder", "Ladybug_Import epw", "Ladybug_Import Location".
 * ##### terrain [Required]
 Connect the terrain output of "Ladybug_Terrain Generator" to move the geometries in the right altitude automatically.
+* ##### folder [Default]
+The folder into which you would like to write the kmz file.  This should be a complete file path to the folder.  If no folder is provided, the images will be written to Ladybug default folder.
 * ##### name [Optional]
-The kmz file name that you would like the image to be saved as.
+Name of kmz file.
 * ##### material [Optional]
 Connect Create Material component of Grasshopper, it is part of Display tab. If not supplied it will be default material.
 * ##### bakeIt [Required]
@@ -25,10 +27,12 @@ Connect a Boolean Toggle. After the baking, set it to "True" to export from Rhin
 #### Outputs
 * ##### readMe!
 ...
+* ##### kmzPath
+Complete path of kmz file.
 * ##### pointOnTerrain
-Script variable KmzGenerator
+basePoint projected on terrain.
 * ##### geometry
-geometries on the ground.
+Geometries on the ground.
 
 
 [Check Hydra Example Files for Kmz Generator](https://hydrashare.github.io/hydra/index.html?keywords=Ladybug_Kmz Generator)

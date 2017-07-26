@@ -30,19 +30,23 @@ If bakeIt_ is set to "True", input Text here corresponding to the Rhino layer on
 * ##### readMe!
 ...
 * ##### contourMesh
-Script variable contourMesh
+A list of colored meshes that is organized with each contour region as its own color.
+* ##### underlayMesh
+A mesh that is colored face-by-face (like a typical Ladybug mesh), which is plaed under the contour mesh to make the visualization read when the Rhino intersection fails to produce a complete contourMesh.
 * ##### contourLines
-A new mesh that has been re-colored based on the _analysisResult data.
+Curves that show values of constant value along the results.
 * ##### contourColors
-Script variable contourMesh
+Connect these to a native Grasshopper Preview componen along with the contourLines to get a colored line visualization.
 * ##### contourLabels
-Script variable contourMesh
+A list of text meshes that show the value along each contour line.
 * ##### legend
-A new legend that that corresponds to the colors of the newMesh. Connect this output to a grasshopper "Geo" component in order to preview this legend separately in the Rhino scene.  
+A new legend that that corresponds to the colors of the newMesh. Connect this output to a grasshopper "Geo" component in order to preview this legend separately in the Rhino scene.
 * ##### legendBasePt
 The legend base point, which can be used to move the legend in relation to the newMesh with the grasshopper "move" component.
 * ##### legendColors
-Script variable reColorMesh
+A list of colors that correspond to each step in the legend.
+* ##### intPlanes
+The planes that were used to intersect the mesh to genrate the contours. Set heightDomain_ to a non-zer number to visualize.
 
 
 [Check Hydra Example Files for Countour Mesh](https://hydrashare.github.io/hydra/index.html?keywords=Ladybug_Countour Mesh)

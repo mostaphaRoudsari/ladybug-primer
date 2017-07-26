@@ -57,6 +57,8 @@ The legend base point, which can be used to move the legend in relation to the c
 A series of points that mark where each of the bars or lines of the chart lie.  You can use this to label the bars or lines with numerical values using a native grasshopper "text tag" component and the data that you have connected to the _inputData of this component.
 * ##### comfortBand
 A series of meshes that represent the comfort range in each month according to the input comfortModel_.
+* ##### comfortLegend
+A legend for the comfort model. This legend will only be provided if temperature is fed to this component and the value provided to the comfortModel_ is either 1, 2, or 3.
 
 
 [Check Hydra Example Files for Monthly Bar Chart](https://hydrashare.github.io/hydra/index.html?keywords=Ladybug_Monthly Bar Chart)

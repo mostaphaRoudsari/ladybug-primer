@@ -2,7 +2,7 @@
 
 ![](../../images/components/Photovoltaics_Surface.png)
 
-Use this component to calculate amount of electrical energy that can be produced by a surface if a certain percentage of it is covered with Photovoltaics. Component based on NREL PVWatts v1 fixed tilt calculator for crystalline silicon (c-Si) photovoltaics. - Sources: http://www.nrel.gov/docs/fy14osti/60272.pdf https://pvpmc.sandia.gov - 
+Use this component to calculate amount of electrical energy that can be produced by a surface if a certain percentage of it is covered with Photovoltaics. Component based on NREL PVWatts v1 fixed tilt calculator for crystalline silicon (c-Si) and thin-film photovoltaics. - Sources: http://www.nrel.gov/docs/fy14osti/60272.pdf https://pvpmc.sandia.gov - 
 
 #### Inputs
 * ##### epwFile [Required]
@@ -14,7 +14,7 @@ The percentage of surface which will be used for PV modules (range 0-100). - S
 * ##### DCtoACderateFactor [Optional]
 Factor which accounts for various locations and instances in a PV system where power is lost from DC system nameplate to AC power. It ranges from 0 to 1. It can be calculated with Ladybug's "DC to AC derate factor" component. - If not supplied, default value of 0.85 will be used.
 * ##### PVmoduleSettings [Optional]
-A list of PV module settings. Use the "Photovoltaics module" component to generate them. - If not supplied, the following PV module settings will be used by default: - moduleType: Close (flush) roof mount - moduleEfficiency: 15 % - temperatureCoefficient: -0.5 %/°C - moduleActiveAreaPercent: 90 %
+A list of PV module settings. Use the "Simplified Photovoltaics Module" or "Import Sandia Photovoltaics Module" or "Import CEC Photovoltaics Module" components to generate them. - If not supplied, the following PV module settings will be used by default: - module material: crystalline silicon (c-Si) - moduleType: Close (flush) roof mount - moduleEfficiency: 15 % - temperatureCoefficient: -0.5 %/C - moduleActiveAreaPercent: 90 %
 * ##### north [Optional]
 Input a vector to be used as a true North direction, or a number between 0 and 360 that represents the clockwise degrees off from the Y-axis. - If not supplied, default North direction will be set to the Y-axis (0 degrees).
 * ##### albedo [Optional]
@@ -22,7 +22,7 @@ A list of 8767 (with header) or 8760 (without the header) albedo values for each
 * ##### annualHourlyData [Optional]
 An optional list of hourly data from Ladybug's "Import epw" component (e.g. dryBulbTemperature), which will be used for "conditionalStatement_".
 * ##### conditionalStatement [Optional]
-This input allows users to calculate the Photovoltaics surface component results only for those annualHourlyData_ values which fit specific conditions or criteria. To use this input correctly, hourly data, such as dryBulbTemperature or windSpeed, must be plugged into the "annualHourlyData_" input. The conditional statement input here should be a valid condition statement in Python, such as "a>25" or "b<3" (without the quotation marks). conditionalStatement_ accepts "and" and "or" operators. To visualize the hourly data, English letters should be used as variables, and each letter alphabetically corresponds to each of the lists (in their respective order): "a" always represents the 1st list, "b" always represents the 2nd list, etc. - For example, if you have an hourly dryBulbTemperature connected as the first list, and windSpeed connected as the second list (both to the annualHourlyData_ input), and you want to plot the data for the time period when temperature is between 18°C and 23°C, and windSpeed is larger than 3m/s, the conditionalStatement_ should be written as "18<a<23 and b>3" (without the quotation marks).
+This input allows users to calculate the Photovoltaics surface component results only for those annualHourlyData_ values which fit specific conditions or criteria. To use this input correctly, hourly data, such as dryBulbTemperature or windSpeed, must be plugged into the "annualHourlyData_" input. The conditional statement input here should be a valid condition statement in Python, such as "a>25" or "b<3" (without the quotation marks). conditionalStatement_ accepts "and" and "or" operators. To visualize the hourly data, English letters should be used as variables, and each letter alphabetically corresponds to each of the lists (in their respective order): "a" always represents the 1st list, "b" always represents the 2nd list, etc. - For example, if you have an hourly dryBulbTemperature connected as the first list, and windSpeed connected as the second list (both to the annualHourlyData_ input), and you want to plot the data for the time period when temperature is between 18C and 23C, and windSpeed is larger than 3m/s, the conditionalStatement_ should be written as "18<a<23 and b>3" (without the quotation marks).
 * ##### runIt [Required]
 ...
 
@@ -39,10 +39,8 @@ An average AC power output per day for a whole year. - In kWh/day.
 DC power output of the PV array for each hour during a year. - In kWh.
 * ##### totalRadiationPerHour
 Total Incident POA (Plane of array) irradiance for each hour during a year. - In kWh/m2.
-* ##### moduleTemperaturePerHour
-Module's back surface temperature for each hour during year. - In °C.
 * ##### cellTemperaturePerHour
-Cell temperature for each hour during year. - In °C.
+Cell temperature for each hour during year. - In C.
 * ##### PVsurfaceTiltAngle
 The angle from horizontal of the inclination of the PVsurface. Example: 0 = horizontal, 90 = vertical. It ranges from 0-180. - In degrees.
 * ##### PVsurfaceAzimuthAngle

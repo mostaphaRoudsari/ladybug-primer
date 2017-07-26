@@ -5,6 +5,7 @@
 * ![IMAGE](../../images/icons/PV_SWH_System_Size.png) [PV_SWH_System_Size](../components/PV_SWH_System_Size.md)
 * ![IMAGE](../../images/icons/Photovoltaics_Module.png) [Photovoltaics_Module](../components/Photovoltaics_Module.md)
 * ![IMAGE](../../images/icons/Photovoltaics_Performance_Metrics.png) [Photovoltaics_Performance_Metrics](../components/Photovoltaics_Performance_Metrics.md)
+* ![IMAGE](../../images/icons/Simplified_Photovoltaics_Module.png) [Simplified_Photovoltaics_Module](../components/Simplified_Photovoltaics_Module.md)
 * ![IMAGE](../../images/icons/Sunpath_Shading.png) [Sunpath_Shading](../components/Sunpath_Shading.md)
 * ![IMAGE](../../images/icons/Tilt_And_Orientation_Factor.png) [Tilt_And_Orientation_Factor](../components/Tilt_And_Orientation_Factor.md)
 * ![IMAGE](../../images/icons/Cold_Water_Temperature.png) [Cold_Water_Temperature](../components/Cold_Water_Temperature.md)

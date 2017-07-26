@@ -16,13 +16,15 @@ Input a vector to be used as a true North direction, or a number between 0 and 3
 * ##### albedo [Optional]
 A list of 8767 (with header) or 8760 (without the header) albedo values for each hour during a year. Albedo (or Reflection coefficient) is an average ratio of the global incident solar radiation reflected from the area surrounding the PV surface. It ranges from 0 to 1. - It depends on the time of the year/day, surface type, temperature, vegetation, presence of water, ice and snow etc. - If no list supplied, default value of 0.20 will be used, corrected(increased) for the presence of snow (if any). - Unitless.
 * ##### precision [Optional]
-Represents the square root number of analysis field for the output "geometry" mesh. Ranges from 1-100. Example - precision of 4, would mean that 4 fields in X direction (Azimuth) and 4 fields in Y direction (Tilt) = 16 fields, will be used to calculate the final "geometry" mesh. For lower precision numbers (say < 20) even precision numbers are more accurate. - CAUTION!!! Precision numbers (10 >) require stronger performance PCs. If your PC is somewhat "weaker", the precision of < 10 will be just fine. - If not supplied, default value of 2 will be used.
+Represents the square root number of analysis field for the output "geometry" mesh. Ranges from 1-100. Example - precision of 4, would mean that 4 fields in X direction (Azimuth) and 4 fields in Y direction (Tilt) = 16 fields, will be used to calculate the final "geometry" mesh. For lower precision numbers (say < 20) even precision numbers are more accurate. - If not supplied, default value of 20 will be used.
 * ##### scale [Optional]
 Scale of the overall geometry. - If not supplied, default value of 1 will be used.
 * ##### origin [Optional]
 Origin for the final "geometry" output. - If not supplied, default point of (-15,0,0) will be used.
 * ##### legendPar [Optional]
 Optional legend parameters from the Ladybug "Legend Parameters" component.
+* ##### analysisPeriod [Optional]
+Script variable TOF
 * ##### bakeIt [Optional]
 Set to "True" to bake the Tilt and orientation factor results into the Rhino scene. - If not supplied default value "False" will be used.
 * ##### runIt [Required]

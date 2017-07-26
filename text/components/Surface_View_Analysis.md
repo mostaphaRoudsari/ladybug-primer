@@ -12,7 +12,7 @@ A list of breps, surfaces, or meshes to which you want to compute view factors. 
 * ##### context [Optional]
 Optional context geometry as breps, surfaces, or meshes that can block the view to the _testSrfs.
 * ##### viewResolution [Default]
-An interger, which sets the number of times that the tergenza skyview patches are split.  A higher number will ensure a greater accuracy but will take longer.  The default is set to 1 for a quick calculation.
+An interger, which sets the number of times that the tergenza skyview patches are split.  A higher number will ensure a greater accuracy but will take longer.  The default is set to 0 for a quick calculation.
 * ##### parallel [Optional]
 Set to "True" to run the calculation in parallel and set to "False" to run it with a single core.  The default is set to "False."
 * ##### runIt [Required]

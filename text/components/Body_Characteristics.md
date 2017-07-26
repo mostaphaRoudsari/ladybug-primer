@@ -8,7 +8,7 @@ Use this component to calculate the Basal Metabolic Rate, Body Mass Index indice
 * ##### age [Optional]
 An age of the person. - If not supplied, default value of 35 will be used. - In years.
 * ##### sex [Optional]
-Person's sex. - 1 or "male" 2 or "female". - If not supplied, "male" will be used as a default value.
+Person's sex. - 1 or "male" 2 or "female" 3 or "average sex". - If not supplied, "male" will be used as a default value.
 * ##### height [Optional]
 Person's height. - If not supplied default value of 175 cm will be used. - In centimetres.
 * ##### weight [Optional]

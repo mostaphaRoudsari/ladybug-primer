@@ -20,7 +20,7 @@ The display mode of the viewport that you would like to take an image of. Accept
 * ##### keepAspectR [Optional]
 Set to "True" to keep the aspect ratio of the viewport in the images that you save.  By default, this is set to "False" if you have connected an imageHeight_ but will override this input to ensure correct aspect ratio if set to "True".
 * ##### transparBack [Optional]
-Set to "True" to have a transparent background for the image and set to "False" to save a picture using the Rhino viewport background color.  The default is set to "True" for a transparent background.
+Set to "True" to have a transparent background for the image and set to "False" to save a picture using the Rhino viewport background color.  The default is set to "False" for an opaque background.
 * ##### capture [Required]
 Set to "True" to capture the image of the Rhino viewport and save it to your hard drive.
 

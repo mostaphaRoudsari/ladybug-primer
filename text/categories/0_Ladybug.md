@@ -1,5 +1,6 @@
 #### Component list:
 * ![IMAGE](../../images/icons/Ladybug.png) [Ladybug](../components/Ladybug.md)
+* ![IMAGE](../../images/icons/Update_File.png) [Update_File](../components/Update_File.md)
 * ![IMAGE](../../images/icons/Import_epw.png) [Import_epw](../components/Import_epw.md)
 * ![IMAGE](../../images/icons/Open_EPW_And_STAT_Weather_Files.png) [Open_EPW_And_STAT_Weather_Files](../components/Open_EPW_And_STAT_Weather_Files.md)
 * ![IMAGE](../../images/icons/Open_EPW_Weather_File.png) [Open_EPW_Weather_File](../components/Open_EPW_Weather_File.md)

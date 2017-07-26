@@ -14,7 +14,7 @@ Context geometry that could block sunlight to the test _geometry.  Conext geomet
 * ##### gridSize [Default]
 A number in Rhino model units that represents the average size of a grid cell for sunlight hours analysis on the test _geometry.  This value should be smaller than the smallest dimension of the test _geometry for meaningful results.  Note that, the smaller the grid size, the higher the resolution of the analysis and the longer the calculation will take.
 * ##### disFromBase [Required]
-A number in Rhino model units that represents the offset distance of the test point grid from the input test _geometry.  Usually, the test point grid is offset by a small amount from the test _geometry in order to ensure that sunlight hours analysis is done for the correct side of the test _geometry.  If the resulting mesh of this component is offset to the wrong side of test _geometry, you should use the "Flip" Rhino command on the test _geometry before inputting it to this component.
+A number in Rhino model units that represents the offset distance of the test point grid from the input test _geometry.  Usually, the test point grid is offset by a small amount from the test _geometry in order to ensure that sunlight hours analysis is done for the correct side of the test _geometry.  If the resulting testPts of this component are offset to the wrong side of test _geometry, you should use the "Flip" Rhino command on the test _geometry before inputting it to this component.
 * ##### orientationStudyP [Optional]
 Optional output from the "Orientation Study Parameter" component.
 * ##### sunVectors [Required]

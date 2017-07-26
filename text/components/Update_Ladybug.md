@@ -7,8 +7,6 @@ Code Developers and Beta Testers of new Ladybug components can use this componen
 #### Inputs
 * ##### sourceDirectory [Optional]
 An optional address to a folder on your computer that contains the updated Ladybug userObjects. If no input is provided here, the component will download the latest version from GitHUB.
-* ##### updateThisFile [Required]
-Set to "True" if you want this component to search through the current Grasshopper file and update Ladybug components that have changed.
 * ##### updateAllUObjects [Required]
 Set to "True" to sync all the Ladybug and Honeybee userObjects in your Grasshopper folder with the GitHUB.
 

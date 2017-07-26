@@ -15,10 +15,14 @@ A text string that represents the units of the data. This can be "C", "m/s", etc
 A text string that represents the time step of the data.  Acceptable values include "Hourly", "Daily", "Monthly", or "Annually."  If no value is connected here, the default will be "Hourly."
 * ##### analysisPeriod [Optional]
 An optional analysis period from the Analysis Period component.  If no analysis period is given, the default will be for the enitre year: (1,1,1)(12,31,24).
+* ##### rawData [Optional]
+A list of data that you want to add/modify Ladybug Header
 
 #### Outputs
 * ##### LBHeader
 Script variable Python
+* ##### dataWithHeader
+A list of data with added/modified Ladybug header
 
 
 [Check Hydra Example Files for Create LB Header](https://hydrashare.github.io/hydra/index.html?keywords=Ladybug_Create LB Header)

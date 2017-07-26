@@ -8,27 +8,27 @@ Use this component to calculate various Photovoltaics performance metrics -
 * ##### PVsurface [Required]
 - Input planar Grasshopper/Rhino Surface (not a polysurface) on which the PV modules will be applied. If you have a polysurface, explode it (using "Deconstruct Brep" component) and then feed its Faces(F) output to _PVsurface. Surface normal should be faced towards the sun. - Or create the Surface based on initial PV system size by using "PV SWH system size" component.
 * ##### PVsurfacePercent [Optional]
-The percentage of surface which will be used for PV modules (range 0-100). - Some countries and states, have local codes which limit the portion of the roof, which can be covered by crystalline silicon modules. For example, this may include having setbacks(distances) of approximatelly 90cm from side and top edges of a roof, as a fire safety regulation. - If not supplied, default value of 100 (all surface area will be covered in PV modules) is used.
+The percentage of surface which will be used for PV modules (range 0-100). - Some countries and states, have local codes which limit the portion of the roof, which can be covered by crystalline silicon modules. For example, this may include having setbacks(distances) of approximatelly 90cm from side and top edges of a roof, as a fire safety regulation. - If not supplied, default value of 100 percent (all surface area will be covered in PV modules) is used. - In percent.
 * ##### PVmoduleSettings [Optional]
-Script variable PhotovoltaicsPerformanceMetrics
+A list of PV module settings. Use the "Simplified Photovoltaics Module" or "Import Sandia Photovoltaics Module" or "Import CEC Photovoltaics Module" components to generate them. - If not supplied, the following PV module settings will be used by default: - module material: crystalline silicon (c-Si) - moduleType: Close (flush) roof mount - moduleEfficiency: 15 % - temperatureCoefficient: -0.5 %/C - moduleActiveAreaPercent: 90 %
 * ##### ACenergyPerHour [Required]
-Import "ACenergyPerYear" output data from "Photovoltaics surface" component. In kWh.
+Import "ACenergyPerYear" output data from "Photovoltaics surface" component. - In kWh.
 * ##### totalRadiationPerHour [Required]
-Import "totalRadiationPerHour" output data from "Photovoltaics surface" component. In kWh/m2.
+Import "totalRadiationPerHour" output data from "Photovoltaics surface" component. - In kWh/m2.
 * ##### cellTemperaturePerHour [Required]
-Import "cellTemperaturePerHour" output data from "Photovoltaics surface" component. In °C.
+Import "cellTemperaturePerHour" output data from "Photovoltaics surface" component. - In C.
 * ##### ACenergyDemandPerHour [Optional]
-Required electrical energy used for any kind of load: heating, cooling, electric lights, solar water heating circulation pump etc. For example, any of the Honeybee's "Read EP Result" outputs can be inputted in here. Either separately or summed. - If nothing inputted, this input will be neglected (there is no required electrical energy). In kWh.
+Required electrical energy used for any kind of load: heating, cooling, electric lights, solar water heating circulation pump etc. For example, any of the Honeybee's "Read EP Result" outputs can be inputted in here. Either separately or summed. - If nothing inputted, this input will be neglected (there is no required electrical energy). - In kWh.
 * ##### energyCostPerKWh [Optional]
 The cost of one kilowatt hour in any currency unit (dollar, euro, yuan...) - If not supplied, 0.15 $/kWh will be used as default value.
 * ##### embodiedEnergyPerM2 [Optional]
-Energy necessary for an entire product life-cycle of PV module per square meter. In MJ/m2 (megajoules per square meter). - If not supplied default value of 4410 (MJ/m2) will be used.
+Energy necessary for an entire product life-cycle of PV module per square meter. - If not supplied default value of 4410 (MJ/m2) will be used. - In MJ/m2 (megajoules per square meter).
 * ##### embodiedCO2PerM2 [Optional]
-Carbon emissions produced during PV module's life-cycle per square meter.. In kg CO2/m2 (kilogram of CO2 per square meter). - If not supplied default value of 225 (kg CO2/m2) will be used.
+Carbon emissions produced during PV module's life-cycle per square meter. - If not supplied default value of 225 (kg CO2/m2) will be used. - In kg CO2/m2 (kilogram of CO2 per square meter).
 * ##### lifetime [Optional]
-Life expectancy of a PV module. In years. - If not supplied default value of 30 (years) will be used.
+Life expectancy of a PV module. - If not supplied default value of 30 (years) will be used. - In years.
 * ##### gridEfficiency [Optional]
-An average primary energy to electricity conversion efficiency. - If not supplied default value of 29 (%) will be used.
+An average primary energy to electricity conversion efficiency. - If not supplied default value of 29 (perc.) will be used. - In percent.
 * ##### optimal [Optional]
 Set to "True" to calculate optimal PVsurface area. An optimal PVsurface area will cover 100% of the of the annual electricity load ("ACenergyDemandPerHour_").
 * ##### runIt [Required]

@@ -24,7 +24,7 @@ Amount of sky dome covered by clouds. Input a single value or a whole list from
 * ##### solarRadiationPerHour [Optional]
 Amount of solar radiation that an analysis person received. - 1) If you would like to do an analysis accounted for shading (more precise) use the "Sunpath shading" component and its "shadedSolarRadiationPerHour" output. Or use "Radiation Analysis" component's "radiationResult" output. Be sure to scale the "radiationResult" output data 1000 times (to convert it from kW/m2 to W/m2). The "Sunpath shading" component will account for partial shading from the trees, while "Radiation Analysis" will not. - 2) If you would not like to do an analysis accounted for shading (because it's quicker that way), then you can simply supply the data from "Import epw" component's "diffuseHorizontalRadiation" output. In this way it will be assumed that an analysis is being conducted in outdoor in-shade conditions, or indoor conditions. - If nothing supplied, default value of 0 Wh/m2 will be used (no solar radiation at all). - In Wh/m2.
 * ##### bodyCharacteristics [Optional]
-A list of body characteristics in the following order: age, sex, height, weight, bodyPosition, clothingInsulation, acclimated, metabolicRate, activityDuration. Use Ladybug's "Body Characteristics" component to generate it. - If not supplied, the following default values will be used: -- 30 - age "male" - sex 175 - height in centimeters 75 - weight in kilograms "standing" - bodyPosition None (clothingInsulation - "None" means that it will be calculated based on air temperature) 37 - clothingAlbedo in % (for medium colored clothes) "unacclimated" - acclimated 2.32 - metabolicRate in mets (2.32 corresponds to walking 4km/h) 480 - activityDuration in minutes
+A list of body characteristics in the following order: age, sex, height, weight, bodyPosition, clothingInsulation, acclimated, metabolicRate, activityDuration. Use Ladybug's "Body Characteristics" component to generate it. - If not supplied, the following default values will be used: -- 35 - age "male" - sex 175 - height in centimeters 75 - weight in kilograms "standing" - bodyPosition None (clothingInsulation - "None" means that it will be calculated based on air temperature) 37 - clothingAlbedo in % (for medium colored clothes) "unacclimated" - acclimated 2.32 - metabolicRate in mets (2.32 corresponds to walking 4km/h) 480 - activityDuration in minutes
 * ##### HOY [Optional]
 An hour (or hours) of the year for which you would like to calculate thermal indices. These hours must be a value between 1 and 8760. This input will override the analysisPeriod_ input below. - If not supplied, this input will be ignored.
 * ##### analysisPeriod [Optional]
@@ -34,7 +34,7 @@ An optional analysis period from the "Analysis Period" component. - If not sup
 
 #### Outputs
 * ##### readMe!
-...
+If your _comfortIndex is set to either 15 or 16, and you are performing analysis for a single hour, then this output will show additional results related with PET (Physiological Equivalent Temperature).
 * ##### comfortIndexValue
 The value of the chosen comfort.
 * ##### comfortIndexLevel
