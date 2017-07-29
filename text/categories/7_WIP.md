@@ -1,8 +1,8 @@
 #### Component list:
 * ![IMAGE](../../images/icons/Bioclimatic_Chart.png) [Bioclimatic_Chart](../components/Bioclimatic_Chart.md)
+* ![IMAGE](../../images/icons/Sun_Shades_Calculator.png) [Sun_Shades_Calculator](../components/Sun_Shades_Calculator.md)
 * ![IMAGE](../../images/icons/Import_CEC_Photovoltaics_Module.png) [Import_CEC_Photovoltaics_Module](../components/Import_CEC_Photovoltaics_Module.md)
 * ![IMAGE](../../images/icons/Import_Sandia_Photovoltaics_Module.png) [Import_Sandia_Photovoltaics_Module](../components/Import_Sandia_Photovoltaics_Module.md)
-* ![IMAGE](../../images/icons/Shadow_Study.png) [Shadow_Study](../components/Shadow_Study.md)
 * ![IMAGE](../../images/icons/ENVI-Met_Building_Terrain.png) [ENVI-Met_Building_Terrain](../components/ENVI-Met_Building_Terrain.md)
 * ![IMAGE](../../images/icons/ENVI-Met_Display.png) [ENVI-Met_Display](../components/ENVI-Met_Display.md)
 * ![IMAGE](../../images/icons/ENVI-Met_Find_Output_Folder.png) [ENVI-Met_Find_Output_Folder](../components/ENVI-Met_Find_Output_Folder.md)
@@ -16,5 +16,6 @@
 * ![IMAGE](../../images/icons/Location_Finder.png) [Location_Finder](../components/Location_Finder.md)
 * ![IMAGE](../../images/icons/Pedestrian_Wind_Comfort.png) [Pedestrian_Wind_Comfort](../components/Pedestrian_Wind_Comfort.md)
 * ![IMAGE](../../images/icons/Shading_Mask_II.png) [Shading_Mask_II](../components/Shading_Mask_II.md)
+* ![IMAGE](../../images/icons/Shadow_Study.png) [Shadow_Study](../components/Shadow_Study.md)
 * ![IMAGE](../../images/icons/SunriseSunset.png) [SunriseSunset](../components/SunriseSunset.md)
 * ![IMAGE](../../images/icons/Terrain_Generator.png) [Terrain_Generator](../components/Terrain_Generator.md)

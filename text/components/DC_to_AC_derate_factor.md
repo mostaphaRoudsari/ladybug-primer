@@ -1,4 +1,4 @@
-## ![](../../images/icons/DC_to_AC_derate_factor.png) DC to AC derate factor
+## ![](../../images/icons/DC_to_AC_derate_factor.png) DC to AC derate factor - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_DC%20to%20AC%20derate%20factor.py)
 
 ![](../../images/components/DC_to_AC_derate_factor.png)
 

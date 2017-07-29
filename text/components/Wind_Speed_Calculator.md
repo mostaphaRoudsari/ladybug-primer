@@ -1,4 +1,4 @@
-## ![](../../images/icons/Wind_Speed_Calculator.png) Wind Speed Calculator
+## ![](../../images/icons/Wind_Speed_Calculator.png) Wind Speed Calculator - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Wind%20Speed%20Calculator.py)
 
 ![](../../images/components/Wind_Speed_Calculator.png)
 

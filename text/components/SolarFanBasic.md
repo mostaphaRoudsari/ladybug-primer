@@ -1,4 +1,4 @@
-## ![](../../images/icons/SolarFanBasic.png) SolarFanBasic
+## ![](../../images/icons/SolarFanBasic.png) SolarFanBasic - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_SolarFanBasic.py)
 
 ![](../../images/components/SolarFanBasic.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Import_Location.png) Import Location
+## ![](../../images/icons/Import_Location.png) Import Location - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Import%20Location.py)
 
 ![](../../images/components/Import_Location.png)
 

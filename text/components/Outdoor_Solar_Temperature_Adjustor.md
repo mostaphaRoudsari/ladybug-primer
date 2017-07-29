@@ -1,4 +1,4 @@
-## ![](../../images/icons/Outdoor_Solar_Temperature_Adjustor.png) Outdoor Solar Temperature Adjustor
+## ![](../../images/icons/Outdoor_Solar_Temperature_Adjustor.png) Outdoor Solar Temperature Adjustor - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Outdoor%20Solar%20Temperature%20Adjustor.py)
 
 ![](../../images/components/Outdoor_Solar_Temperature_Adjustor.png)
 
@@ -34,11 +34,7 @@ An optional decimal value between 0 and 1 that represents the fraction of solar 
 * ##### windowTransmissivity [Optional]
 An optional decimal value between 0 and 1 that represents the transmissivity of windows around the person.  This can also be a list of 8760 values between 0 and 1 that represents a list of hourly window transmissivties, in order to represent the effect of occupants pulling blinds over the windows, etc. Note that you should only set a value here if you are using this component for indoor analysis where the only means by which sunlight will hit an occupant is if it comes through a window.  The default is set to 1 for outdoor conditions.
 * ##### analysisPeriodOrHOY [Optional]
-An optional analysis period from the 'Analysis Period component' or an hour of the year between 1 and 8760 for which you want to conduct the analysis. If no value is connected here, the component will run for noon on the winter solstice.
-* ##### legendPar [Optional]
-Optional legend parameters from the Ladybug Legend Parameters component.
-* ##### tempOrRad [Optional]
-Set to 'True' to have the mannequin labled with adjusted perceived radiant temperature and set to 'False' to have the mannequin labled with total radiation falling on the person. The default is set to 'False'.
+An optional analysis period from the 'Analysis Period component' or an hour of the year between 1 and 8760 for which you want to conduct the analysis. If no value is connected here, the component will run for the whole year if using raw epw DirNormRad or will run for noon on the winter solstice if using cumSkyMtx.
 * ##### parallel [Optional]
 Set to 'True' to run the component using multiple CPUs.  This can dramatically decrease calculation time but can interfere with other intense computational processes that might be running on your machine.  For this reason, the default is set to 'True.'
 * ##### bakeIt [Optional]
@@ -57,14 +53,6 @@ The estimated change in mean radiant temperature for the comfort mannequin induc
 The estimated solar adjusted mean radiant temperature for each hour of the analysis period.  This is essentially the change in mean radiant temperature above added to the hourly _baseTemperature input.  This is in degreed Celcius and can be plugged into any comfort components for comfort studies.
 * ##### mannequinMesh
 A colored mesh of a comfort mannequin showing the amount of radiation falling over the mannequin's body.
-* ##### legend
-A legend that corresponds to the colors on the mannequinMesh and shows the relative W/m2.
-* ##### legendBasePt
-The input data normalized by the floor area of it corresponding zone.
-* ##### meshFaceResult
-If 'tempOrRad' is set to True, this will be the estimated solar adjusted radiant temperature for each mesh face of the mannequin in degrees Celcius.  This radiant temperature is averaged over the the entire analysis period. if 'tempOrRad' is set to False, this will be the total radiation on each mesh face over the analysis period.
-* ##### meshFaceArea
-The areas of each mesh face of the mannequin in square Rhino model units.  This list corresponds to the meshFaceRadTemp list above and can be used to help inform statistical analysis of the radiant assymmetry over the mannequin.
 
 
 [Check Hydra Example Files for Outdoor Solar Temperature Adjustor](https://hydrashare.github.io/hydra/index.html?keywords=Ladybug_Outdoor Solar Temperature Adjustor)

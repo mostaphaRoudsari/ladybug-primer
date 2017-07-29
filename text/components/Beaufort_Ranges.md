@@ -1,4 +1,4 @@
-## ![](../../images/icons/Beaufort_Ranges.png) Beaufort Ranges
+## ![](../../images/icons/Beaufort_Ranges.png) Beaufort Ranges - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Beaufort%20Ranges.py)
 
 ![](../../images/components/Beaufort_Ranges.png)
 

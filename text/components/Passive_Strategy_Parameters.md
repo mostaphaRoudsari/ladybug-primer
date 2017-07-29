@@ -1,4 +1,4 @@
-## ![](../../images/icons/Passive_Strategy_Parameters.png) Passive Strategy Parameters
+## ![](../../images/icons/Passive_Strategy_Parameters.png) Passive Strategy Parameters - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Passive%20Strategy%20Parameters.py)
 
 ![](../../images/components/Passive_Strategy_Parameters.png)
 

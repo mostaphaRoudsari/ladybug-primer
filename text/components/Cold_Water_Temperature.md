@@ -1,8 +1,8 @@
-## ![](../../images/icons/Cold_Water_Temperature.png) Cold Water Temperature
+## ![](../../images/icons/Cold_Water_Temperature.png) Cold Water Temperature - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Cold%20Water%20Temperature.py)
 
 ![](../../images/components/Cold_Water_Temperature.png)
 
-Use this component to calculate the cold (inlet, mains) water temperature, if water pipes are burried undeground. Sources: http://www.energy.ca.gov/2013publications/CEC-400-2013-003/CEC-400-2013-003-CMF-REV.pdf http://www.nrel.gov/docs/fy04osti/35917.pdf http://www.retscreen.net/download.php/ang/120/0/Textbook_SWH.pdf - 
+Use this component to calculate the cold (inlet, mains) water temperature, if water pipes are burried undeground. Sources: http://www.energy.ca.gov/2013publications/CEC-400-2013-003/CEC-400-2013-003-CMF-REV.pdf http://www.nrel.gov/docs/fy04osti/35917.pdf http://www.solarthermalworld.org/sites/gstec/files/story/2015-05-31/textbook_swh.pdf - 
 
 #### Inputs
 * ##### method [Optional]

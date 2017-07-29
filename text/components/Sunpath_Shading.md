@@ -1,4 +1,4 @@
-## ![](../../images/icons/Sunpath_Shading.png) Sunpath Shading
+## ![](../../images/icons/Sunpath_Shading.png) Sunpath Shading - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Sunpath%20Shading.py)
 
 ![](../../images/components/Sunpath_Shading.png)
 

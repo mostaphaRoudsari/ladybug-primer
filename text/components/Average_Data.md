@@ -1,4 +1,4 @@
-## ![](../../images/icons/Average_Data.png) Average Data
+## ![](../../images/icons/Average_Data.png) Average Data - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Average%20Data.py)
 
 ![](../../images/components/Average_Data.png)
 

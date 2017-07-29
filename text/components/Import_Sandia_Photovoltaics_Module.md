@@ -1,4 +1,4 @@
-## ![](../../images/icons/Import_Sandia_Photovoltaics_Module.png) Import Sandia Photovoltaics Module
+## ![](../../images/icons/Import_Sandia_Photovoltaics_Module.png) Import Sandia Photovoltaics Module - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Import%20Sandia%20Photovoltaics%20Module.py)
 
 ![](../../images/components/Import_Sandia_Photovoltaics_Module.png)
 

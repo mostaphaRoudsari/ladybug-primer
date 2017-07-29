@@ -1,4 +1,4 @@
-## ![](../../images/icons/Import_CEC_Photovoltaics_Module.png) Import CEC Photovoltaics Module
+## ![](../../images/icons/Import_CEC_Photovoltaics_Module.png) Import CEC Photovoltaics Module - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Import%20CEC%20Photovoltaics%20Module.py)
 
 ![](../../images/components/Import_CEC_Photovoltaics_Module.png)
 
