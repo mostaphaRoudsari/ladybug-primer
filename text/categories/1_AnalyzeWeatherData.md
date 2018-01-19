@@ -15,4 +15,5 @@
 * ![IMAGE](../../images/icons/Draft_Discomfort.png) [Draft_Discomfort](../components/Draft_Discomfort.md)
 * ![IMAGE](../../images/icons/Humidity_Ratio_Calculator.png) [Humidity_Ratio_Calculator](../components/Humidity_Ratio_Calculator.md)
 * ![IMAGE](../../images/icons/Radiant_Asymmetry_Discomfort.png) [Radiant_Asymmetry_Discomfort](../components/Radiant_Asymmetry_Discomfort.md)
+* ![IMAGE](../../images/icons/SunriseSunset.png) [SunriseSunset](../components/SunriseSunset.md)
 * ![IMAGE](../../images/icons/WetBulbTemp.png) [WetBulbTemp](../components/WetBulbTemp.md)

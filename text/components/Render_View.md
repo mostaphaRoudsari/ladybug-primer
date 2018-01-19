@@ -9,6 +9,8 @@ Use this component to render Rhino views and save them to your hard drive.  This
 The file name that you would like the image to be saved as.  Note that, for animations, you want to make sure that each saved images has a different filename otherwise the previous image will be overwritten by each successive image.
 * ##### folder [Optional]
 The folder into which you would like to write the image file.  This should be a complete file path to the folder.  If no folder is provided, the images will be written to C:/Ladybug/Capturedviews/.
+* ##### renderTime [Optional]
+An optional number in seconds that represents the time you anticipate the render taking.  This can be used to create rendered animations for V-Ray 3, which currently does not have a dot net interface.
 * ##### viewNames [Optional]
 The Rhino viewport name which you would like to render.  Acceptable inputs include "Perspective", "Top", "Bottom", "Left", "Right", "Front", "Back" or any view name that you have already saved within the Rhino file (note that you do not need to input quotations).  If no text is input here, the default will be an image of the active viewport (or the last viewport in which you navigated).
 * ##### imageWidth [Optional]

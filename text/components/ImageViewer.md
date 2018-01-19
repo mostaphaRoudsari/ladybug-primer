@@ -2,7 +2,7 @@
 
 ![](../../images/components/ImageViewer.png)
 
-Preview image files
+Preview image files  Please find the source code from: https://github.com/MingboPeng/Ironbug
 
 #### Inputs
 * ##### imagePath [Optional]

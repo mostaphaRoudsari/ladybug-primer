@@ -6,13 +6,17 @@ Use this component to adjust the assumptions of the passive strategies that can 
 
 #### Inputs
 * ##### maxTempAboveComf [Optional]
-An optional number in degrees C representing the maximum daily temperature above the comfort range which can still be counted in the Thermal Mass + Night Flush polygon.  The default is set to 16.7 C above the highest comfort temperature.
+An optional number in degrees C representing the maximum daily temperature above the comfort range which can still be counted in the Thermal Mass + Night Flush polygon.  The default is set to 12 C above the highest comfort temperature.
 * ##### minNightDiffBelowComf [Optional]
-An optional number in degrees C representing the minimum temperature below the maximum comfort temperature that the outdoor temperature must drop at night in order to count towards the Thermal Mass + Night Flush polygon. The default is set to 2.8 C.
+An optional number in degrees C representing the minimum temperature below the maximum comfort temperature that the outdoor temperature must drop at night in order to count towards the Thermal Mass + Night Flush polygon. The default is set to 3 C.
 * ##### maxComfortableAirSpeed [Optional]
-An optional number in m/s that represents the maximum winds speed tolerable before it starts blowing papers and becomes annoying to occupants.  This is used to shape the "Occupant Use of Fans" Polygon and the default is set ot 1.5 m/s.
-* ##### lowestBldgBalancePt [Optional]
+An optional number in m/s that represents the maximum winds speed tolerable before becomes annoying to occupants.  This is used to shape the "Occupant Use of Fans" Polygon and the default is set ot 1 m/s, which is right below the speed at which papers on a desk might move in the wind.
+* ##### bldgBalancePt [Optional]
 An optional number representing the building balance point, which will be used to shape the "Internal Heat Gain" strategy polygon.  The default is set to 12.8 C and it is assumed that, above this outdoor temperature, the building is free-running and occupants are able to open windows as they wish.  Note that this default balance temperature of 12.8 is fairly low and assumes a large number of inside heat sources or people as well as in insulated envelope.
+* ##### solarHeatCapacity [Optional]
+A number representing the amount of solar flux (W/m2) that is needed to raise the temperature of the therorical building 1 degree Celcius.  The lower this number, the more efficiently the space is able to absorb passive solar heat.  The default is set to 50 W/m2, which assumes a relatively small passively solar heated zone with full glazing on a the facade.
+* ##### timeConstant [Optional]
+A number that represents the amount of time in hours that a therortical building can passively maintain its temperature.  This is used to determine how many hours a space can maintain a cool temperature after night flushing for the "Thermal Mass + Night Vent" polygon.  It is also used to determine how many hours a space can store solar radiation for the "Passive Solar Heating" polygon. The default is set to 8 hours, which assumes a relatively well-isulated building with a thermal mass typical of most contemporary buildings.
 
 #### Outputs
 * ##### strategyPar

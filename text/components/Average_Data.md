@@ -23,8 +23,10 @@ The averaged data for each day during the analysis period.
 The averaged data for each month during the analysis period.
 * ##### avrMonthlyPerHour
 The data for the average hour of each month during the analysis period.
-* ##### avrAnalysisPeriod
-The averaged data for the analysis period.
+* ##### avrMonthlyMinPerHour
+The data for the max average hour of each month during the analysis period.
+* ##### avrMonthlyMaxPerHour
+The data for the min average hour of each month during the analysis period.
 
 
 [Check Hydra Example Files for Average Data](https://hydrashare.github.io/hydra/index.html?keywords=Ladybug_Average Data)

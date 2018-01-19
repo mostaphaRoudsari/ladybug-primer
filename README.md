@@ -19,7 +19,7 @@ Useful links
 
 [Ladybug on Github](https://github.com/mostaphaRoudsari/ladybug)
 
-[Ladybug group page on Grasshopper](http://www.grasshopper3d.com/group/ladybug)
+[Ladybug discussion forum](http://discourse.ladybug.tools)
 
 [Facebook page](https://www.facebook.com/LadybugTools)
 

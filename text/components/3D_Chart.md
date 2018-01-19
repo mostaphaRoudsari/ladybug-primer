@@ -10,11 +10,11 @@ A list of input data to plot.
 * ##### basePoint [Default]
 An optional point with which to locate the 3D chart in the Rhino Model.  The default is set to the Rhino origin at (0,0,0).
 * ##### xScale [Default]
-The scale of the X axis of the graph. The default will plot the X axis with a length of 3650 Rhino model units (for 365 days of the year). Connect a list of values for multiple graphs.
+The scale of the X axis of the graph. The default is set to 0.25, which will will plot each cell of the graph with an x dimension that is 0.25 of the y. Connect a list of values for multiple graphs.
 * ##### yScale [Default]
-The scale of the Y axis of the graph. The default will plot the Y axis with a length of 240 Rhino model units (for 24 hours of the day). Connect a list of values for multiple graphs.
+The scale of the Y axis of the graph. The default is set to 1, which will plot the Y axis with a length of 240 Rhino model units (for 24 hours of the day). Connect a list of values for multiple graphs.
 * ##### zScale [Default]
-The scale of the Z axis of the graph. The default will plot the Z axis with a number of Rhino model units corresponding to the input data values.  Set to 0 to see graphCurves appear on top of the mesh.  Connect a list of values for multiple graphs.
+The scale of the Z axis of the graph. The default is set to 1, which will plot the Z axis with a number of Rhino model units corresponding to the input data values.  Set to 0 to see graphCurves appear on top of the mesh.  Connect a list of values for multiple graphs.
 * ##### yCount [Default]
 The number of segments on your y-axis.  The default is set to 24 for 24 hours of the day. This variable is particularly useful for input data that is not for each hour of the year.
 * ##### legendPar [Optional]

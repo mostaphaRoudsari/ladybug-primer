@@ -9,8 +9,8 @@ Use this component to calculate the adaptive comfort for a given set of input co
 A number representing the dry bulb temperature of the air in degrees Celcius.  This input can also accept a list of temperatures representing conditions at different times or the direct output of dryBulbTemperature from the Import EPW component.
 * ##### meanRadiantTemperature [Optional]
 A number representing the mean radiant temperature of the surrounding surfaces in degrees Celcius.  If no value is plugged in here, this component will assume that the mean radiant temperature is equal to air temperature value above.  This input can also accept a list of temperatures representing conditions at different times or the direct output of dryBulbTemperature from the Import EPW component.
-* ##### prevailingOutdoorTemp [Required]
-A number representing the average monthly outdoor temperature in degrees Celcius.  This average monthly outdoor temperature is the temperature that occupants in naturally ventilated buildings tend to adapt themselves to. For this reason, this input can also accept the direct output of dryBulbTemperature from the Import EPW component if houlry values for the full year are connected for the other inputs of this component.
+* ##### outdoorTemperature [Required]
+The direct output of dryBulbTemperature from the Import EPW component.  Alternatively, this can be a number representing the prevailing outdoor temperature in degrees Celcius. It can also be a list of prevailing outdoor temperatures that corresponds with the number of values connected above.  Note that, when putting in values without a header like this, the values are meant to be the PREVAILING temperature (not the actual hourly outdoor temperature).
 * ##### windSpeed [Optional]
 A number representing the wind speed of the air in meters per second.  If no value is plugged in here, this component will assume a very low wind speed of 0.3 m/s, characteristic of most naturally ventilated buildings.  This input can also accept a list of wind speeds representing conditions at different times or the direct output of windSpeed from of the Import EPW component.
 * ##### comfortPar [Optional]

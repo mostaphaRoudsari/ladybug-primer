@@ -19,6 +19,8 @@ An interger representing the number of ray bounces to trace the sun rays forward
 A number representing the length of the sun ray after the last bounce. If left empty, this length will be the diagonal of the bounding box surrounding all input geometries.
 * ##### firstBounceLen [Optional]
 A number representing the length of the sun ray before the first bounce. If left empty, this length will be the diagonal of the bounding box surrounding all input geometries.
+* ##### runIt [Required]
+Script variable bounceFromSurface
 
 #### Outputs
 * ##### rays
