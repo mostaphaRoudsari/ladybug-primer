@@ -7,6 +7,8 @@ This component uses Google Maps API to generate locations. - This component re
 #### Inputs
 * ##### address [Required]
 Write a location address. For example, - 'Colosseum, Rome'    OR . 'Colosseum, Piazza del Colosseo, 1, 00184 Roma, Italy'
+* ##### APIKey [Required]
+Your Google PLACES API KEY. Generate one from: https://developers.google.com/maps/documentation/geocoding/get-api-key
 
 #### Outputs
 * ##### readMe!

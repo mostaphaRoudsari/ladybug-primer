@@ -14,7 +14,7 @@ A number that represents the U-Value of the surface dividing the interior and ex
 * ##### intEmiss [Optional]
 A number between 0 and 1 that represents the interior emissivity of the surface dividing the interior and exterior.  The default is set to 0.9 for a non-metallic surface.
 * ##### srfOrient [Optional]
-A number between 180 (downwards) and -180 (upwards) that represents the angle in degrees of the direction of heat flow.  This is related to the orientation of the surface dividing the interior and exterior. This input can also be the normal vector of a surface that is facing the correct direction of heat flow.  The default is set to 0 degrees for a verically-oriented surface (horizontal heat flow).
+A number between 180 (downwards) and 0 (upwards) that represents the angle in degrees of the direction of heat flow.  This is related to the orientation of the surface dividing the interior and exterior. This input can also be the normal vector of a surface that is facing the correct direction of heat flow.  The default is set to 90 degrees for a verically-oriented surface (horizontal heat flow).
 * ##### outWindSpd [Optional]
 A number (or list of numbers) that represents the outdoor wind speed in m/s.  This is used to calculate the outdoor film coefficient.  If no value is input here, a default of 6.7 m/s will be assumed (indicating a winter design day).
 

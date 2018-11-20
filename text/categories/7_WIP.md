@@ -1,5 +1,7 @@
 #### Component list:
 * ![IMAGE](../../images/icons/Location_Finder.png) [Location_Finder](../components/Location_Finder.md)
+* ![IMAGE](../../images/icons/Search.png) [Search](../components/Search.md)
+* ![IMAGE](../../images/icons/Countour_Mesh.png) [Countour_Mesh](../components/Countour_Mesh.md)
 * ![IMAGE](../../images/icons/ENVI-Met_Building_Terrain.png) [ENVI-Met_Building_Terrain](../components/ENVI-Met_Building_Terrain.md)
 * ![IMAGE](../../images/icons/ENVI-Met_Display.png) [ENVI-Met_Display](../components/ENVI-Met_Display.md)
 * ![IMAGE](../../images/icons/ENVI-Met_Find_Output_Folder.png) [ENVI-Met_Find_Output_Folder](../components/ENVI-Met_Find_Output_Folder.md)

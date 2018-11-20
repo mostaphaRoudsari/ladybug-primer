@@ -15,6 +15,8 @@ A list of 8760 hourly values (with an optional Ladybug header on it) that denote
 A number between 0 and 360 that represents the azimuth that a surface is facing in degrees.  A value of 0 means North, 90 means East, 180 means South, and 270 means West.  If no value is connected here, a default azimuth of 180 will be assumed for a south facing window.
 * ##### srfAltitude [Default]
 A number between 0 and 90 that represents the altitude that a surface is facing in degrees.  A value of 0 means the surface is facing the horizon and a value of 90 means a surface is facing straight up.  If no value is connected here, a default altitude of 90 will be assumed for a surface facing straignt up.
+* ##### skyModel [Optional]
+Set to "True" to use an isotropic sky model, which assumes that diffuse radiation is evenly distributed across the sky and is suitale for both cloudy and clear skies.  Set to "False" to use an anisotropic sky model, that places more diffuse radiation near the solar disc and is more accourate for clear skies but is not suitable for cloudy skies.  The default is set to "True" of an isotropic sky model.
 
 #### Outputs
 * ##### readMe!

@@ -8,9 +8,9 @@ Calculates heating and cooling degree-days. Traditionally, degree-days are defi
 * ##### hourlyDryBulbTemperature [Required]
 Annual dry bulb temperature from the Import epw component (in degrees Celsius).
 * ##### coolingBaseTemperature [Default]
-Base temperature for cooling (in degrees Celsius).  Default is set to 23.3C but this can be much lower if the analysis is for a building with high heat gain or insulation.
+Base temperature for cooling (in degrees Celsius).  Default is set to 23.3C but this can be much lower if the analysis is for a building with high heat gain or insulation. Also, this number differs based on the factors that affect the human energy balance of the occupants inside of the buildings such as; building program, climate zone, solar exposure, number, age, activity, and clothing of occupants, lighting, equipment, insulation, etc. Therefore, it is highly recommended to set this number as a temperature at which the building will start cooling.
 * ##### heatingBaseTemperature [Default]
-Base temperature for heating (in degrees Celsius).  Default is set to 18.3C but this can be much lower if the analysis is for a building with high heat gain or insulation.
+Base temperature for heating (in degrees Celsius).  Default is set to 18.3C but this can be much lower if the analysis is for a building with high heat gain or insulation. Also, this number differs based on the factors that affect the human energy balance of the occupants inside of the buildings such as; building program, climate zone, solar exposure, number, age, activity, and clothing of occupants, lighting, equipment, insulation, etc. Therefore, it is highly recommended to set this number as a temperature at which the building will start heating.
 * ##### useDailyAvrMethod [Optional]
 set to "True" to use the traditional method of degree days calculation, which will calculate the average temperature of each day and sum up all of these temperatures over the year.  This is opoosed to this component's default analysis, which will will examine each hour of the year and then convert results to degree-days.
 

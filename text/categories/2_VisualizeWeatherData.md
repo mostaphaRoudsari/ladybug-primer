@@ -1,6 +1,7 @@
 #### Component list:
 * ![IMAGE](../../images/icons/3D_Chart.png) [3D_Chart](../components/3D_Chart.md)
 * ![IMAGE](../../images/icons/Adaptive_Comfort_Chart.png) [Adaptive_Comfort_Chart](../components/Adaptive_Comfort_Chart.md)
+* ![IMAGE](../../images/icons/Line_Chart.png) [Line_Chart](../components/Line_Chart.md)
 * ![IMAGE](../../images/icons/Monthly_Bar_Chart.png) [Monthly_Bar_Chart](../components/Monthly_Bar_Chart.md)
 * ![IMAGE](../../images/icons/Psychrometric_Chart.png) [Psychrometric_Chart](../components/Psychrometric_Chart.md)
 * ![IMAGE](../../images/icons/Design_Day_Sky_Model.png) [Design_Day_Sky_Model](../components/Design_Day_Sky_Model.md)

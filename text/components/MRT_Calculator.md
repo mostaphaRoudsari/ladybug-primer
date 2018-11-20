@@ -6,7 +6,7 @@ Use this component calculate Mean Radiant Temperature (MRT) given a set of tempe
 
 #### Inputs
 * ##### temperatures [Required]
-A list of radiant temperatures that correspond to view factors below.
+A list of radiant temperatures in Celcius that correspond to view factors below.
 * ##### viewFactors [Required]
 A list of viewFactors that correspond to the temperatures above.  These should sum to 1.
 

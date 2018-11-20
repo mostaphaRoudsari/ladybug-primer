@@ -29,11 +29,13 @@ Values representing the monthly optical sky depth for beam (direct) solar radiat
 Values representing the monthly optical sky depth for diffuse solar radiation.  These can be used with the "Ladybug_Design Day Sky" component to create ASHRAE Tau design day solar radiation values.  These values can then be used for sizing HVAC cooling systems.
 * ##### extremeHotWeek
 An analysis period representing the hottest week of the typical meteorological year.  If the stat file does not specify an extreme hot week, it is the most extreme week of the hottest season.
-* ##### typicalHotWeek
+* ##### typicalSummerWeek
 An analysis period representing a typical week of the hottest season in the typical meteorological year.  Not all stat files specify such a week and, in this case, the output here will be "Null."
-* ##### typicalWeek
-An analysis period representing a typical autumn week of the typical meteorological year.  If the stat file does not specify a typical week, it is the typical week of Autumn.
-* ##### typicalColdWeek
+* ##### typicalAutumnWeek
+An analysis period representing a typical autumn week of the typical meteorological year.
+* ##### typicalSpringWeek
+An analysis period representing a typical Spring week of the typical meteorological year.  Not all stat files specify such a week and, in this case, the output here will be 'Null.'
+* ##### typicalWinterWeek
 An analysis period representing a typical week of the coldest season in the typical meteorological year.  Not all stat files specify such a week and, in this case, the output here will be "Null."
 * ##### extremeColdWeek
 An analysis period representing the coldest week of the typical meteorological year.  If the stat file does not specify an extreme cold week, it is the most extreme week of the coldest season.
