@@ -1,4 +1,4 @@
-## ![](../../images/icons/Design_Day_Sky_Model.png) Design Day Sky Model - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Design%20Day%20Sky%20Model.py)
+## ![](../../images/icons/Design_Day_Sky_Model.png) Design Day Sky Model - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Design%20Day%20Sky%20Model.py)
 
 ![](../../images/components/Design_Day_Sky_Model.png)
 

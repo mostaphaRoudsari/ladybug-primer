@@ -1,4 +1,4 @@
-## ![](../../images/icons/Psychrometric_Chart.png) Psychrometric Chart - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Psychrometric%20Chart.py)
+## ![](../../images/icons/Psychrometric_Chart.png) Psychrometric Chart - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Psychrometric%20Chart.py)
 
 ![](../../images/components/Psychrometric_Chart.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Decompose_Location.png) Decompose Location - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Decompose%20Location.py)
+## ![](../../images/icons/Decompose_Location.png) Decompose Location - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Decompose%20Location.py)
 
 ![](../../images/components/Decompose_Location.png)
 

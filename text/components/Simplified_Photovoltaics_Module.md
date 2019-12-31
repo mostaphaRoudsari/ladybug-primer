@@ -1,4 +1,4 @@
-## ![](../../images/icons/Simplified_Photovoltaics_Module.png) Simplified Photovoltaics Module - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Simplified%20Photovoltaics%20Module.py)
+## ![](../../images/icons/Simplified_Photovoltaics_Module.png) Simplified Photovoltaics Module - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Simplified%20Photovoltaics%20Module.py)
 
 ![](../../images/components/Simplified_Photovoltaics_Module.png)
 

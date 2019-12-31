@@ -1,4 +1,4 @@
-## ![](../../images/icons/Wind_Boundary_Profile.png) Wind Boundary Profile - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Wind%20Boundary%20Profile.py)
+## ![](../../images/icons/Wind_Boundary_Profile.png) Wind Boundary Profile - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Wind%20Boundary%20Profile.py)
 
 ![](../../images/components/Wind_Boundary_Profile.png)
 

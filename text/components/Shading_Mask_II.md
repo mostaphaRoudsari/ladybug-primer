@@ -1,4 +1,4 @@
-## ![](../../images/icons/Shading_Mask_II.png) Shading Mask_II - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Shading%20Mask_II.py)
+## ![](../../images/icons/Shading_Mask_II.png) Shading Mask_II - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Shading%20Mask_II.py)
 
 ![](../../images/components/Shading_Mask_II.png)
 

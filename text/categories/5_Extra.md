@@ -1,10 +1,8 @@
 #### Component list:
 * ![IMAGE](../../images/icons/Gradient_Library.png) [Gradient_Library](../components/Gradient_Library.md)
 * ![IMAGE](../../images/icons/ImageViewer.png) [ImageViewer](../components/ImageViewer.md)
-* ![IMAGE](../../images/icons/ImageViewer.png) [ImageViewer](../components/ImageViewer.md)
 * ![IMAGE](../../images/icons/Legend_Parameters.png) [Legend_Parameters](../components/Legend_Parameters.md)
 * ![IMAGE](../../images/icons/Recolor_Mesh.png) [Recolor_Mesh](../components/Recolor_Mesh.md)
-* ![IMAGE](../../images/icons/SortByLayers.png) [SortByLayers](../components/SortByLayers.md)
 * ![IMAGE](../../images/icons/Adaptive_Comfort_Parameters.png) [Adaptive_Comfort_Parameters](../components/Adaptive_Comfort_Parameters.md)
 * ![IMAGE](../../images/icons/Body_Characteristics.png) [Body_Characteristics](../components/Body_Characteristics.md)
 * ![IMAGE](../../images/icons/PMV_Comfort_Parameters.png) [PMV_Comfort_Parameters](../components/PMV_Comfort_Parameters.md)
@@ -19,6 +17,7 @@
 * ![IMAGE](../../images/icons/Mesh-To-Hatch.png) [Mesh-To-Hatch](../components/Mesh-To-Hatch.md)
 * ![IMAGE](../../images/icons/Mesh_Threshold_Selector.png) [Mesh_Threshold_Selector](../components/Mesh_Threshold_Selector.md)
 * ![IMAGE](../../images/icons/Texture_Maker.png) [Texture_Maker](../components/Texture_Maker.md)
+* ![IMAGE](../../images/icons/Clothing_List.png) [Clothing_List](../components/Clothing_List.md)
 * ![IMAGE](../../images/icons/North.png) [North](../components/North.md)
 * ![IMAGE](../../images/icons/True_North.png) [True_North](../components/True_North.md)
 * ![IMAGE](../../images/icons/False_Start_Toggle.png) [False_Start_Toggle](../components/False_Start_Toggle.md)

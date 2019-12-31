@@ -1,4 +1,4 @@
-## ![](../../images/icons/Export_Ladybug.png) Export Ladybug - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Export%20Ladybug.py)
+## ![](../../images/icons/Export_Ladybug.png) Export Ladybug - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Export%20Ladybug.py)
 
 ![](../../images/components/Export_Ladybug.png)
 
@@ -6,7 +6,7 @@ Code Developers of Ladybug and Honeybee can use this component to export Ladybug
 
 #### Inputs
 * ##### components [Required]
-Any output from a new Ladybug (or Honeybee) component that you wish to export. Right now, only one component can be connected at a time but you can input a "*" (without quotation marsk) to search all changed Ladybug components on a grasshopper canvas.
+Any output from a new Ladybug (or Honeybee) component that you wish to export. Right now, only one component can be connected at a time but you can input a "*" (without quotation marks) to search all changed Ladybug components on a grasshopper canvas.
 * ##### targetFolder [Required]
 A file path on your system which you would like to export the user object and source code to.  For most code developers, this file path will lead to their Github folder for Ladybug (or Honeybee), which is usually installed in "My Documents" by default. Exported source code will be saved at .\src and exported userObjects will be saved at .\userObjects in this _targetFolder.
 * ##### export [Required]

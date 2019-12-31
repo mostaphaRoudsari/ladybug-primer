@@ -1,4 +1,4 @@
-## ![](../../images/icons/Outdoor_Solar_Temperature_Adjustor.png) Outdoor Solar Temperature Adjustor - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Outdoor%20Solar%20Temperature%20Adjustor.py)
+## ![](../../images/icons/Outdoor_Solar_Temperature_Adjustor.png) Outdoor Solar Temperature Adjustor - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Outdoor%20Solar%20Temperature%20Adjustor.py)
 
 ![](../../images/components/Outdoor_Solar_Temperature_Adjustor.png)
 

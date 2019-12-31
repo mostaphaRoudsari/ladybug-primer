@@ -1,8 +1,8 @@
-## ![](../../images/icons/Sun_Shades_Calculator.png) Sun_Shades_Calculator - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Sun_Shades_Calculator.py)
+## ![](../../images/icons/Sun_Shades_Calculator.png) Sun_Shades_Calculator - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Sun_Shades_Calculator.py)
 
 ![](../../images/components/Sun_Shades_Calculator.png)
 
-Use this component to generate shading devices, either surface or pergola, for any glazed surface or list of glazed surfaces.   The component first culls all sun vectors obstructed by the context, if provided. By default it calculates the device as a "new brand" one but it also can calculate the cut profile for a given surface. The default it will generate an overhang over the window (or multiple overhangs if the _numOfShds is increased).   References: Shaviv E., 1975. "A Method for the Design of Fixed External Sun-Shades". "Build International"  (8), Applied Science Publishers LTD, England, (pp.121-150). Shaviv E., 1984. "A Design Tool for Determining the Form of Fixed & Movable Sun-Shades".  "ASHRAE Trans." Vol. 90, AT-84-18 No. 4, Atlanta (pp.1-14). - 
+Use this component to generate shading devices, either surface or pergola, for any glazed surfmyPlaneace or list of glazed surfaces.   The component first culls all sun vectors obstructed by the context, if provided. By default it calculates the device as a "new brand" one but it also can calculate the cut profile for a given surface. The default it will generate an overhang over the window (or multiple overhangs if the _numOfShds is increased).   References: Shaviv E., 1975. "A Method for the Design of Fixed External Sun-Shades". "Build International"  (8), Applied Science Publishers LTD, England, (pp.121-150). Shaviv E., 1984. "A Design Tool for Determining the Form of Fixed & Movable Sun-Shades".  "ASHRAE Trans." Vol. 90, AT-84-18 No. 4, Atlanta (pp.1-14). - 
 
 #### Inputs
 * ##### SurfaceOrPergola [Default]

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Set_Rhino_Sun.png) Set Rhino Sun - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Set%20Rhino%20Sun.py)
+## ![](../../images/icons/Set_Rhino_Sun.png) Set Rhino Sun - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Set%20Rhino%20Sun.py)
 
 ![](../../images/components/Set_Rhino_Sun.png)
 

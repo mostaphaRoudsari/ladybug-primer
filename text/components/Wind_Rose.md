@@ -1,4 +1,4 @@
-## ![](../../images/icons/Wind_Rose.png) Wind Rose - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Wind%20Rose.py)
+## ![](../../images/icons/Wind_Rose.png) Wind Rose - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Wind%20Rose.py)
 
 ![](../../images/components/Wind_Rose.png)
 

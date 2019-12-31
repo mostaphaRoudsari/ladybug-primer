@@ -1,4 +1,4 @@
-## ![](../../images/icons/Capture_View.png) Capture View - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Capture%20View.py)
+## ![](../../images/icons/Capture_View.png) Capture View - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Capture%20View.py)
 
 ![](../../images/components/Capture_View.png)
 
@@ -16,7 +16,7 @@ The width of the image that you would like to take in pixels.  If no value is pr
 * ##### imageHeight [Optional]
 The height of the image that you would like to take in pixels.  If no value is provided here, the component will set the height to that of the active Rhino viewport on your screen.
 * ##### displayMode [Optional]
-The display mode of the viewport that you would like to take an image of. Acceptable inputs include "Wireframe", "Shaded", "Rendered", "Ghosted", "X-Ray", "Technical", "Atristic", and "Pen".  If no text is input here, the default will be the displaymode of the active viewport (or the last viewport in which you navigated).
+The display mode of the viewport that you would like to take an image of. Acceptable inputs include "Wireframe", "Shaded", "Rendered", "Ghosted", "X-Ray", "Technical", "Artistic", and "Pen".  If no text is input here, the default will be the displaymode of the active viewport (or the last viewport in which you navigated).
 * ##### keepAspectR [Optional]
 Set to "True" to keep the aspect ratio of the viewport in the images that you save.  By default, this is set to "False" if you have connected an imageHeight_ but will override this input to ensure correct aspect ratio if set to "True".
 * ##### transparBack [Optional]
@@ -25,7 +25,7 @@ Set to "True" to have a transparent background for the image and set to "False" 
 Set to "True" to capture the image of the Rhino viewport and save it to your hard drive.
 
 #### Outputs
-* ##### imagePath
+* ##### Output
 The filepath of the image taken with this component.
 
 

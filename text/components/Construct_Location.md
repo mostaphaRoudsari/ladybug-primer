@@ -1,4 +1,4 @@
-## ![](../../images/icons/Construct_Location.png) Construct Location - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Construct%20Location.py)
+## ![](../../images/icons/Construct_Location.png) Construct Location - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Construct%20Location.py)
 
 ![](../../images/components/Construct_Location.png)
 

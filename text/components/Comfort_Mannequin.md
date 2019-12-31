@@ -1,4 +1,4 @@
-## ![](../../images/icons/Comfort_Mannequin.png) Comfort Mannequin - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Comfort%20Mannequin.py)
+## ![](../../images/icons/Comfort_Mannequin.png) Comfort Mannequin - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Comfort%20Mannequin.py)
 
 ![](../../images/components/Comfort_Mannequin.png)
 

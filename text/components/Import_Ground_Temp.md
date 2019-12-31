@@ -1,4 +1,4 @@
-## ![](../../images/icons/Import_Ground_Temp.png) Import Ground Temp - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Import%20Ground%20Temp.py)
+## ![](../../images/icons/Import_Ground_Temp.png) Import Ground Temp - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Import%20Ground%20Temp.py)
 
 ![](../../images/components/Import_Ground_Temp.png)
 

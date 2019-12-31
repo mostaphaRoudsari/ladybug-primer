@@ -1,4 +1,4 @@
-## ![](../../images/icons/Radiant_Asymmetry_Discomfort.png) Radiant Asymmetry Discomfort - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Radiant%20Asymmetry%20Discomfort.py)
+## ![](../../images/icons/Radiant_Asymmetry_Discomfort.png) Radiant Asymmetry Discomfort - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Radiant%20Asymmetry%20Discomfort.py)
 
 ![](../../images/components/Radiant_Asymmetry_Discomfort.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Pedestrian_Wind_Comfort.png) Pedestrian Wind Comfort - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Pedestrian%20Wind%20Comfort.py)
+## ![](../../images/icons/Pedestrian_Wind_Comfort.png) Pedestrian Wind Comfort - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Pedestrian%20Wind%20Comfort.py)
 
 ![](../../images/components/Pedestrian_Wind_Comfort.png)
 

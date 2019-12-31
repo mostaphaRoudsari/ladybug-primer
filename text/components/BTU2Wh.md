@@ -1,4 +1,4 @@
-## ![](../../images/icons/BTU2Wh.png) BTU2Wh - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_BTU2Wh.py)
+## ![](../../images/icons/BTU2Wh.png) BTU2Wh - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_BTU2Wh.py)
 
 ![](../../images/components/BTU2Wh.png)
 

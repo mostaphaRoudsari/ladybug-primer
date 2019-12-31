@@ -1,4 +1,4 @@
-## ![](../../images/icons/SunPath.png) SunPath - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_SunPath.py)
+## ![](../../images/icons/SunPath.png) SunPath - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_SunPath.py)
 
 ![](../../images/components/SunPath.png)
 

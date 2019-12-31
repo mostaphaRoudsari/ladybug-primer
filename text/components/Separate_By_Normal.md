@@ -1,4 +1,4 @@
-## ![](../../images/icons/Separate_By_Normal.png) Separate By Normal - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Separate%20By%20Normal.py)
+## ![](../../images/icons/Separate_By_Normal.png) Separate By Normal - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Separate%20By%20Normal.py)
 
 ![](../../images/components/Separate_By_Normal.png)
 

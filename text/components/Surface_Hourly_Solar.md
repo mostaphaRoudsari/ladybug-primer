@@ -1,4 +1,4 @@
-## ![](../../images/icons/Surface_Hourly_Solar.png) Surface Hourly Solar - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Surface%20Hourly%20Solar.py)
+## ![](../../images/icons/Surface_Hourly_Solar.png) Surface Hourly Solar - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Surface%20Hourly%20Solar.py)
 
 ![](../../images/components/Surface_Hourly_Solar.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/DOY_HOY.png) DOY_HOY - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_DOY_HOY.py)
+## ![](../../images/icons/DOY_HOY.png) DOY_HOY - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_DOY_HOY.py)
 
 ![](../../images/components/DOY_HOY.png)
 

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Separate_data.png) Separate data - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Separate%20data.py)
+## ![](../../images/icons/Separate_data.png) Separate data - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Separate%20data.py)
 
 ![](../../images/components/Separate_data.png)
 

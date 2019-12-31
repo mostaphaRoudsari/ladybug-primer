@@ -1,4 +1,4 @@
-## ![](../../images/icons/Passive_Strategy_List.png) Passive Strategy List - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_Passive%20Strategy%20List.py)
+## ![](../../images/icons/Passive_Strategy_List.png) Passive Strategy List - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_Passive%20Strategy%20List.py)
 
 ![](../../images/components/Passive_Strategy_List.png)
 

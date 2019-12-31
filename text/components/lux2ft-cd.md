@@ -1,4 +1,4 @@
-## ![](../../images/icons/lux2ft-cd.png) lux2ft-cd - [[source code]](https://github.com/mostaphaRoudsari/ladybug/tree/master/src/Ladybug_lux2ft-cd.py)
+## ![](../../images/icons/lux2ft-cd.png) lux2ft-cd - [[source code]](https://github.com/ladybug-tools/ladybug-legacy/tree/master/src/Ladybug_lux2ft-cd.py)
 
 ![](../../images/components/lux2ft-cd.png)
 
